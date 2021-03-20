@@ -1,15 +1,15 @@
-import './App.css';
+import React from 'react';
+import Nav from './components/Nav';
+import About from './components/About';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-
-
-      </header>
+    <div>
+      <main>
+        <Nav></Nav>
+        <About></About>
+      </main>
     </div>
   );
 }
