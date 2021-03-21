@@ -192,7 +192,7 @@ header a {
   align-items: center;
 }
 
-.project {
+/* .project {
   align-items: flex-end;
   flex-grow: 1;
   justify-items: start;
@@ -213,26 +213,80 @@ header a {
   box-shadow: 3px 3px 6px 2px rgba(0,0,0,.7);
   filter: brightness(105%);
   border-radius: 2px;
-}
+} */
 
-
-.project-info {
-  display: flex;
+/* .project-card {
+  display: relative;
   width: 100%;
   overflow: hidden;
   padding:8px;
   margin-bottom:0px;
-  /* background-color: var(--primary-color); */
   background-color: white;
+} */
+
+.project-card {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  transform-style: preserve-3d;
 }
 
-/* .project-title {
+.project-card .image-section {
+  overflow: hidden;
+}
+
+.project-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-card .face {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: .6s ease-in-out;
+  backface-visibility: hidden;
+  transform: perspective(500px) rotateY(0deg);
+}
+
+.project-card .face.front {
+  background: white;
+  color:#222;
+}
+
+.project-card:hover .face.front {
+  transform: perspective(500px) rotateY(180deg);
+}
+
+.project-card .face.back {
+  background: #3bc2ff;
+  transform: perspective(500px) rotateY(180deg);
+}
+
+.project-card:hover .face.back {
+  transform: perspective(500px) rotateY(360deg);
+}
+
+.project-card .project-title {
+font-size: 2em;
+transform: perspective(500px) translateZ(25px);
+}
+
+
+.project-title {
   width: 100%;
   padding:8px;
   margin-bottom:0px;
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
   transition: width .5s;
-} */
+}
 
 .project-1 {
   /* background-image: url("../assets/images/diet-delivery-screenshot-small.jpg"); */
