@@ -452,15 +452,17 @@ header a {
   background-image: linear-gradient(to bottom right, var(--secondary-color) 0%, rgb(117, 123, 129) 100%);
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
+
 
 .contact-section .section-title {
   color: white;
 }
 
-.contact-section .section-content {
+/* .contact-section .section-content {
  min-height:50vh;
-}
+} */
 
 .contact-form {
   width: 75%;
@@ -500,6 +502,7 @@ header a {
   cursor: pointer;
 }
 
+/*-- SECTION: FOOTER --*/
 .contact-links {
   display: flex;
   justify-content: center;
@@ -517,7 +520,6 @@ header a {
   padding:30px 0px;
   padding-left: 160px;
   font-size: 18px;
-
 }
 
 .contact-section ul li a {

@@ -9,16 +9,16 @@ import ContactForm from './components/Contact';
 function App() {
   const [pages] = useState([
     {
-      name: 'about'
+      name: 'About'
     },
     {
-      name: 'projects'
+      name: 'Projects'
     },
     {
-      name: 'skills'
+      name: 'Resume'
     },
     {
-      name: 'contact'
+      name: 'Contact'
     }
   ]);
   const [currentPage, setCurrentPage] = useState(pages[0]);
@@ -34,10 +34,10 @@ function App() {
       ></Nav>
         <div className="header-spacer">{`&nbsp;`}</div>
         <div className="main-content">
-          <ContactForm></ContactForm>
           <About></About>
           <Projects></Projects>
           <Skills></Skills>
+          <ContactForm></ContactForm>
           <Footer></Footer>
         </div>
       </main>

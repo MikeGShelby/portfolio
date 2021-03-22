@@ -37,22 +37,18 @@ function ContactForm() {
 
     return (
         <section className="contact-section">
-            <div className="section-title-bg">
                 <h3 id="contact" className="section-title">CONTACT ME</h3>
-            </div>
 
-            <div className="section-content">
+
+            <div className="section-content contact-content">
                     <form id="contact-form" className="contact-form" onSubmit={handleSubmit}>
                         <div>
-                            <label htmlFor="name">Name:</label>
                             <input placeholder="Name" type="text" name="name" defaultValue={name} onBlur={handleChange} required />
                         </div>
                         <div>
-                            <label htmlFor="email">Email address:</label>
                             <input placeholder="Enter email" type="email" name="email" defaultValue={email} onBlur={handleChange} required />
                         </div>
                         <div>
-                            <label htmlFor="message">Message:</label>
                             <textarea placeholder="Your message" type="text" name="message" defaultValue={message} onBlur={handleChange} rows="5"></textarea>
                         </div>
                         {errorMessage && (
