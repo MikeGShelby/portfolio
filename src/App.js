@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import ContactForm from './components/Contact';
 
 function App() {
   const [pages] = useState([
@@ -31,6 +32,7 @@ function App() {
       ></Nav>
         <div className="header-spacer">{`&nbsp;`}</div>
         <div className="main-content">
+          <ContactForm></ContactForm>
           <About></About>
           <Projects></Projects>
           <Skills></Skills>
