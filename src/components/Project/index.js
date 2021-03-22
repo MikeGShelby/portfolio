@@ -1,83 +1,100 @@
-import React, {useState} from 'react';
-// import image from '../../assets/images/projects/diet-delivery-screenshot-small.jpg';
-// import image from '../../assets/images/projects/cinasearch-screenshot.jpg';
-import image from '../../assets/images/projects/tech-blog-screenshot.jpg';
+import React, { useState } from 'react';
 
 function Project() {
 
-    const projectImages = [
+    const [projects] = useState([
         {
             title: "Diet Delivery",
-            tools: "HTML/CSS/Javascript/Node/Express/Handlebars",
-            image: "../../assets/images/projects/diet-delivery-screenshot-small.jpg",
-            github: "",
-            app: "https://diet-delivery.herokuapp.com/"
+            name: 'diet-delivery',
+            tools: "MySQL / Express / Handlebars / Node",
+            url: "https://diet-delivery.herokuapp.com/",
+            github: ""
         },
         {
             title: "Tech Blog",
-            tools: "HTML/CSS/Javascript/Node/Express/Handlebars",
-            image: "../../assets/images/projects/tech-blog-screenshot.jpg",
-            github: "",
-            app: "https://tech-blog-h.herokuapp.com/"
+            name: 'tech-blog',
+            tools: "MySQL / Express / Handlebars / Node",
+            url: "https://tech-blog-h.herokuapp.com/",
+            github: ""
         },
         {
             title: "CinaSearch",
-            tools: "HTML/CSS/JavaScript",
-            image: "../../assets/images/projects/cinasearch-screenshot.jpg",
-            github: "",
-            app: "https://mikegshelby.github.io/cinasearch/"
+            name: 'cinasearch',
+            tools: "Bulma / JavaScript",
+            url: "https://mikegshelby.github.io/cinasearch/",
+            github: ""
         },
         {
             title: "Password Generator",
-            tools: "HTML/CSS/JavaScript",
-            image: "../../assets/images/projects/password-generator-screenshot.jpg",
-            github: "",
-            app: "https://mikegshelby.github.io/password-generator/"
+            name: 'password-generator',
+            tools: "Javascript",
+            url: "https://mikegshelby.github.io/password-generator/",
+            github: ""
         },
         {
             title: "Taskinator",
-            tools: "HTML/CSS/JavaScript",
-            image: "../../assets/images/projectst/taskinator-screenshot.jpg",
-            github: "",
-            app: "https://mikegshelby.github.io/taskinator/"
+            name: 'taskinator',
+            tools: "Javascript",
+            url: "https://mikegshelby.github.io/taskinator/",
+            github: ""
         },
         {
             title: "Work Day Scheduler",
-            tools: "HTML/CSS/JavaScript",
-            image: "../../assets/images/projects/???-screenshot.jpg",
-            github: "",
-            app: "https://mikegshelby.github.io/work-day-scheduler/"
+            name:'work-day-scheduler',
+            tools: "Javascript",
+            url: "https://mikegshelby.github.io/work-day-scheduler/",
+            github: ""
         },
         {
             title: "Weather Dashboard",
-            tools: "HTML/CSS/JavaScript",
-            image: "../../assets/images/projects/weather-dashboard-screenshot.jpg",
-            github: "",
-            app: "https://mikegshelby.github.io/weather-dashboard/"
+            name: 'weather-dashboard',
+            tools: "Javascript",
+            url: "https://mikegshelby.github.io/weather-dashboard/",
+            github: ""
+        },
+        {
+            title: "Budget Tracker",
+            name: 'budget-tracker',
+            tools: "MongoDB / Express / Node",
+            url: "https://budget-tracker-h1.herokuapp.com/",
+            github: "https://github.com/MikeGShelby/budget-tracker"
+        },
+        {
+            title: "Placeholder Project 2",
+            name: 'placeholder-4',
+            tools: "Javascript",
+            url: "https://mikegshelby.github.io/weather-dashboard/",
+            github: ""
         }
-    ];
+    ]);
 
   return (
-        <div className="project-card project">
-                <img
-                    src={image}
-                    className="project-card-image face front"
-                    alt="project card"
-                />
-            <div className="face back">
-                <div className="project-info">
-                    <div className="project-title-text">
-                        <h4>Title</h4>
-                        <h5>Tools</h5>
-                    </div>
+    <>
+        {projects.map((project, i) => (
 
-                    <div className="project-links">
-                            <a href="https://diet-delivery.herokuapp.com/" target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i>      View Site</a>
-                            <a href="https://github.com/MikeGShelby" target="_blank" rel="noreferrer"><i className="fab fa-github"></i>      View GitHub</a>
+            <div className="project-card project" key={project.name}>
+                    <img
+                        src={require(`../../assets/images/projects-screenshots/${project.name}.jpg`)}
+                        alt={project.name}
+                        className="project-card-image face front"
+                    />
+
+                <div className="face back">
+                    <div className="project-info">
+                        <div className="project-title-text">
+                            <h4>{project.title}</h4>
+                            <h5>{project.tools}</h5>
+                        </div>
+
+                        <div className="project-links">
+                                <a href={project.url} target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i>      View Site</a>
+                                <a href={project.github} target="_blank" rel="noreferrer"><i className="fab fa-github"></i>      View GitHub</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        ))}
+    </>
   );
 }
 
