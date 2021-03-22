@@ -57,15 +57,13 @@ function Projects() {
 
   return (
     <section class="project-section">
-        <div  class="section-title-bg">
-            <h3 id="projects" class="section-title">PROJECTS</h3>
-        </div>
 
         <div class="project-grid project-content section-content">
-            <Project></Project>
-            <Project></Project>
-            <Project></Project>
-            <Project></Project>
+            <h3 id="projects" class="section-title">PROJECTS</h3>
+                <Project></Project>
+                <Project></Project>
+                <Project></Project>
+                <Project></Project>
         </div>
     </section>
   );

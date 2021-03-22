@@ -1,41 +1,46 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import  { capitalizeFirstLetter } from '../../assets/utils/helpers.js';
 
-function Nav() {
-    function pageSelected() {
-        window.onclick = e => {
-            console.log(e.target.innerText);
-        }
-    }
+function Nav(props) {
+    const {
+        pages = [],
+        setCurrentPage,
+        currentPage,
+      } = props;
 
-  return (
-    <header className="header">
-        <a href="/" className="title-link">
-            <h1>
-                Mike Shelby &#160; &#160;
-                <span className="subheader-text">Full Stack Developer</span>
-            </h1>
-        </a>
-        <nav className="navigation">
-            <ul>
-                <li>
-                    <a href="#about-me" onClick={() => pageSelected()}>About</a>
-                </li>
+      useEffect(() => {
+        document.title = capitalizeFirstLetter(currentPage.name);
+      }, [currentPage]);
 
-                <li>
-                    <a href="#projects" onClick={() => pageSelected()}>Projects</a>
-                </li>
+    return (
+        <header className="header">
+            <a href="/" className="title-link">
+                <h1>
+                    Mike Shelby &#160; &#160;
+                    <span className="subheader-text">Full Stack Developer</span>
+                </h1>
+            </a>
+            <nav className="navigation">
+                <ul>
+                    <li>
+                        <a href="#about-me">About</a>
+                    </li>
 
-                <li>
-                    <a href="#skills" onClick={() => pageSelected()}>Skills</a>
-                </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
 
-                <li>
-                    <a href="#contact" onClick={() => pageSelected()}>Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-  );
+                    <li>
+                        <a href="#skills" >Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    );
 }
 
 export default Nav;
