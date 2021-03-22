@@ -23,6 +23,8 @@ function App() {
   ]);
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
+  const [contactSelected, setContactSelected] = useState(false);
+
   return (
       <main className="main-container">
         <Nav
