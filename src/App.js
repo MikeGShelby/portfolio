@@ -5,35 +5,21 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import ContactForm from './components/Contact';
+import SelectedPage from './components/SelectedPage';
 
 function App() {
-  const [pages] = useState([
-    {
-      name: 'About'
-    },
-    {
-      name: 'Projects'
-    },
-    {
-      name: 'Resume'
-    },
-    {
-      name: 'Contact'
-    }
-  ]);
-  const [currentPage, setCurrentPage] = useState(pages[0]);
 
-  const [contactSelected, setContactSelected] = useState(false);
+  const [currentPage, setPageSelected] = useState('ProjectsPage');
 
   return (
       <main className="main-container">
         <Nav
-        pages={pages}
-        setCurrentPage={setCurrentPage}
+        setCurrentPage={setPageSelected}
         currentPage={currentPage}
-      ></Nav>
+        ></Nav>
         <div className="header-spacer">{`&nbsp;`}</div>
         <div className="main-content">
+        <SelectedPage currentPage={currentPage}></SelectedPage>
           <About></About>
           <Projects></Projects>
           <Skills></Skills>
@@ -43,5 +29,23 @@ function App() {
       </main>
   );
 }
+
+// const [pages] = useState([
+//   {
+//     name: 'About'
+//   },
+//   {
+//     name: 'Projects'
+//   },
+//   {
+//     name: 'Resume'
+//   },
+//   {
+//     name: 'Contact'
+//   }
+// ]);
+// const [currentPage, setCurrentPage] = useState(pages[0]);
+
+{/*  */}
 
 export default App;

@@ -1,16 +1,20 @@
 import React, { useEffect } from 'react';
-import  { capitalizeFirstLetter } from '../../assets/utils/helpers.js';
+import About from '../About';
+import Projects from '../Projects';
+import Skills from "../Skills";
+import Contact from "../Contact";
+
+const components = {
+    AboutPage:About,
+    ProjectsPage: Projects,
+    SkillsPage: Skills,
+    ContactPage: Contact
+  };
 
 function Nav(props) {
-    const {
-        pages = [],
-        setCurrentPage,
-        currentPage,
-      } = props;
-
-      useEffect(() => {
-        document.title = capitalizeFirstLetter(currentPage.name);
-      }, [currentPage]);
+    function selectPage() {
+        console.log(this)
+      }
 
     return (
         <header className="header">
