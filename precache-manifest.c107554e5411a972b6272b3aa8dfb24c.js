@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1050ffd6b8e56c54b1b2cb78154213da",
+    "revision": "142226775adaae268ecfbf07b853bf9d",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "34af8b014b333eca56d9",
-    "url": "/portfolio-react/static/css/main.dfb7750f.chunk.css"
+    "revision": "2716a723f429e45b909a",
+    "url": "/portfolio-react/static/css/main.3b0ce12b.chunk.css"
   },
   {
     "revision": "1c01fcc89452299b60e7",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/js/2.090ffd74.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34af8b014b333eca56d9",
-    "url": "/portfolio-react/static/js/main.2a5454f1.chunk.js"
+    "revision": "2716a723f429e45b909a",
+    "url": "/portfolio-react/static/js/main.01c85203.chunk.js"
   },
   {
     "revision": "2f26d0aed242c262185b",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/media/diet-delivery.e63112d5.jpg"
   },
   {
+    "revision": "86a76ccb3d8d0dfda637b04d36fc6770",
+    "url": "/portfolio-react/static/media/fit-club.86a76ccb.jpg"
+  },
+  {
     "revision": "58c77fb828ed1f9286c104ef550a0736",
     "url": "/portfolio-react/static/media/password-generator.58c77fb8.jpg"
   },
@@ -62,10 +66,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1f118aef772ffd6ceddff84db5b1d687",
     "url": "/portfolio-react/static/media/placeholder-5.1f118aef.jpg"
-  },
-  {
-    "revision": "cb6c857913f243a09db116ee82f16d9d",
-    "url": "/portfolio-react/static/media/portfolio.cb6c8579.jpg"
   },
   {
     "revision": "1c50b14e32136ecb4eabdb59301eceb8",
