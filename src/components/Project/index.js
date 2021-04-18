@@ -8,49 +8,49 @@ function Project() {
             name: 'diet-delivery',
             tools: "MySQL / Express / Handlebars / Node",
             url: "https://diet-delivery.herokuapp.com/",
-            github: ""
+            github: "https://github.com/MikeGShelby/diet-delivery"
         },
         {
             title: "Tech Blog",
             name: 'tech-blog',
             tools: "MySQL / Express / Handlebars / Node",
             url: "https://tech-blog-h.herokuapp.com/",
-            github: ""
+            github: "https://github.com/MikeGShelby/tech-blog"
         },
         {
             title: "CinaSearch",
             name: 'cinasearch',
             tools: "Bulma / JavaScript",
             url: "https://mikegshelby.github.io/cinasearch/",
-            github: ""
+            github: "https://github.com/MikeGShelby/cinasearch"
         },
         {
-            title: "Password Generator",
-            name: 'password-generator',
-            tools: "Javascript",
-            url: "https://mikegshelby.github.io/password-generator/",
-            github: ""
+            title: "Fit Club",
+            name: 'fit-club',
+            tools: "React / Javascript",
+            url: "https://fit-clob.herokuapp.com/",
+            github: "https://github.com/maxhealy01/fit-club"
         },
         {
             title: "Taskinator",
             name: 'taskinator',
             tools: "Javascript",
             url: "https://mikegshelby.github.io/taskinator/",
-            github: ""
+            github: "https://github.com/MikeGShelby/taskinator"
         },
         {
             title: "Work Day Scheduler",
             name:'work-day-scheduler',
             tools: "Javascript",
             url: "https://mikegshelby.github.io/work-day-scheduler/",
-            github: ""
+            github: "https://github.com/MikeGShelby/work-day-scheduler"
         },
         {
             title: "Weather Dashboard",
             name: 'weather-dashboard',
             tools: "Javascript",
             url: "https://mikegshelby.github.io/weather-dashboard/",
-            github: ""
+            github: "https://github.com/MikeGShelby/weather-dashboard"
         },
         {
             title: "Budget Tracker",
