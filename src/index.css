@@ -162,12 +162,24 @@ header a {
 /*-- HERO/JUMBOTRON --*/
 .hero {
   /* background-image: url("../assets/images/stars-jumbotron.jpg"); */
+  background-color:#001933;
   background-size: cover;
   background-attachment:fixed;
   background-position:center;
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
+  overflow: hidden;
+}
+
+.hero-image {
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
   overflow: hidden;
 }
 

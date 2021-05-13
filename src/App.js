@@ -1,32 +1,31 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+
+import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import ContactForm from './components/Contact';
-import SelectedPage from './components/SelectedPage';
+// import SelectedPage from './components/SelectedPage';
 
 function App() {
-
-  const [currentPage, setPageSelected] = useState('ProjectsPage');
-
   return (
-      <main className="main-container">
-        <Nav
-        setCurrentPage={setPageSelected}
-        currentPage={currentPage}
-        ></Nav>
-        <div className="header-spacer">{`&nbsp;`}</div>
-        <div className="main-content">
-        <SelectedPage currentPage={currentPage}></SelectedPage>
-          <About></About>
-          <Projects></Projects>
-          <Skills></Skills>
-          <ContactForm></ContactForm>
-          <Footer></Footer>
-        </div>
-      </main>
+      // <main className="main-container">
+      <Router>
+          <Nav />
+            <div className="header-spacer">{`&nbsp;`}</div>
+              <div className="main-content">
+                <Route exact path="/" component={Home} />
+                <Route exact path="/about" component={About} />
+                <Route exact path="/projects" component={Projects} />
+                <Route exact path="/skills" component={Skills} />
+                <Route exact path="/contact" component={ContactForm} />
+              </div>
+          <Footer />
+      </Router>
   );
 }
 
