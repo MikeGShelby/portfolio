@@ -72,25 +72,23 @@ function Project() {
     <>
         {projects.map((project, i) => (
 
-            <div className="project-card project" key={project.name}>
+                <div className="about-textbox" key={project.name}>
                     <img
                         src={require(`../../assets/images/projects-screenshots/${project.name}.jpg`)}
                         alt={project.name}
                         className="project-card-image face front"
                     />
 
-                <div className="face back">
-                    <div className="project-info">
-                        <div className="project-title-text">
-                            <h4>{project.title}</h4>
-                            <h5>{project.tools}</h5>
-                        </div>
-
-                        <div className="project-links">
-                                <a href={project.url} target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i>      View Site</a>
-                                <a href={project.github} target="_blank" rel="noreferrer"><i className="fab fa-github"></i>      View GitHub</a>
-                        </div>
-                    </div>
+                <div className="project-title-text">
+                    <h4>{project.title}</h4>
+                    <h5>{project.tools}</h5>
+                    <p>
+                       Description
+                    </p>
+                </div>
+                <div className="project-links">
+                    <a href={project.url} target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i>      View Site</a>
+                    <a href={project.github} target="_blank" rel="noreferrer"><i className="fab fa-github"></i>      View GitHub</a>
                 </div>
             </div>
         ))}

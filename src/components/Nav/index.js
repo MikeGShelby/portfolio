@@ -1,20 +1,12 @@
-import React, { useEffect } from 'react';
-import About from '../About';
-import Projects from '../Projects';
-import Skills from "../Skills";
-import Contact from "../Contact";
-
+import React from 'react';
+import Subnav from '../Subnav';
+import TitleLogo from '../TitleLogo';
 
 function Nav() {
     return (
-        <header className="header">
-            <a href="/" className="title-link">
-                <h1>
-                    Mike Shelby &#160; &#160;
-                    <span className="subheader-text">Full Stack Developer</span>
-                </h1>
-            </a>
             <nav className="navigation">
+                <TitleLogo></TitleLogo>
+
                 <ul>
                     <li>
                         <a href="/about">About</a>
@@ -33,7 +25,6 @@ function Nav() {
                     </li>
                 </ul>
             </nav>
-        </header>
     );
 }
 

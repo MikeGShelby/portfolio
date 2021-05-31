@@ -4,12 +4,16 @@ import selfImage from "../../assets/images/self-image.jpg";
 function About() {
   return (
         <section className="section-content about-section">
+            <h3 id="about-me" className="section-title">ABOUT ME</h3>
+
+
                 <div className="about-header">
-                    <h3 id="about-me" className="section-title">ABOUT</h3>
-                    <img src={selfImage} alt="Mike Shelby"></img>
+
+
                 </div>
 
-                <div className="about-summary">
+                <div className="about-textbox">
+                    <img src={selfImage} alt="Mike Shelby"></img>
                     <p>
                         As both a web developer and a registered dietitian, I bring with me a unique perspective and approach to the technology field. To be sure, my five years of experience working as a health care professional has given me great insight into an industry replete with poorly designed, inefficient, and unintuitive technological tools. Thanks to my enthusiasm for creating user-friendly technological solutions for both myself and for others, becoming a web developer was a natural progression in my professional journey.
                     </p>

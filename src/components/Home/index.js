@@ -1,21 +1,24 @@
 import React from 'react';
-import homeImage from "../../assets/images/universe-bg.jpg";
+import TitleLogo from '../TitleLogo';
+import Nav from '../Nav';
+
+
+
+import mountainImage from "../../assets/images/mountain.png";
+import grassImage from "../../assets/images/grass.png";
+import galaxyImage from "../../assets/images/galaxy-bg.jpg";
 
 function Home() {
   return (
-        <section class="hero">
-            <img class='hero-image' src={homeImage} alt="home-image"></img>
-
-            <div class="cta">
-                <div class="cta-title-text">
-                    <h2>FULL STACK WEB DEVELOPER</h2>
+          <div className="home-section">
+                <Nav></Nav>
+                <div class="home-textbox">
+                        <h2 class="home-textbox-title">FULL STACK WEB DEVELOPER</h2>
+                        <form class="buttons">
+                        <button type="button">EMAIL ME</button>
+                        </form>
                 </div>
-
-                <form class="buttons">
-                        <button type="button" class="filter-button" id="renal">EMAIL ME</button>
-                </form>
-            </div>
-        </section>
+        </div>
   );
 }
 

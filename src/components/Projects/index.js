@@ -10,6 +10,7 @@ function Projects() {
             <h3 id="projects" class="section-title">PROJECTS</h3>
                 <Project></Project>
         </div>
+        <a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a>
     </section>
   );
 }
