@@ -22,7 +22,7 @@ body {
 
   /* --header-font: 'Lato', sans-serif; */
   --link-font: 'Lato', sans-serif;
-  --paragraph-font: 'Roboto', sans-serif;
+  --paragraph-font: 'Poppins', sans-serif;
 }
 
 /*-- ALL SECTIONS --*/
@@ -59,15 +59,21 @@ body {
   /* background-color:#00BFFF; */
 }
 
+.title-logo:hover {
+background-color: red;
+}
+
 .logo-circle {
   position: absolute;
-  width:250px;
-  height:250px;
-  background-color: rgb(215, 215, 216);
+  width:175px;
+  height:175px;
+  border:15px solid rgba(255, 254, 254, 0.9);
+  /* background-color: rgb(215, 215, 216); */
+  padding: 10px;
   margin:10% auto;
   border-radius: 50%;
-  box-shadow: 2px 5px 10px rgb(71, 71, 71);
-  top: -150px;
+  box-shadow: 2px 2px 25px rgb(31, 91, 95);
+  top: -60%;
   left:42%;
 }
 
@@ -75,13 +81,16 @@ body {
   position: absolute;
   width: inherit;
   height: auto;
-  top:50%;
+  padding: 0;
+  top:45%;
+  left:-12%;
   transform: translateY(-50%);
   text-align: center;
   font-family:var(--header-font);
-  font-size:2.2rem;
-  line-height: 3.5rem;
-  color:rgb(73, 72, 72);
+  font-size:95%;
+  line-height: 1.5em;
+  color:rgb(255, 255, 255);
+  text-shadow: 2px 2px 10px rgb(8, 93, 99);
   /* color: var(--primary-color); */
 }
 
@@ -179,17 +188,17 @@ header a {
 /*-- ALL CONTENT SECTIONS --*/
 .section-title {
   width: 96%;
-  text-align: center;
+  text-align: left;
   color: var(--secondary-color);
   letter-spacing: 1px;
   font-size: 2.75rem;
   font-family: var(--header-font);
   font-weight: 800;
-  padding: 20px;
+
 }
 
 .section-content {
-  padding: 6% 6%;
+  padding: 0 6%;
    /* min-height: 100vh; */
 }
 
@@ -197,7 +206,7 @@ header a {
 /* side navigation menu */
 @media screen and (min-width: 980px) {
   .about-section {
-      padding: 0% 20%;
+      /* padding: 0% 20%; */
   }
 }
 
@@ -207,10 +216,9 @@ header a {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   /* background-image: url('./assets/images/green-gradient.jpg'); */
   background-image: url('./assets/images/galaxy-bg.jpg');
-
   background-size:cover;
   margin: 25px;
   border-radius: 20px;
@@ -219,6 +227,7 @@ header a {
 
 .home-textbox {
   justify-content: center;
+  display: flex;
   height: 448px;
   /* width: 550px; */
   width: 100%;
@@ -230,7 +239,8 @@ header a {
   position: relative;
   z-index: 100;
   border-radius: 10px;
-  /* background-color: rgba(11, 75, 8, 0.75);
+  background-color: rgba(253, 253, 253, 0.75);
+  /* /* background-color: rgba(11, 75, 8, 0.75);
   box-shadow: 0 9px 26px 0 rgb(0 0 0 / 35%); */
   text-shadow: 2px 2px 5px black;
 }
@@ -242,74 +252,68 @@ header a {
   /* color:var(--secondary-color); */
 }
 
-.mount-bg-section {
-  position: relative;
+.connect-button {
+  border-radius: 50px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  background-color: #00BFFF;
 }
 
-.mountain-image {
-  z-index: 1;
-  filter: drop-shadow(5px 5px 5px #222);
-  position: relative;
-  left: -90px;
-  top: 110px;
-  transform: scale(1.2);
+.connect-button:hover {
+  background-color: #016b8f;
 }
+
+
 
 
 /*-- SECTION: ABOUT ME --*/
 .about-section {
   display: flex;
-  flex-direction: column;
   font-size: 1rem;
   font-weight:300;
   font-family: var(--paragraph-font);
   line-height: 2rem;
   position: relative;
+  margin: 0 1%;
 }
 
-.about-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  z-index: 1;
-  margin-top:50px;
-  width: 100vw;
-  height: 200px;
-  position: absolute;
-  left: 0px;
-}
 
 .about-section img {
-  float:left;
-  width: 200px;
-  height: 200px;
   margin-bottom: 15px;
   margin-top: 0px;
-  margin-right: 25px;
-  border-radius: 10px;
+  margin-right: 20%;
   z-index: 1;
-  box-shadow: 2px 2px 10px rgb(0,0,0,.25);
   /* position: relative;
   left: -275px;
   top: -45px; */
+  width:350px;
+  height:350px;
+  background-color: rgb(215, 215, 216);
+  margin:10% auto;
+  border-radius: 50%;
+  box-shadow: 2px 2px 8px rgb(71, 71, 71);
+  top: -150px;
+  left:42%;
 }
+
+
 
 .about-textbox {
   /* height: 448px; */
   /* width: 550px; */
-  /* width: 50%; */
-  margin-right: 3%;
+  width: 50%;
+  /* margin-right: 3%; */
   margin-left: 3%;
   margin-top: 5%;
   padding-left: 62px;
   padding-right: 58px;
-  padding-top: 80px;
   padding-bottom: 40px;
   position: relative;
   border-radius: 10px;
   background-color: rgba(253, 253, 253, 0.75);
-  box-shadow: 0 9px 26px 0 rgb(0 0 0 / 35%);
+  /* box-shadow: 0 9px 26px 0 rgb(0 0 0 / 35%); */
 }
 
 

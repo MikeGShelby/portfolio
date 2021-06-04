@@ -12,10 +12,10 @@ function Home() {
   return (
           <div className="home-section">
                 <Nav></Nav>
-                <div class="home-textbox">
-                        <h2 class="home-textbox-title">FULL STACK WEB DEVELOPER</h2>
-                        <form class="buttons">
-                        <button type="button">EMAIL ME</button>
+                <div className="home-textbox">
+                        <h2 className="home-textbox-title">FULL STACK WEB DEVELOPER</h2>
+                        <form className="buttons">
+                        <button type="button" className="connect-button">CONNECT WITH ME</button>
                         </form>
                 </div>
         </div>
