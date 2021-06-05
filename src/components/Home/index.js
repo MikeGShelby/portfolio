@@ -3,20 +3,43 @@ import TitleLogo from '../TitleLogo';
 import Nav from '../Nav';
 
 
-
-import mountainImage from "../../assets/images/mountain.png";
-import grassImage from "../../assets/images/grass.png";
-import galaxyImage from "../../assets/images/galaxy-bg.jpg";
-
 function Home() {
   return (
           <div className="home-section">
-                <Nav></Nav>
                 <div className="home-textbox">
-                        <h2 className="home-textbox-title">FULL STACK WEB DEVELOPER</h2>
-                        <form className="buttons">
-                        <button type="button" className="connect-button">CONNECT WITH ME</button>
-                        </form>
+                        <TitleLogo></TitleLogo>
+                        <h2 className="home-textbox-title">Full Stack Web Developer</h2>
+                        <h2 className="home-textbox-title2"></h2>
+
+                        <ul className="banner-navigation">
+                                <li className="banner-navigation-item">
+                                        <a href="/about">
+                                                <i class="fas fa-address-card banner-icon"></i>
+                                                <p>About</p>
+                                        </a>
+                                </li>
+
+                                <li className="banner-navigation-item">
+                                        <a href="/projects">
+                                                <i class="fas fa-laptop-code banner-icon"></i>
+                                                <p>Projects</p>
+                                        </a>
+                                </li>
+
+                                <li className="banner-navigation-item">
+                                        <a href="/skills">
+                                                <i class="fas fa-file banner-icon"></i>
+                                                <p>Resume</p>
+                                        </a>
+                                </li>
+
+                                <li className="banner-navigation-item">
+                                        <a href="/contact">
+                                                <i class="fas fa-envelope-square banner-icon"></i>
+                                                <p>Contact</p>
+                                        </a>
+                                </li>
+                        </ul>
                 </div>
         </div>
   );
