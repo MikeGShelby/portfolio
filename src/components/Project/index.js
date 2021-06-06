@@ -2,6 +2,30 @@ import React, { useState } from 'react';
 
 function Project() {
 
+    const [projectsFeatured] = useState([
+        {
+            title: "Diet Delivery",
+            name: 'diet-delivery',
+            tools: "MySQL / Express / Handlebars / Node",
+            url: "https://diet-delivery.herokuapp.com/",
+            github: "https://github.com/MikeGShelby/diet-delivery"
+        },
+        {
+            title: "Tech Blog",
+            name: 'tech-blog',
+            tools: "MySQL / Express / Handlebars / Node",
+            url: "https://tech-blog-h.herokuapp.com/",
+            github: "https://github.com/MikeGShelby/tech-blog"
+        },
+        {
+            title: "CinaSearch",
+            name: 'cinasearch',
+            tools: "Bulma / JavaScript",
+            url: "https://mikegshelby.github.io/cinasearch/",
+            github: "https://github.com/MikeGShelby/cinasearch"
+        },
+    ]);
+
     const [projects] = useState([
         {
             title: "Diet Delivery",
@@ -70,7 +94,7 @@ function Project() {
 
   return (
     <>
-        {projects.map((project, i) => (
+        {projectsFeatured.map((project, i) => (
 
                 <div className="about-textbox" key={project.name}>
                     <img

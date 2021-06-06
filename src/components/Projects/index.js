@@ -7,10 +7,9 @@ function Projects() {
     <section class="project-section">
 
         <div class="project-grid project-content section-content">
-            <h3 id="projects" class="section-title">PROJECTS</h3>
+            <h3 id="projects" class="section-title">Projects</h3>
                 <Project></Project>
         </div>
-        <a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a>
     </section>
   );
 }

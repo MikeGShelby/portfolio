@@ -189,7 +189,7 @@ header a {
   background-image: url('./assets/images/header-graphics/green-waves-header5.png');
   background-size:contain;
   background-repeat: no-repeat;
-  width: 100%;
+
 }
 
 .home-textbox {
@@ -199,7 +199,7 @@ header a {
   display: flex;
   flex-direction: column;
   width: 60%;
-  height: auto;
+
   margin: 1%;
   padding: 20px 0px 20px;
   position: relative;
@@ -294,53 +294,48 @@ header a {
 /*-- SECTION: ABOUT ME --*/
 .about-section {
   display: flex;
-  font-size: 1em;
-  font-weight:300;
+  justify-content: center;
   font-family: var(--paragraph-font);
   line-height: 2rem;
-  position: relative;
-
-  /* background-image: url('./assets/images/header-graphics/green-waves-header7.png'); */
-  background-size:contain;
-  background-repeat: no-repeat;
   width: 100%;
 }
 
+.about-textbox {
+  position: relative;
+  display: flex;
+  width: 85%;
+  height:fit-content;
+  margin: 5% 1%;
+  padding: 50px 50px;
+  border-radius: 10px;
+  background: rgb(24,78,94);
+  background: radial-gradient(circle, rgba(24,78,94,.75) 0%, rgba(8,93,99,1) 97%);
+  box-shadow: 0 9px 50px 0 rgb(0 0 0 / 75%);
+  /* text-shadow: 1px 1px 3px rgb(0 0 0 / 30%); */
+  color: white;
+}
+
+.about-text {
+  width: 78%;
+  margin: 0 3%;
+}
+
 .about-section p {
-  font-size: 1.2em;
+  font-size: 1.15em;
+  font-weight:300;
 }
 
 .about-section img {
-  margin-bottom: 15px;
-  margin-top: 0px;
-  margin-right: 20%;
-  z-index: 1;
-  /* position: relative;
-  left: -275px;
-  top: -45px; */
-  width:350px;
-  height:350px;
-  background-color: rgb(215, 215, 216);
+  position: absolute;
+  width:325px;
+  height:325px;
   margin:10% auto;
   border-radius: 50%;
-  box-shadow: 2px 2px 8px rgb(71, 71, 71);
-  top: -150px;
-  left:42%;
+  box-shadow: 2px 2px 20px rgb(46, 44, 44);
+  right: -100px;
+  top: -100px;
 }
 
-
-.about-textbox {
-    width: 100%;
-    height: auto;
-    margin: 1%;
-    padding: 50px 50px;
-    border-radius: 10px;
-    background: rgb(24,78,94);
-    background: radial-gradient(circle, rgba(24,78,94,.75) 0%, rgba(8,93,99,1) 97%);
-    box-shadow: 0 9px 50px 0 rgb(0 0 0 / 75%);
-    /* text-shadow: 1px 1px 3px rgb(0 0 0 / 30%); */
-    color: white;
-}
 
 
 /*-- SECTION: PROJECTS --*/
