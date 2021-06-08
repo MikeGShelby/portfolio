@@ -96,11 +96,11 @@ function Project() {
     <>
         {projectsFeatured.map((project, i) => (
 
-                <div className="about-textbox" key={project.name}>
+            <div className="project-card" key={project.name}>
                     <img
                         src={require(`../../assets/images/projects-screenshots/${project.name}.jpg`)}
                         alt={project.name}
-                        className="project-card-image face front"
+                        className="project-card-image"
                     />
 
                 <div className="project-title-text">
@@ -111,8 +111,8 @@ function Project() {
                     </p>
                 </div>
                 <div className="project-links">
-                    <a href={project.url} target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i>      View Site</a>
-                    <a href={project.github} target="_blank" rel="noreferrer"><i className="fab fa-github"></i>      View GitHub</a>
+                    <a href={project.url} target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i>      View Site</a>
+                    <a href={project.github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i>      View GitHub</a>
                 </div>
             </div>
         ))}

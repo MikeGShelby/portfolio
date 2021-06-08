@@ -1,7 +1,6 @@
 import React from 'react';
 import TitleLogo from '../TitleLogo';
-import Nav from '../Nav';
-
+import NavBanner from '../NavBanner';
 
 function Home() {
   return (
@@ -9,7 +8,7 @@ function Home() {
                 <div className="home-textbox">
                         <TitleLogo></TitleLogo>
                         <h2 className="home-textbox-title">Full Stack Web Developer</h2>
-                        <h2 className="home-textbox-title2"></h2>
+                        <NavBanner></NavBanner>
 
                         <ul className="banner-navigation">
                                 <li className="banner-navigation-item">

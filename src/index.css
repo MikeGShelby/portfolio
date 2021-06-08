@@ -171,9 +171,7 @@ header a {
 /* MEDIA QUERY FOR LARGER SCREENS */
 /* side navigation menu */
 @media screen and (min-width: 980px) {
-  .about-section {
-      /* padding: 0% 20%; */
-  }
+
 }
 
 
@@ -189,7 +187,6 @@ header a {
   background-image: url('./assets/images/header-graphics/green-waves-header5.png');
   background-size:contain;
   background-repeat: no-repeat;
-
 }
 
 .home-textbox {
@@ -311,7 +308,6 @@ header a {
   background: rgb(24,78,94);
   background: radial-gradient(circle, rgba(24,78,94,.75) 0%, rgba(8,93,99,1) 97%);
   box-shadow: 0 9px 50px 0 rgb(0 0 0 / 75%);
-  /* text-shadow: 1px 1px 3px rgb(0 0 0 / 30%); */
   color: white;
 }
 
@@ -340,69 +336,47 @@ header a {
 
 /*-- SECTION: PROJECTS --*/
 .project-section {
-  /* background-image: linear-gradient(to bottom right, rgb(51, 231, 207) 0%, rgb(14, 218, 139) .9);
-  background-color: rgb(202, 241, 228); */
-  background-image: url('./assets/images/green-gradient.jpg');
-
-}
-
-.project-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
 .project-card {
-  position: relative;
-  width: 400px;
-  height: 300px;
-  transform-style: preserve-3d;
-  margin:10px;
+  float:right;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height:fit-content;
+    margin:6% 6%;
+    padding: 50px 50px;
+    border-radius: 10px;
+    background: rgb(24,78,94);
+    background: radial-gradient(circle, rgba(24,78,94,.75) 0%, rgba(8,93,99,1) 97%);
+    box-shadow: 0 9px 50px 0 rgb(0 0 0 / 75%);
+    color: white;
+}
+
+.project-card:nth-child(odd) {
+  background-color: red;
+  align-items: right;
 }
 
 .project-card-image {
-  width: 100%;
-  height: 100%;
-  object-fit:fill;
-  overflow:hidden;
-}
-
-.project-card .face {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  transition: .6s ease-in-out;
-  backface-visibility: hidden;
-  transform: perspective(0px) rotateY(0deg);
-  border-radius: 4px;
-  box-shadow: 2px 2px 3px rgb(0,0,0,.2);
+  left: -50%;
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 9px 50px 0 rgb(0 0 0 / 75%);
 }
 
-.project-card .face.front {
-  background: white;
-  color:#222;
+.project-card:nth-child(odd) .project-card-image {
+  position: absolute;
+  top: -100px;
+  left: -50%;
+  box-shadow: 0 9px 10px 0 rgb(0 0 0 / 100%);
 }
 
-.project-card:hover .face.front {
-  transform: perspective(500px) rotateY(180deg);
-}
-
-
-.project-card .face.back {
-  background: rgb(127,200,224);
-  background: linear-gradient(180deg, rgb(38, 155, 194) 0%, rgb(7, 129, 170) 100%);
-  transform: perspective(500px) rotateY(180deg);
-}
-
-.project-card:hover .face.back {
-  transform: perspective(500px) rotateY(360deg);
+.project-title-text {
+  margin-bottom:50px;
 }
 
 .project-card .project-info {
@@ -416,10 +390,6 @@ header a {
   margin-bottom: 0px;
   /* background-color: var(--primary-color); */
   transition: width .5s;
-}
-
-.project-title-text {
-  margin-bottom:50px;
 }
 
 .project-links {
@@ -442,63 +412,6 @@ header a {
 .project-links a:hover {
   background-color: transparent;
   color: white;
-}
-
-
-
-.project-1 {
-  /* background-image: url("../assets/images/diet-delivery-screenshot-small.jpg"); */
-  background-size: cover;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.project-2 {
-  /* background-image: url("../assets/images/tech-blog-screenshot.jpg"); */
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.project-3 {
-  /* background-image: url("../assets/images/cinasearch-screenshot.jpg"); */
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.project-4 {
-  /* background-image: url("../assets/images/password-generator-screenshot.png"); */
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.project-5 {
-  /* background-image: url("../assets/images/taskinator-screenshot.jpg"); */
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.project-6 {
-  /* background-image: url("../assets/images/work-day-scheduler-screenshot.jpg"); */
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.project-7 {
-  /* background-image: url("../assets/images/weather-dashboard-screenshot.jpg"); */
-  background-size: cover;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 
@@ -527,7 +440,6 @@ header a {
 .skill-link:hover {
   filter: drop-shadow(5px 5px 5px #222);
 }
-
 
 
 /*-- SECTION: CONTACT --*/
