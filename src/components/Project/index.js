@@ -96,24 +96,26 @@ function Project() {
     <>
         {projectsFeatured.map((project, i) => (
 
-            <div className="project-card" key={project.name}>
+            <div className="project-container" key={project.name}>
                     <img
                         src={require(`../../assets/images/projects-screenshots/${project.name}.jpg`)}
                         alt={project.name}
                         className="project-card-image"
                     />
 
-                <div className="project-title-text">
-                    <h4>{project.title}</h4>
-                    <h5>{project.tools}</h5>
-                    <p>
-                       Description
-                    </p>
-                </div>
-                <div className="project-links">
-                    <a href={project.url} target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i>      View Site</a>
-                    <a href={project.github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i>      View GitHub</a>
-                </div>
+                    <div className="project-card">
+                        <div className="project-title-text">
+                            <h4>{project.title}</h4>
+                            <h5>{project.tools}</h5>
+                            <p>
+                            Description
+                            </p>
+                        </div>
+                        <div className="project-links">
+                            <a href={project.url} target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i>      View Site</a>
+                            <a href={project.github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i>      View GitHub</a>
+                        </div>
+                    </div>
             </div>
         ))}
     </>

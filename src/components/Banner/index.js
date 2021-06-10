@@ -3,17 +3,16 @@ import TitleLogo from '../TitleLogo';
 import NavBanner from '../NavBanner';
 
 
-function Home() {
+function Banner() {
   return (
-          <div className="home-section">
-                <div className="home-textbox">
+          <div className="banner-section">
+                <div className="banner-textbox">
                         <TitleLogo></TitleLogo>
-
-                        <h2 className="home-textbox-title">Full Stack Web Developer</h2>
+                        <h2 className="banner-textbox-title">Full Stack Web Developer</h2>
                         <NavBanner></NavBanner>
                 </div>
         </div>
   );
 }
 
-export default Home;
+export default Banner;
