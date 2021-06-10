@@ -6,28 +6,28 @@ function NavBanner() {
                 <li className="banner-navigation-item">
                         <a href="/about">
                                 <i class="fas fa-address-card banner-icon"></i>
-                                <p>About</p>
+                                <h4>About</h4>
                         </a>
                 </li>
 
                 <li className="banner-navigation-item">
                         <a href="/projects">
                                 <i class="fas fa-laptop-code banner-icon"></i>
-                                <p>Projects</p>
+                                <h4>Projects</h4>
                         </a>
                 </li>
 
                 <li className="banner-navigation-item">
                         <a href="/skills">
                                 <i class="fas fa-file banner-icon"></i>
-                                <p>Resume</p>
+                                <h4>Resume</h4>
                         </a>
                 </li>
 
                 <li className="banner-navigation-item">
                         <a href="/contact">
                                 <i class="fas fa-envelope-square banner-icon"></i>
-                                <p>Contact</p>
+                                <h4>Contact</h4>
                         </a>
                 </li>
         </ul>
