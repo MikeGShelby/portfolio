@@ -148,9 +148,9 @@ header a {
   padding: 25px 0px;
 }
 
-.section-content {
+/* .section-content {
   padding: 0 6%;
-}
+} */
 
 /*-- SECTION: BANNER --*/
 .banner-section {
@@ -284,28 +284,52 @@ header a {
 }
 
 
-/*-- SECTION: ABOUT ME --*/
+/*-- SECTION: ABOUT --*/
 .about-section {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 400px 0px;
+  padding-bottom: 30px;
   font-family: var(--paragraph-font);
   line-height: 2rem;
-  width: 100%;
-  padding-bottom: 30px;
+}
+
+.about-image {
+  width:325px;
+  height:325px;
+  margin-bottom: -250px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 20px rgb(46, 44, 44);
+  z-index: 1;
 }
 
 .about-textbox {
-  position: relative;
   display: flex;
-  width: 85%;
+  width: 100%;
   height:fit-content;
   margin: 5% 1%;
-  padding: 50px 50px;
+  padding: 25px 25px;
   border-radius: 10px;
   background: rgb(24,78,94);
   background: radial-gradient(circle, rgba(24,78,94,.75) 0%, rgba(8,93,99,1) 97%);
   box-shadow: 0 9px 50px 0 rgb(0 0 0 / 75%);
   color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .about-textbox {
+    width: 85%;
+    margin: 5% 1%;
+    padding: 25px 25px;
+    border-radius: 10px;
+    background: rgb(24,78,94);
+    background: radial-gradient(circle, rgba(24,78,94,.75) 0%, rgba(8,93,99,1) 97%);
+    box-shadow: 0 9px 50px 0 rgb(0 0 0 / 75%);
+    color: white;
+  }
+
 }
 
 .about-text {
@@ -316,17 +340,6 @@ header a {
 .about-section p {
   font-size: 1.15em;
   font-weight:300;
-}
-
-.about-section img {
-  position: absolute;
-  width:325px;
-  height:325px;
-  margin:10% auto;
-  border-radius: 50%;
-  box-shadow: 2px 2px 20px rgb(46, 44, 44);
-  right: -100px;
-  top: -100px;
 }
 
 

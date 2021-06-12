@@ -5,6 +5,7 @@ function About() {
   return (
         <section className="section-content about-section">
 
+            <img src={selfImage} alt="Mike Shelby" className="about-image"></img>
             <div className="about-textbox">
                 <div className="about-text">
                     <h3 id="about-me" className="section-title">About Me</h3>
@@ -16,11 +17,7 @@ function About() {
                         I enjoy using my strong attention to detail, analytical mindset, and problem-solving skills to make applications as simple and efficient to use as possible. Moreover, I would describe myself as a lifelong learner with a continuously evolving skillset, which lends itself well to this ever-changing field. I am eager to bring my unique outlook and experience to a company that shares my appreciation for developing innovative solutions to everyday societal challenges.
                     </p>
                 </div>
-
-                <img src={selfImage} alt="Mike Shelby"></img>
-
             </div>
-
 
         </section>
   );
