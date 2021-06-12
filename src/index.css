@@ -90,7 +90,6 @@ body {
   color: var(--primary-color);
   border-left: solid 8px var(--primary-color);
 }
-
 header a {
   text-decoration: none;
 }
@@ -172,7 +171,8 @@ header a {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 60%;
+  height: 90vh;
+  width: 90%;
   margin: 1%;
   padding: 20px 0px 20px;
   position: relative;
@@ -235,6 +235,7 @@ header a {
   padding:20px;
   color:white;
   text-align: center;
+  transition: color 150ms ease;
 }
 
 .banner-icon {
@@ -244,25 +245,23 @@ header a {
   color: white;
   font-size: 2.5em;
   margin-bottom: 5px;
-  width:2em;
   height:2em;
+  width:2em;
   border: solid 0px rgba(255, 255, 255, .0);
   border-radius: 50%;
   background: rgb(8,93,99);
   background: radial-gradient(circle, rgb(14, 153, 95) 0%, rgba(133,193,52,1) 100%);
   box-shadow: none;
+  transition: border 150ms ease, box-shadow 150ms ease;
 }
 
 .banner-navigation-item:hover .banner-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   color: white;
-  border: solid 3px rgb(255, 255, 255);
+  border: solid 3px rgba(255, 255, 255, 1);
   box-shadow: 2px 2px 10px rgb(133,193,52);
 }
 
-.banner-navigation-item:hover h4 {
+.banner-navigation-item:hover a {
   color:rgb(133,193,52);
 }
 
@@ -395,19 +394,22 @@ header a {
 .project-links a {
   padding: 10px;
   text-align: center;
-  background: rgb(45, 245, 161);
-  /* background: radial-gradient(circle, rgb(14, 153, 95) 0%, rgba(133,193,52,1) 100%); */
   font-size: .8em;
-  color:  rgb(77, 65, 65);
-  /* border: 3px solid white; */
   border-radius: 30px;
   margin: 10px;
   text-decoration: none;
+  border: solid 3px rgba(255, 255, 255, 1);
+  color: white;
+  box-shadow: none;
+  transition: border 150ms ease, box-shadow 150ms ease;
 }
 
 .project-links a:hover {
-  background-color: transparent;
-  color: white;
+
+  background: rgb(8,93,99);
+  background: radial-gradient(circle, rgb(14, 153, 95) 0%, rgba(133,193,52,1) 100%);
+  border: solid 3px rgba(255, 255, 255, 1);
+  box-shadow: 2px 2px 10px rgb(133,193,52);
 }
 
 
