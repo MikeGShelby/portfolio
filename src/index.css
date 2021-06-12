@@ -166,21 +166,9 @@ header a {
   background-repeat: no-repeat;
 }
 
-.banner-textbox {
-  position: relative;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 90vh;
-  width: 90%;
-  margin: 1%;
-  padding: 20px 0px 20px;
-  position: relative;
-  border-radius: 10px;
-  background: rgb(24,78,94);
-  background: radial-gradient(circle, rgba(24,78,94,.8) 0%, rgba(8,93,99,1) 97%);
-  box-shadow: 0 9px 50px 0 rgb(0 0 0 / 75%);
-  /* text-shadow: 1px 1px 3px rgb(0 0 0 / 30%); */
+.title-logo {
+  margin-bottom: -275px;
+  z-index: 1;
 }
 
 .logo-circle {
@@ -212,23 +200,53 @@ header a {
   text-shadow: 2px 2px 20px rgb(38, 39, 39);
 }
 
+.banner-textbox {
+  display: flex;
+  flex-direction: column;
+  /* justify-content:flex-end; */
+  align-items: center;
+  height: 1000px;
+  width: 100%;
+  padding: 300px 0px 20px;
+  border-radius: 10px;
+  background: rgb(24,78,94);
+  background: radial-gradient(circle, rgba(24,78,94,.8) 0%, rgba(8,93,99,1) 97%);
+  box-shadow: 0 9px 50px 0 rgb(0 0 0 / 75%);
+}
+
+@media screen and (min-width: 1024px) {
+  .banner-textbox {
+    align-items: center;
+    height: 800px;
+    width: 90%;
+    padding: 300px 0px 20px;
+    border-radius: 10px;
+    background: rgb(24,78,94);
+    background: radial-gradient(circle, rgba(24,78,94,.8) 0%, rgba(8,93,99,1) 97%);
+    box-shadow: 0 9px 50px 0 rgb(0 0 0 / 75%);
+  }
+}
+
 .banner-textbox-title {
-  display: inline-block;
   text-align: center;
   color: white;
   font-size: 3.5em;
   font-family: var(--header-font);
+  margin: 0 25px;
 }
 
 .banner-navigation {
+  width: 100%;
+  text-align: center;
   list-style: none;
   display: flex;
-  margin: 20px;
+  justify-content: space-around;
 }
 
-.banner-navigation-item {
-  margin: 0px 40px;
-  display: flex;
+@media screen and (min-width: 1024px) {
+  .banner-navigation {
+    width: 60%;
+  }
 }
 
 .banner-navigation-item a {
