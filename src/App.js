@@ -21,7 +21,7 @@ function App() {
       </header>
       <main>
         <About></About>
-        <Projects></Projects>
+        {/* <Projects></Projects> */}
         <ContactForm></ContactForm>
       </main>
     </div>

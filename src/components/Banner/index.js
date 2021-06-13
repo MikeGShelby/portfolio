@@ -6,7 +6,10 @@ import NavBanner from '../NavBanner';
 function Banner() {
   return (
           <div className="banner-section">
-                <TitleLogo></TitleLogo>
+                <div className="logo-container">
+                        <TitleLogo></TitleLogo>
+                </div>
+
                 <div className="banner-textbox">
                         <h2 className="banner-textbox-title">Full Stack Web Developer</h2>
                         <NavBanner></NavBanner>
