@@ -1,11 +1,12 @@
 import React from 'react';
 import Subnav from '../Subnav';
 import TitleLogo from '../TitleLogo';
+import NavLogo from '../NavLogo';
 
 function Nav() {
     return (
             <nav className="navigation">
-                <TitleLogo></TitleLogo>
+                <NavLogo></NavLogo>
 
                 <ul>
                     <li>

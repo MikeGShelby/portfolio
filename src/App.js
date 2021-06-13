@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 
+import Header from './components/Header';
 import Banner from './components/Banner';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -14,14 +15,11 @@ import ContactForm from './components/Contact';
 
 function App() {
   return (
-      // <main className="main-container">
     <div>
-      <header className="header-section">
-        <Banner></Banner>
-      </header>
+        <Header></Header>
       <main>
         <About></About>
-        {/* <Projects></Projects> */}
+        <Projects></Projects>
         <ContactForm></ContactForm>
       </main>
     </div>

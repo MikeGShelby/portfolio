@@ -5,7 +5,7 @@ import NavBanner from '../NavBanner';
 
 function Banner() {
   return (
-          <div className="banner-section">
+          <header className="header-section">
                 <div className="logo-container">
                         <TitleLogo></TitleLogo>
                 </div>
@@ -14,7 +14,7 @@ function Banner() {
                         <h2 className="banner-textbox-title">Full Stack Web Developer</h2>
                         <NavBanner></NavBanner>
                 </div>
-        </div>
+        </header>
   );
 }
 
