@@ -3,9 +3,8 @@ import selfImage from "../../assets/images/self-image.jpg";
 
 function About() {
   return (
-        <section className="section-content about-section">
+        <section className="section-content about-section bg-dark">
 
-            <img src={selfImage} alt="Mike Shelby" className="about-image"></img>
             <div className="about-textbox">
                 <div className="about-text">
                     <h3 id="about-me" className="section-title">About Me</h3>
@@ -18,6 +17,8 @@ function About() {
                     </p>
                 </div>
             </div>
+
+            <img src={selfImage} alt="Mike Shelby" className="about-image"></img>
 
         </section>
   );

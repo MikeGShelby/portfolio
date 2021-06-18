@@ -9,20 +9,22 @@ import Banner from './components/Banner';
 import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-import ContactForm from './components/Contact';
+import Contact from './components/Contact';
 
 // import homeImage from "./assets/images/universe-bg.jpg";
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
+
         <Header></Header>
       <main>
         <About></About>
         <Projects></Projects>
-        <ContactForm></ContactForm>
+        <Contact></Contact>
       </main>
-    </div>
+
+    </React.Fragment>
 
 
       // <Router>

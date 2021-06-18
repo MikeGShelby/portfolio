@@ -10,7 +10,7 @@ function Header() {
               <Nav></Nav>
                 {/* <div className="logo-container">
                 </div> */}
-                <h2 className="header-subtitle">Full Stack Web Developer</h2>
+                <h2 className="header-subtitle text-center text-light">Full Stack Web Developer</h2>
         </header>
   );
 }

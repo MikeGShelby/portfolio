@@ -5,10 +5,10 @@ import NavLogo from '../NavLogo';
 
 function Nav() {
     return (
-            <nav className="navigation">
+            <nav className="navigation text-light">
                 <NavLogo></NavLogo>
 
-                <ul>
+                <ul className="nav-links">
                     <li>
                         <a href="/about">About</a>
                     </li>
