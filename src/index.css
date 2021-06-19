@@ -55,8 +55,11 @@ section {
 }
 
 .container {
-  margin-inline-end: auto;
+  margin-inline: auto;
+  width: min(90%, 90rem);
 }
+
+
 
 .text-light,
 .text-light > *,
@@ -394,19 +397,36 @@ header a {
 .about-section {
   display: flex;
   align-items: center;
-  width: 100%;
-  margin: 0 6rem;
-  font-family: var(--paragraph-font);
-  line-height: 2rem;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 980px) {
+  .about-container {
+    flex-direction: row-reverse;
+  }
 }
 
 .about-image {
   width:325px;
   height:325px;
-  margin-left: -250px;
+  margin-bottom: -100px;
   border-radius: 10px;
   box-shadow: 2px 2px 20px rgb(46, 44, 44);
   z-index: 1;
+}
+
+@media screen and (min-width: 980px) {
+  .about-image {
+    width:325px;
+    height:325px;
+    margin-left: -250px;
+    z-index: 1;
+  }
 }
 
 .about-textbox {
