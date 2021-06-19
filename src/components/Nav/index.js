@@ -5,7 +5,7 @@ import NavLogo from '../NavLogo';
 
 function Nav() {
     return (
-            <nav className="navigation text-light">
+            <nav className="navigation">
                 <NavLogo></NavLogo>
 
                 <ul className="nav-links">

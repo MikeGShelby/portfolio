@@ -4,7 +4,7 @@ function Contact() {
   return (
         <section className="section-content contact-section bg-dark">
 
-            <div className="contact-container">
+            <div className="container">
                     <h3 id="contact" class="section-title contact-section-title text-center text-light">Contact Me</h3>
 
                     <div className="connect-links">Link 1</div>
