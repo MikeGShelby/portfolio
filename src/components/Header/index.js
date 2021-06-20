@@ -7,7 +7,7 @@ function Header() {
   return (
         <header className="header-section bg-dark">
               <Nav></Nav>
-              <div className="header-subtitle text-center bg-dark-card">
+              <div className="header-subtitle text-center bg-dark-card round-borders">
                 <h2>Web Developer</h2>
                 <h2>Health Care Professional</h2>
                 <h2>Problem Solver</h2>

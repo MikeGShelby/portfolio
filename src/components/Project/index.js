@@ -115,7 +115,7 @@ function Project() {
                         className="project-card-image"
                     />
 
-                    <div className="project-card">
+                    <div className="project-card round-borders">
                         <div className="project-title-text">
                             <h4>{project.title}</h4>
                             <h5>{project.tools}</h5>
@@ -124,8 +124,8 @@ function Project() {
                             </p>
                         </div>
                         <div className="project-links">
-                            <a href={project.url} target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i>      View Site</a>
-                            <a href={project.github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i>      View GitHub</a>
+                            <a href={project.url} target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i>      VIEW SITE</a>
+                            <a href={project.github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i>      VIEW GITHUB</a>
                         </div>
                     </div>
             </div>

@@ -6,8 +6,8 @@ function About() {
         <section className="section-content about-section bg-dark">
 
             <div className="container about-container">
-            <img src={selfImage} alt="Mike Shelby" className="about-image"></img>
-                <div className="about-textbox bg-dark-card">
+            <img src={selfImage} alt="Mike Shelby" className="about-image round-borders shadow-image-large"></img>
+                <div className="about-textbox bg-dark-card round-borders">
                     <div className="about-text">
                         <h3 id="about-me" className="section-title">About Me</h3>
                         <p>
