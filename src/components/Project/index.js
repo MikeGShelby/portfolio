@@ -124,8 +124,8 @@ function Project() {
                             </p>
                         </div>
                         <div className="project-links">
-                            <a href={project.url} target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i>      VIEW SITE</a>
-                            <a href={project.github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i>      VIEW GITHUB</a>
+                            <a href={project.url} target="_blank" rel="noopener noreferrer" className="btn-grad"><i className="fas fa-external-link-alt"></i>      VIEW SITE</a>
+                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn-grad"><i className="fab fa-github"></i>      VIEW GITHUB</a>
                         </div>
                     </div>
             </div>

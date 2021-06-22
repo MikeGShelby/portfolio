@@ -14,6 +14,7 @@
 
   --primary-color:#00BFFF;
   --color-accent: rgba(149,245,211,1);
+  --color-accent-dark: rgb(63, 110, 94);
   --primary-color-lighter:#77ddff;
   --secondary-color: rgb(39, 43, 48);
   --tertiary-color: #001933;
@@ -23,10 +24,14 @@
 
   /*-- for large containers --*/
   --shadow-primary: 0 9px 50px 0 rgb(0 0 0 / 75%);
+
   /*-- for large images --*/
   --shadow-image-large: 2px 2px 20px rgb(46, 44, 44);
   /*-- for small images --*/
   --shadow-image-small: 0 9px 14px 0 rgb(0 0 0 / 75%);
+
+  --shadow-button: 8px 8px 8px 0 rgb(0 0 0 / 50%);
+  --shadow-button-hover: 4px 4px 4px 0 rgb(0 0 0 / 75%);;
 }
 
 
@@ -385,6 +390,8 @@ header a {
   text-shadow: var(--shadow-image-small);
 }
 
+
+
 @media screen and (min-width: 980px) {
   .featured-projects {
     flex-direction: column;
@@ -423,11 +430,21 @@ header a {
 
   .project-links a {
     border: solid .1rem rgba(255, 255, 255, 1);
-    color: rgb(255, 255, 255);
-    background-color: blue;
-    transition: background-color 350ms ease, color 350ms ease;
-    box-shadow: var(--shadow-image-small);
+    color: rgb(37, 31, 31);
+    background-color: var(--color-accent);
+    border: none;
+    box-shadow: var(--shadow-button);
+    transition: background-color 350ms ease, color 350ms ease, box-shadow 350ms ease;
   }
+
+  .project-links a:hover {
+    background-color: var(--color-accent-dark);
+    box-shadow: var(--shadow-button-hover);
+    color: white;
+    border: none;
+  }
+
+
 }
 
 
