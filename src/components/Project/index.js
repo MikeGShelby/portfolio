@@ -108,11 +108,11 @@ function Project() {
     <>
         {projectsFeatured.map((project, i) => (
 
-            <div className="project-container" key={project.name}>
+            <div className="project-container split" key={project.name}>
                     <img
                         src={require(`../../assets/images/projects-screenshots/${project.name}.jpg`)}
                         alt={project.name}
-                        className="project-card-image"
+                        className="project-card-image round-borders"
                     />
 
                     <div className="project-card round-borders">
