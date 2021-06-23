@@ -43,9 +43,16 @@
 html {
   font-size: 16px;
   color: white;
+  scroll-behavior: smooth;
 }
 
-@media screen and (min-width: 980px) {
+/* @media screen and (min-width: 980px) {
+  html {
+    font-size: 24px;
+    }
+} */
+
+@media screen and (min-width: 40em) {
   html {
     font-size: 24px;
     }
@@ -138,26 +145,36 @@ h3 {
   padding: 3rem;
   width: 90%;
   height: 70%;
-  background-image: linear-gradient( 110.5deg,  rgba(71,114,148,.9) 14.9%, rgba(149,245,211,.4) 85% );
-  font-size: 2rem;
   font-family: var(--font-header);
-  text-shadow: 1px 1px 10px black;
+  background-image: linear-gradient( 110.5deg,  rgba(71,114,148,.9) 14.9%, rgba(149,245,211,.4) 85% );
   z-index: 1;
-
 }
+
+.header-subtitle h2 {
+  font-size: 2rem;
+  text-shadow: 1px 1px 10px black;
+}
+
+.header-subtitle a {
+  color: white;
+  font-weight:bolder;
+  width: 50%;
+  margin-top: 40px;
+}
+
 
 .navigation {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
   justify-items: stretch;
   flex-wrap: wrap;
   width: 90%;
   z-index: 1;
+  padding-bottom: 2rem;
 }
 
 .nav-logo {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 .nav-links {
@@ -166,6 +183,7 @@ h3 {
   flex-wrap: wrap;
   list-style: none;
   font-family: var(--font-header);
+
 }
 
 .navigation li {
@@ -175,7 +193,7 @@ h3 {
 .navigation a {
   font-size: 1rem;
   color: inherit;
-  padding: .5em .5em;
+  padding: .1em .5em;
   background-color: none;
   transition: all .3s ease-in-out;
 }
@@ -184,9 +202,10 @@ h3 {
   font-weight: bolder;
   color: var(--color-accent);
 }
+
 .navigation li a:hover {
-  background-color: rgb(77, 91, 107);
-  padding-top:.8rem;
+  /* background-color: rgb(77, 91, 107); */
+  padding-top: 0rem;
   border-bottom: solid .25em var(--color-accent);
 }
 header a {
@@ -196,7 +215,7 @@ header a {
 
 /*-- ALL CONTENT SECTIONS --*/
 .section-title {
-  text-align: left;
+  text-align: center;
   color: white;
   letter-spacing: .1rem;
   font-size: 2em;
@@ -216,24 +235,26 @@ header a {
   align-items:center;
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 52em) {
   .about-container {
     flex-direction: row-reverse;
+    justify-content: center;
   }
 }
 
 .about-image {
   display: block;
   max-width: 100%;
-  margin-bottom: -15%;
-  z-index: 1;
+
+  z-index: 1;margin-bottom: -15%;
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 52em) {
   .about-image {
     width: 13rem;
     margin-bottom: 0;
-    margin-left: -15%;
+    margin-left: -5%;
+    margin-top: -20%;
     z-index: 1;
   }
 }
@@ -244,28 +265,26 @@ header a {
   height:fit-content;
   margin: 5% 1%;
   padding: .75rem;
-
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 52em) {
   .about-textbox {
-    width: 85%;
+    width: 70%;
     padding: 2.5rem;
   }
-
 }
 
 .about-text {
-  width: 78%;
-  margin: 0 3%;
+  margin: 0 1.5rem;
 }
 
 .about-section p {
   font-size: 1.2rem;
   font-weight:300;
+  line-height: 1.7rem;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 40em) {
   .about-section p {
     font-size: .9rem;
   }
@@ -319,14 +338,10 @@ header a {
     color: white;
     margin:2.5% 2.5%;
     padding: 10px 10px;
-
-    /* background: rgb(24,78,94);
-    background: radial-gradient(circle, rgba(24,78,94,.75) 0%, rgba(8,93,99,1) 97%); */
     background: rgb(9,124,133);
     background: linear-gradient(180deg, rgba(9,124,133,1) 0%, rgba(24,78,94,1) 73%);
     box-shadow: var(--shadow-image-small);
 }
-
 
 .project-title-text {
   margin:75px 20px 0px;
@@ -373,8 +388,7 @@ header a {
 }
 
 
-
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 60em) {
   .featured-projects {
     flex-direction: column;
   }
@@ -412,19 +426,39 @@ header a {
 
   .project-links a {
     border: solid .1rem rgba(255, 255, 255, 1);
-    color: rgb(37, 31, 31);
+    /* color: rgb(37, 31, 31); */
     background-color: var(--color-accent);
     border: none;
-    box-shadow: var(--shadow-button);
+    /* box-shadow: var(--shadow-button); */
     transition: background-color 350ms ease, color 350ms ease, box-shadow 350ms ease;
   }
 
   .project-links a:hover {
     background-color: var(--color-accent-dark);
-    box-shadow: var(--shadow-button-hover);
+    /* box-shadow: var(--shadow-button-hover); */
     color: white;
     border: none;
   }
+
+
+  .btn-grad {background-image: linear-gradient(to right, #5f2c82 0%, #49a09d  51%, #5f2c82  100%)}
+  .btn-grad {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     background-size: 200% auto;
+     border-radius: 50px;
+     box-shadow: 1px 1px 5px black;
+     display: block;
+     transition: 0.5s;
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     text-decoration: none;
+   }
+
 
 
 }
@@ -445,9 +479,9 @@ header a {
 /*-- SECTION: FOOTER --*/
 .contact-links {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(51, 51, 51);
   width: 100%;
   min-height:30vh;
 }
@@ -458,7 +492,6 @@ header a {
   list-style-type: none;
   justify-content: space-between;
   padding:30px 0px;
-  padding-left: 160px;
   font-size: 1rem;
 }
 

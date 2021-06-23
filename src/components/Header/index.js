@@ -11,7 +11,9 @@ function Header() {
                 <h2>Web Developer.</h2>
                 <h2>Health Care Professional.</h2>
                 <h2>Problem Solver.</h2>
+                <a href="#projects" className="btn-grad">VIEW MY WORK</a>
               </div>
+
         </header>
   );
 }
