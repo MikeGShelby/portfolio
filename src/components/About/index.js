@@ -6,6 +6,7 @@ function About() {
         <section  className="section-content about-section bg-dark">
 
             <div id="about" className="container about-container">
+
                 <img  src={selfImage} alt="Mike Shelby" className="about-image round-borders shadow-image-large"></img>
                 <div className="about-textbox bg-dark-card round-borders">
                     <div className="about-text">
@@ -21,12 +22,13 @@ function About() {
                         <p>
                             I enjoy using my strong attention to detail, analytical mindset, and problem-solving skills to make applications as simple and efficient to use as possible. Moreover, I would describe myself as a lifelong learner with a continuously evolving skillset, which lends itself well to this ever-changing field. I am eager to bring my unique outlook and experience to a company that shares my appreciation for developing innovative solutions to everyday societal challenges.
                         </p> */}
-                    <a href="#about" className="btn-grad">LEARN MORE ABOUT ME</a>
                     </div>
-
-
+                    <a href="#about" className="btn-grad btn-about">LEARN MORE ABOUT ME</a>
                 </div>
+            </div>
 
+            <div className="arrow-link">
+                <a href="#projects"><i class="fas fa-chevron-down icon-arrow"></i></a>
             </div>
 
         </section>

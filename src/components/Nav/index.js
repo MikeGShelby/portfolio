@@ -18,7 +18,7 @@ function Nav() {
                     </li>
 
                     <li>
-                        <a href="/src/assets/documents/resume.pdf">RESUME</a>
+                        <a href="/documents/resume.pdf">RESUME</a>
                     </li>
 
                     <li>

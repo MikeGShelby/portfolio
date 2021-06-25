@@ -115,7 +115,7 @@ function Project() {
                         className="project-card-image round-borders"
                     />
 
-                    <div className="project-card round-borders">
+                    <div className="project-card round-borders bg-dark-card opaque-card">
                         <div className="project-title-text">
                             <h4>{project.title}</h4>
                             <h5>{project.tools}</h5>
