@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "142226775adaae268ecfbf07b853bf9d",
+    "revision": "ab030a341a3fa6186a572e0c07017b8e",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "2716a723f429e45b909a",
-    "url": "/portfolio-react/static/css/main.3b0ce12b.chunk.css"
+    "revision": "e97bb25fa1f3a407c34c",
+    "url": "/portfolio-react/static/css/main.1f5110b7.chunk.css"
   },
   {
-    "revision": "1c01fcc89452299b60e7",
-    "url": "/portfolio-react/static/js/2.090ffd74.chunk.js"
+    "revision": "9cf62895dfc85f9b19ec",
+    "url": "/portfolio-react/static/js/2.94fa1952.chunk.js"
   },
   {
     "revision": "f5fc2afae58c4ffc30c6148864765d4b",
-    "url": "/portfolio-react/static/js/2.090ffd74.chunk.js.LICENSE.txt"
+    "url": "/portfolio-react/static/js/2.94fa1952.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2716a723f429e45b909a",
-    "url": "/portfolio-react/static/js/main.01c85203.chunk.js"
+    "revision": "e97bb25fa1f3a407c34c",
+    "url": "/portfolio-react/static/js/main.cd988593.chunk.js"
   },
   {
     "revision": "2f26d0aed242c262185b",
@@ -44,8 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/media/diet-delivery.e63112d5.jpg"
   },
   {
-    "revision": "86a76ccb3d8d0dfda637b04d36fc6770",
-    "url": "/portfolio-react/static/media/fit-club.86a76ccb.jpg"
+    "revision": "3969b17fe51497816ed23b07055805fb",
+    "url": "/portfolio-react/static/media/fit-club.3969b17f.jpg"
+  },
+  {
+    "revision": "583dca4c9bef88de713b67b46ddd252f",
+    "url": "/portfolio-react/static/media/galaxy-bg.583dca4c.jpg"
   },
   {
     "revision": "58c77fb828ed1f9286c104ef550a0736",

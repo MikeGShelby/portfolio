@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.3b0ce12b.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.01c85203.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.01c85203.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.1f5110b7.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.cd988593.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.cd988593.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.a4de92d3.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.a4de92d3.js.map",
-    "static/js/2.090ffd74.chunk.js": "/portfolio-react/static/js/2.090ffd74.chunk.js",
-    "static/js/2.090ffd74.chunk.js.map": "/portfolio-react/static/js/2.090ffd74.chunk.js.map",
+    "static/js/2.94fa1952.chunk.js": "/portfolio-react/static/js/2.94fa1952.chunk.js",
+    "static/js/2.94fa1952.chunk.js.map": "/portfolio-react/static/js/2.94fa1952.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "precache-manifest.c107554e5411a972b6272b3aa8dfb24c.js": "/portfolio-react/precache-manifest.c107554e5411a972b6272b3aa8dfb24c.js",
+    "precache-manifest.5129ed8f6dca5ad5149801c7c22e7756.js": "/portfolio-react/precache-manifest.5129ed8f6dca5ad5149801c7c22e7756.js",
     "service-worker.js": "/portfolio-react/service-worker.js",
-    "static/css/main.3b0ce12b.chunk.css.map": "/portfolio-react/static/css/main.3b0ce12b.chunk.css.map",
-    "static/js/2.090ffd74.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.090ffd74.chunk.js.LICENSE.txt",
+    "static/css/main.1f5110b7.chunk.css.map": "/portfolio-react/static/css/main.1f5110b7.chunk.css.map",
+    "static/js/2.94fa1952.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.94fa1952.chunk.js.LICENSE.txt",
     "static/media/bootstrap.png": "/portfolio-react/static/media/bootstrap.87d99487.png",
     "static/media/budget-tracker.jpg": "/portfolio-react/static/media/budget-tracker.75fdae4a.jpg",
     "static/media/bulma.png": "/portfolio-react/static/media/bulma.b5485f31.png",
     "static/media/cinasearch.jpg": "/portfolio-react/static/media/cinasearch.aaede29d.jpg",
     "static/media/diet-delivery.jpg": "/portfolio-react/static/media/diet-delivery.e63112d5.jpg",
-    "static/media/fit-club.jpg": "/portfolio-react/static/media/fit-club.86a76ccb.jpg",
+    "static/media/fit-club.jpg": "/portfolio-react/static/media/fit-club.3969b17f.jpg",
+    "static/media/galaxy-bg.jpg": "/portfolio-react/static/media/galaxy-bg.583dca4c.jpg",
     "static/media/password-generator.jpg": "/portfolio-react/static/media/password-generator.58c77fb8.jpg",
     "static/media/photoshop.png": "/portfolio-react/static/media/photoshop.020e80ec.png",
     "static/media/placeholder-3.jpg": "/portfolio-react/static/media/placeholder-3.84b34917.jpg",
@@ -32,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a4de92d3.js",
-    "static/js/2.090ffd74.chunk.js",
-    "static/css/main.3b0ce12b.chunk.css",
-    "static/js/main.01c85203.chunk.js"
+    "static/js/2.94fa1952.chunk.js",
+    "static/css/main.1f5110b7.chunk.css",
+    "static/js/main.cd988593.chunk.js"
   ]
 }
