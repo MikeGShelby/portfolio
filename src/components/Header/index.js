@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBanner from '../NavBanner';
 import Nav from '../Nav';
-import HeaderImage from '../../assets/images/galaxy-bg.jpg';
+import MoonImage from '../../assets/images/header-graphics/moon.png';
 
 
 function Header() {
@@ -16,6 +16,9 @@ function Header() {
                 </div>
                 <a href="#contact" className="btn-grad btn-cta">LET'S WORK TOGETHER!</a>
               </div>
+
+              <img src={MoonImage} className="moon-image" alt="moon"></img>
+
               <div className="arrow-link">
                 <a href="#about"><i class="fas fa-chevron-down icon-arrow"></i></a>
               </div>

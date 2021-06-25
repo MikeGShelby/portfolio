@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Project() {
+function Project(selectedProjects) {
 
     const [projectsFeatured] = useState([
         {
@@ -27,6 +27,30 @@ function Project() {
             url: "https://mikegshelby.github.io/cinasearch/",
             github: "https://github.com/MikeGShelby/cinasearch"
         },
+        {
+            title: "Diet Delivery",
+            name: 'diet-delivery',
+            tools: "MySQL / Handlebars",
+            description: "A web application for a meal delivery service that specializes in diets for chronic diseases, such as renal disease and diabetes. I contributed to every aspect of this team project, including all front end and back end components.",
+            url: "https://diet-delivery.herokuapp.com/",
+            github: "https://github.com/MikeGShelby/diet-delivery"
+        },
+        {
+            title: "Tech Blog",
+            name: 'tech-blog',
+            tools: "MySQL / Handlebars",
+            description: "A CMS-style blog site that allows users to create a user account, log into their user account, publish blog posts, and comment on other users' blog posts.",
+            url: "https://tech-blog-h.herokuapp.com/",
+            github: "https://github.com/MikeGShelby/tech-blog"
+        },
+        {
+            title: "CinaSearch",
+            name: 'cinasearch',
+            tools: "JavaScript / Bulma",
+            description: 'A movie search application that retrieves movie-related data from the OMDb and Youtube APIs. My main contribution to this team project was front-end layout and design using Bulma and CSS.',
+            url: "https://mikegshelby.github.io/cinasearch/",
+            github: "https://github.com/MikeGShelby/cinasearch"
+        }
     ]);
 
     const [projects] = useState([
@@ -106,7 +130,7 @@ function Project() {
 
   return (
     <>
-        {projectsFeatured.map((project, i) => (
+        {projects.map((project, i) => (
 
             <div className="project-container split" key={project.name}>
                     <img
@@ -124,8 +148,8 @@ function Project() {
                             </p>
                         </div>
                         <div className="project-links">
-                            <a href={project.url} target="_blank" rel="noopener noreferrer" className="btn-grad"><i className="fas fa-external-link-alt"></i>      VIEW SITE</a>
-                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn-grad"><i className="fab fa-github"></i>      VIEW GITHUB</a>
+                            <a href={project.url} target="_blank" rel="noopener noreferrer" className="btn-outine"><i className="fas fa-external-link-alt"></i>      VIEW SITE</a>
+                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn-outline"><i className="fab fa-github"></i>      VIEW GITHUB</a>
                         </div>
                     </div>
             </div>
