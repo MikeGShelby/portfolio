@@ -129,6 +129,13 @@ section {
   text-decoration: none;
 }
 
+.btn-small {
+  font-size: 1rem;
+  width: 60%;
+  margin: 1rem;
+  text-decoration: none;
+  color: white;
+}
 
 .bg-light {
   background-color: var(--color-bg-light-transparent);
@@ -374,15 +381,6 @@ header a:hover {
   .about-section p {
     font-size: .9rem;
   }
-}
-
-.btn-about {
-  font-size: 1rem;
-  width: 60%;
-  margin: 1rem;
-  background-color: blue;
-  text-decoration: none;
-  color: white;
 }
 
 

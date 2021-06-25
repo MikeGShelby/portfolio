@@ -9,6 +9,7 @@ function Projects() {
         <div className="featured-projects">
           <Project></Project>
         </div>
+        <a href="#projects" className="btn-grad btn-small">SEE MORE OF MY WORK</a>
       </div>
     </section>
   );
