@@ -8,7 +8,7 @@ function Header() {
   return (
         <header className="header-section bg-dark">
               <Nav></Nav>
-              <div className="header-hero text-center bg-dark-card round-borders">
+              <div className="header-hero bg-dark-card round-borders">
                 <div className="header-lines">
                   <h2>Full Stack Web Developer,</h2>
                   <h2>Health Care Professional,</h2>
