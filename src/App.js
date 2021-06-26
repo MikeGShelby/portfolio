@@ -26,8 +26,7 @@ function App() {
             path="/portfolio-react"
             render={() => {
                 return (
-                  <Redirect to="/home" />
-
+                  <Redirect to="/portfolio-react/home" />
                 )
             }}
           />
@@ -36,15 +35,23 @@ function App() {
             path="/"
             render={() => {
                 return (
-                  <Redirect to="/home" />
-
+                  <Redirect to="/portfolio-react/home" />
                 )
             }}
         />
-          <Route exact path="/home" component={Home} />
-          <Route exact path="/about" component={AboutDetails} />
-          <Route exact path="/projects" component={ProjectDetails} />
-          <Route exact path="/contact" component={Contact} />
+        <Route
+            exact
+            path="."
+            render={() => {
+                return (
+                  <Redirect to="/portfolio-react/home" />
+                )
+            }}
+        />
+          <Route exact path="/portfolio-react/home" component={Home} />
+          <Route exact path="/portfolio-react/about" component={AboutDetails} />
+          <Route exact path="/portfolio-react/projects" component={ProjectDetails} />
+          <Route exact path="/portfolio-react/contact" component={Contact} />
         </Switch>
       </Router>
   );

@@ -1,6 +1,5 @@
 import React from 'react';
 import Subnav from '../Subnav';
-import TitleLogo from '../TitleLogo';
 import NavLogo from '../NavLogo';
 import Resume from '../../assets/documents/resume.pdf';
 
@@ -11,11 +10,11 @@ function Nav() {
 
                 <ul className="nav-links">
                     <li>
-                        <a href="/about">ABOUT</a>
+                        <a href="/portfolio-react/about">ABOUT</a>
                     </li>
 
                     <li>
-                        <a href="/projects">PROJECTS</a>
+                        <a href="/portfolio-react/projects">PROJECTS</a>
                     </li>
 
                     <li>

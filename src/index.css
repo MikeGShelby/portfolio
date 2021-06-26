@@ -390,13 +390,11 @@ header a:hover {
 }
 
 /*-- SECTION: ABOUT (DETAILS) --*/
-
-
-@media screen and (min-width: 52em) {
+/* @media screen and (min-width: 52em) {
   .about-section-details {
     padding-top: 0;
   }
-}
+} */
 
 .about-container {
   display: flex;
