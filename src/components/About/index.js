@@ -9,8 +9,8 @@ function About() {
 
                 <img  src={selfImage} alt="Mike Shelby" className="about-image round-borders shadow-image-large"></img>
                 <div className="about-textbox bg-dark-card round-borders">
-                    <div className="about-text">
-                        <h3 className="section-title">About Me</h3>
+                    <div className="about-textbox-content">
+                        <h3 className="section-title text-center">About Me</h3>
                         <p>
                             As both a web developer and a registered dietitian, I bring with me a unique perspective and approach to the technology field. I am eager to bring this unique outlook and experience to a company that shares my appreciation for developing innovative solutions to everyday societal challenges.
                         </p>
@@ -23,7 +23,7 @@ function About() {
                             I enjoy using my strong attention to detail, analytical mindset, and problem-solving skills to make applications as simple and efficient to use as possible. Moreover, I would describe myself as a lifelong learner with a continuously evolving skillset, which lends itself well to this ever-changing field. I am eager to bring my unique outlook and experience to a company that shares my appreciation for developing innovative solutions to everyday societal challenges.
                         </p> */}
                     </div>
-                    <a href="/about" className="btn-grad btn-small">LEARN MORE ABOUT ME</a>
+                    <a href="/portfolio-react/about" className="btn-grad btn-small">LEARN MORE ABOUT ME</a>
                 </div>
             </div>
 

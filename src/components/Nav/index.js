@@ -18,11 +18,11 @@ function Nav() {
                     </li>
 
                     <li>
-                        <a href={Resume}>RESUME</a>
+                        <a href={Resume} target="_blank" rel="noopener noreferrer">RESUME</a>
                     </li>
 
                     <li>
-                        <a href="#contact">CONTACT</a>
+                        <a href="/portfolio-react/contact">CONTACT</a>
                     </li>
                 </ul>
             </nav>

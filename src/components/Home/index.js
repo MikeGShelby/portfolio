@@ -18,7 +18,6 @@ function Home() {
         <Projects></Projects>
         <Contact></Contact>
       </main>
-
     </React.Fragment>
   );
 }

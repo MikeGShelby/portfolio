@@ -14,6 +14,7 @@ import Projects from './components/Projects';
 import ProjectDetails from './components/ProjectDetails'
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import ContactDetails from './components/ContactDetails';
 
 
 function App() {
@@ -51,7 +52,7 @@ function App() {
           <Route exact path="/portfolio-react/home" component={Home} />
           <Route exact path="/portfolio-react/about" component={AboutDetails} />
           <Route exact path="/portfolio-react/projects" component={ProjectDetails} />
-          <Route exact path="/portfolio-react/contact" component={Contact} />
+          <Route exact path="/portfolio-react/contact" component={ContactDetails} />
         </Switch>
       </Router>
   );
