@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBanner from '../NavBanner';
 import Nav from '../Nav';
 import MoonImage from '../../assets/images/header-graphics/moon.png';
 

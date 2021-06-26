@@ -1,11 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect, Link } from 'react-router-dom';
 
 import Home from './components/Home';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 
 import Header from './components/Header';
+import HeaderDetails from './components/HeaderDetails';
+
 import About from './components/About';
 import AboutDetails from './components/AboutDetails';
 import Projects from './components/Projects';
@@ -17,10 +19,33 @@ import Contact from './components/Contact';
 function App() {
   return (
     <Router>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={AboutDetails} />
-        <Route exact path="/projects" component={ProjectDetails} />
-        <Route exact path="/contact" component={Contact} />
+      {/* <HeaderDetails></HeaderDetails> */}
+        <Switch>
+        <Route
+            exact
+            path="/portfolio-react"
+            render={() => {
+                return (
+                  <Redirect to="/home" />
+
+                )
+            }}
+          />
+        <Route
+            exact
+            path="/"
+            render={() => {
+                return (
+                  <Redirect to="/home" />
+
+                )
+            }}
+        />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/about" component={AboutDetails} />
+          <Route exact path="/projects" component={ProjectDetails} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
       </Router>
   );
 }
