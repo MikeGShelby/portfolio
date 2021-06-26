@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from '../Project';
+import ProjectB from '../ProjectB';
 import Nav from '../Nav';
 
 function ProjectDetails() {
@@ -9,8 +9,8 @@ function ProjectDetails() {
         <section class="project-section bg-light">
             <div className="container">
                 <h3 id="projects" class="section-title project-section-title text-center text-dark">My Projects</h3>
-                <div className="featured-projects">
-                <Project key='projects'></Project>
+                <div className="featured-projects feature-projects-wide">
+                <ProjectB></ProjectB>
                 </div>
             </div>
         </section>

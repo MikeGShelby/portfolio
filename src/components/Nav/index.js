@@ -2,6 +2,7 @@ import React from 'react';
 import Subnav from '../Subnav';
 import TitleLogo from '../TitleLogo';
 import NavLogo from '../NavLogo';
+import Resume from '../../assets/documents/resume.pdf';
 
 function Nav() {
     return (
@@ -18,7 +19,7 @@ function Nav() {
                     </li>
 
                     <li>
-                        <a href="/documents/resume.pdf">RESUME</a>
+                        <a href={Resume}>RESUME</a>
                     </li>
 
                     <li>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
-function Project(selectedProjects) {
-
+function ProjectB() {
     const [projectsFeatured] = useState([
         {
             title: "Diet Delivery",
@@ -104,25 +103,26 @@ function Project(selectedProjects) {
         }
     ]);
 
+
   return (
     <>
-        {projectsFeatured.map((project, i) => (
-            <div className="project-container split" key={project.name}>
+        {projects.map((project, i) => (
+            <div className="project-container project-container-wide split" key={project.name}>
                     <img
                         src={require(`../../assets/images/projects-screenshots/${project.name}.jpg`)}
                         alt={project.name}
-                        className="project-card-image round-borders"
+                        className="project-card-image project-card-image-wide round-borders"
                     />
 
-                    <div className="project-card round-borders bg-dark-card opaque-card">
-                        <div className="project-title-text">
+                    <div className="project-card project-card-wide round-borders bg-dark-card opaque-card">
+                        <div className="project-title-text project-title-text-wide">
                             <h4>{project.title}</h4>
                             <h5>{project.tools}</h5>
                             <p>
                             {project.description}
                             </p>
                         </div>
-                        <div className="project-links">
+                        <div className="project-links project-links-wide">
                             <a href={project.url} target="_blank" rel="noopener noreferrer" className="btn-outine"><i className="fas fa-external-link-alt"></i>      VIEW SITE</a>
                             <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn-outline"><i className="fab fa-github"></i>      VIEW GITHUB</a>
                         </div>
@@ -133,7 +133,7 @@ function Project(selectedProjects) {
   );
 }
 
-export default Project;
+export default ProjectB;
 
 
 

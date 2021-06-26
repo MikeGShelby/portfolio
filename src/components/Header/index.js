@@ -12,7 +12,7 @@ function Header() {
                 <div className="header-lines">
                   <h2>Full Stack Web Developer,</h2>
                   <h2>Health Care Professional,</h2>
-                  <h2>Problem Solver</h2>
+                  <h2>and Creative Problem Solver</h2>
                 </div>
                 <a href="#contact" className="btn-grad btn-cta">LET'S WORK TOGETHER!</a>
               </div>
