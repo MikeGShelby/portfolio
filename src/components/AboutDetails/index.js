@@ -1,12 +1,13 @@
 import React from 'react';
 import selfImage from "../../assets/images/self-image.jpg";
 import Nav from '../Nav';
+import HeaderDetails from '../HeaderDetails';
 
 function AboutDetails() {
   return (
     <React.Fragment>
-        <Nav></Nav>
-        <section  className="section-content about-section bg-dark">
+        <HeaderDetails></HeaderDetails>
+        <section  className="section-content about-section about-section-details bg-dark">
             <div id="about" className="container about-container">
 
                 <img  src={selfImage} alt="Mike Shelby" className="about-image round-borders shadow-image-large"></img>

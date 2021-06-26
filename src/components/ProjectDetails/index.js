@@ -1,11 +1,12 @@
 import React from 'react';
 import ProjectB from '../ProjectB';
 import Nav from '../Nav';
+import HeaderDetails from '../HeaderDetails';
 
 function ProjectDetails() {
   return (
       <React.Fragment>
-        <Nav></Nav>
+        <HeaderDetails></HeaderDetails>
         <section class="project-section bg-light">
             <div className="container">
                 <h3 id="projects" class="section-title project-section-title text-center text-dark">My Projects</h3>

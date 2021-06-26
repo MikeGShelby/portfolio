@@ -173,7 +173,7 @@ h3 {
   color: white;
 }
 
-.header-section::after {
+.header-section::after, .header-details-section::after {
   content: "";
   display: block;
   width: 100%;
@@ -181,9 +181,15 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
-  background: radial-gradient(circle, rgba(8,93,99,.75) 0%, rgba(15, 47, 49, 0.75) 100%);
-  background-image: linear-gradient(to top, rgba(8,93,99,1) 0%,rgba(71, 197, 12, 0.75) 100%);
-  background: linear-gradient(to top, rgba(9, 39, 48, 0.9) 0%, rgba(5, 70, 75, 0.75) 100%);
+  background: linear-gradient(to top, rgba(6, 27, 34, 0.5) 0%, rgba(4, 48, 51, 0.5) 100%);
+}
+
+
+/*-- HEADER (DETAILS PAGE) --*/
+.header-details-section {
+  height: 4rem;
+  box-shadow: 4px 4px 10px black;
+  z-index: 100;
 }
 
 header a {
@@ -223,9 +229,10 @@ header a:hover {
 .navigation a {
   font-size: 1rem;
   color: inherit;
+  text-shadow: 1px 1px 4px rgba(41, 38, 38, 1);
   padding: .1em .5em;
-  background-color: none;
   transition: all .3s ease-in-out;
+
 }
 
 .navigation a:hover {
@@ -234,7 +241,6 @@ header a:hover {
 }
 
 .navigation li a:hover {
-  /* background-color: rgb(77, 91, 107); */
   padding-top: 0rem;
   border-bottom: solid .25em var(--color-accent);
 }
@@ -244,7 +250,7 @@ header a:hover {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding:1rem;
+  margin: 0rem 0rem 2rem 0rem;
   width: 90%;
   height: 70%;
   font-family: var(--font-header);
@@ -258,13 +264,13 @@ header a:hover {
 }
 
 .btn-cta {
-  width: 90%;
+  width: 75%;
   color: white;
   font-weight:bolder;
   margin-top: 40px;
 }
 
-@media screen and (min-width: 52em) {
+@media screen and (min-width: 60em) {
   .header-hero {
     align-items:flex-start;
     padding: 4rem;
@@ -287,10 +293,9 @@ header a:hover {
 }
 
 .header-hero h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-shadow: 1px 1px 10px black;
 }
-
 
 .moon-image {
   visibility: hidden;
@@ -342,8 +347,6 @@ header a:hover {
   }
 }
 
-
-
 .arrow-link {
   z-index: 1;
   padding: .5rem;
@@ -358,13 +361,13 @@ header a:hover {
   font-size: 1.2rem;
 }
 
-
 /*-- ALL CONTENT SECTIONS --*/
 .section-title {
   text-align: center;
   color: white;
   letter-spacing: .1rem;
-  font-size: 2em;
+  font-size: 1.6em;
+  text-transform: uppercase;
   font-family: var(--font-header);
   font-weight: 800;
 }
@@ -378,6 +381,15 @@ header a:hover {
   background: var(--color-bg-dark-gradient);
   box-shadow: 0 2px 25px black;
   z-index: 1;
+}
+
+/*-- SECTION: ABOUT (DETAILS) --*/
+
+
+@media screen and (min-width: 52em) {
+  .about-section-details {
+    padding-top: 0;
+  }
 }
 
 .about-container {
@@ -419,7 +431,7 @@ header a:hover {
   justify-self: end;
   width: 100%;
   height:fit-content;
-  margin: 5% 1%;
+  margin: 10% 1%;
   padding: .75rem;
   padding-top: 2.5rem;
   text-align: justify;
@@ -428,6 +440,7 @@ header a:hover {
 @media screen and (min-width: 52em) {
   .about-textbox {
     width: 70%;
+    margin: 5% 1%;
     padding: 2.5rem;
     text-align: left;
   }
