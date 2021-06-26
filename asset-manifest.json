@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.a7be8035.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.c26d4cec.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.c26d4cec.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.a1431fc6.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.e028958d.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.e028958d.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.a4de92d3.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.a4de92d3.js.map",
-    "static/js/2.1d5d8d6e.chunk.js": "/portfolio-react/static/js/2.1d5d8d6e.chunk.js",
-    "static/js/2.1d5d8d6e.chunk.js.map": "/portfolio-react/static/js/2.1d5d8d6e.chunk.js.map",
+    "static/js/2.6a90377c.chunk.js": "/portfolio-react/static/js/2.6a90377c.chunk.js",
+    "static/js/2.6a90377c.chunk.js.map": "/portfolio-react/static/js/2.6a90377c.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "precache-manifest.9bc1f5b58af6f22d3c120afbf1d9bf4f.js": "/portfolio-react/precache-manifest.9bc1f5b58af6f22d3c120afbf1d9bf4f.js",
+    "precache-manifest.d17fd4cb585429aa4eed72b306ceee94.js": "/portfolio-react/precache-manifest.d17fd4cb585429aa4eed72b306ceee94.js",
     "service-worker.js": "/portfolio-react/service-worker.js",
-    "static/css/main.a7be8035.chunk.css.map": "/portfolio-react/static/css/main.a7be8035.chunk.css.map",
-    "static/js/2.1d5d8d6e.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.1d5d8d6e.chunk.js.LICENSE.txt",
+    "static/css/main.a1431fc6.chunk.css.map": "/portfolio-react/static/css/main.a1431fc6.chunk.css.map",
+    "static/js/2.6a90377c.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.6a90377c.chunk.js.LICENSE.txt",
     "static/media/bootstrap.png": "/portfolio-react/static/media/bootstrap.87d99487.png",
     "static/media/budget-tracker.jpg": "/portfolio-react/static/media/budget-tracker.75fdae4a.jpg",
     "static/media/bulma.png": "/portfolio-react/static/media/bulma.b5485f31.png",
@@ -35,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a4de92d3.js",
-    "static/js/2.1d5d8d6e.chunk.js",
-    "static/css/main.a7be8035.chunk.css",
-    "static/js/main.c26d4cec.chunk.js"
+    "static/js/2.6a90377c.chunk.js",
+    "static/css/main.a1431fc6.chunk.css",
+    "static/js/main.e028958d.chunk.js"
   ]
 }
