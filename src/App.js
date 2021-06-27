@@ -50,9 +50,9 @@ function App() {
             }}
         />
           <Route exact path="/portfolio-react/home" component={Home} />
-          <Route exact path="/portfolio-react/about" component={AboutDetails} />
-          <Route exact path="/portfolio-react/projects" component={ProjectsAll} />
-          <Route exact path="/portfolio-react/contact" component={ContactDetails} />
+          <Route exact path="/about" component={AboutDetails} />
+          <Route exact path="/projects" component={ProjectsAll} />
+          <Route exact path="/contact" component={ContactDetails} />
         </Switch>
       </Router>
   );
