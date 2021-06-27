@@ -27,7 +27,7 @@ function App() {
             path="/portfolio-react"
             render={() => {
                 return (
-                  <Redirect to="/portfolio-react/home" />
+                  <Redirect to="/home" />
                 )
             }}
           />
@@ -36,7 +36,7 @@ function App() {
             path="/"
             render={() => {
                 return (
-                  <Redirect to="/portfolio-react/home" />
+                  <Redirect to="/home" />
                 )
             }}
         />
@@ -45,7 +45,7 @@ function App() {
             path="."
             render={() => {
                 return (
-                  <Redirect to="/portfolio-react/home" />
+                  <Redirect to="/home" />
                 )
             }}
         />
@@ -76,7 +76,7 @@ function App() {
                 )
             }}
         />
-          <Route exact path="/portfolio-react/home" component={Home} />
+          <Route exact path="/home" component={Home} />
           <Route exact path="/about" component={AboutDetails} />
           <Route exact path="/projects" component={ProjectsAll} />
           <Route exact path="/contact" component={ContactDetails} />
