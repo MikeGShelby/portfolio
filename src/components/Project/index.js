@@ -29,7 +29,7 @@ function Project(selectedProjects) {
         }
     ]);
 
-    const [projects] = useState([
+    const [projectsAll] = useState([
         {
             title: "Diet Delivery",
             name: 'diet-delivery',

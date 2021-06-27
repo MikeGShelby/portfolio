@@ -1,6 +1,5 @@
 import React from 'react';
 import selfImage from "../../assets/images/self-image.jpg";
-import Nav from '../Nav';
 import HeaderDetails from '../HeaderDetails';
 
 function AboutDetails() {

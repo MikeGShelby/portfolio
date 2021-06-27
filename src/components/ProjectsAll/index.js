@@ -1,7 +1,5 @@
 import React from 'react';
-import ProjectB from '../ProjectB';
 import Project from '../Project';
-import Nav from '../Nav';
 import HeaderDetails from '../HeaderDetails';
 
 function ProjectsAll() {
