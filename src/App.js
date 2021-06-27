@@ -25,7 +25,7 @@ function App() {
 
     <Router>
         <Switch>
-        <Route
+        {/* <Route
             exact
             path="/portfolio-react"
             render={() => {
@@ -51,7 +51,7 @@ function App() {
                   <Redirect to="/portfolio-react/home"  />
                 )
             }}
-        />
+        /> */}
         <Route
             exact
             path="/portfolio-react/about"
