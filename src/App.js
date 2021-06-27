@@ -49,7 +49,7 @@ function App() {
                 )
             }}
         />
-        <Route
+        {/* <Route
             exact
             path="/portfolio-react/about"
             render={() => {
@@ -75,7 +75,7 @@ function App() {
                   <Redirect to="/contact" />
                 )
             }}
-        />
+        /> */}
           <Route exact path="/home" component={Home} />
           <Route exact path="/about" component={AboutDetails} />
           <Route exact path="/projects" component={ProjectsAll} />
