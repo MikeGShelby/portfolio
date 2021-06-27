@@ -27,6 +27,15 @@ function App() {
         <Switch>
         <Route
             exact
+            path="/portfolio-react"
+            render={() => {
+                return (
+                  <Redirect to="/portfolio-react/home" />
+                )
+            }}
+          />
+        <Route
+            exact
             path="/portfolio-react/"
             render={() => {
                 return (
