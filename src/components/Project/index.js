@@ -107,27 +107,30 @@ function Project(selectedProjects) {
   return (
     <>
         {projectsFeatured.map((project, i) => (
-            <div className="project-container split" key={project.name}>
-                    <img
-                        src={require(`../../assets/images/projects-screenshots/${project.name}.jpg`)}
-                        alt={project.name}
-                        className="project-card-image round-borders"
-                    />
+            // <div className="project-container split" key={project.name}>
+                    <div className="project-card round-borders bg-dark-card opaque-card" key={project.name}>
+                        <img
+                            src={require(`../../assets/images/projects-screenshots/${project.name}.jpg`)}
+                            alt={project.name}
+                            className="project-card-image round-borders"
+                        />
 
-                    <div className="project-card round-borders bg-dark-card opaque-card">
-                        <div className="project-title-text">
-                            <h4>{project.title}</h4>
-                            <h5>{project.tools}</h5>
-                            <p>
-                            {project.description}
-                            </p>
+                        <div className="project-card-main-content">
+                            <div className="project-card-text">
+                                <h4 className="section-title">{project.title}</h4>
+                                <h5>{project.tools}</h5>
+                                <p>
+                                {project.description}
+                                </p>
+                            </div>
+                            <div className="project-links">
+                                <a href={project.url} target="_blank" rel="noopener noreferrer" className="btn-outine"><i className="fas fa-external-link-alt"></i>      VIEW SITE</a>
+                                <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn-outline"><i className="fab fa-github"></i>      VIEW GITHUB</a>
+                            </div>
                         </div>
-                        <div className="project-links">
-                            <a href={project.url} target="_blank" rel="noopener noreferrer" className="btn-outine"><i className="fas fa-external-link-alt"></i>      VIEW SITE</a>
-                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn-outline"><i className="fab fa-github"></i>      VIEW GITHUB</a>
-                        </div>
+
                     </div>
-            </div>
+            // </div>
         ))}
     </>
   );

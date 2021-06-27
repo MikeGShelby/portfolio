@@ -1,17 +1,18 @@
 import React from 'react';
 import ProjectB from '../ProjectB';
+import Project from '../Project';
 import Nav from '../Nav';
 import HeaderDetails from '../HeaderDetails';
 
-function ProjectDetails() {
+function ProjectsAll() {
   return (
       <React.Fragment>
         <HeaderDetails></HeaderDetails>
         <section class="project-section project-section-details bg-light section-details-padding-top">
             <div className="container">
-                <h3 id="projects" class="section-title project-section-title text-center text-dark">My Projects</h3>
+                <h3 id="projects" class="section-title project-section-title text-center text-dark color-font-dark">My Projects</h3>
                 <div className="featured-projects feature-projects-wide">
-                <ProjectB></ProjectB>
+                <Project></Project>
                 </div>
             </div>
         </section>
@@ -19,4 +20,4 @@ function ProjectDetails() {
   );
 }
 
-export default ProjectDetails;
+export default ProjectsAll;

@@ -1,5 +1,4 @@
 import React from 'react';
-import Subnav from '../Subnav';
 import NavLogo from '../NavLogo';
 import Resume from '../../assets/documents/resume.pdf';
 

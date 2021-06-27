@@ -116,7 +116,7 @@ function ProjectB() {
 
                     <div className="project-card project-card-wide round-borders bg-dark-card opaque-card">
                         <div className="project-title-text project-title-text-wide">
-                            <h4>{project.title}</h4>
+                            <h4 className="section-title">{project.title}</h4>
                             <h5>{project.tools}</h5>
                             <p>
                             {project.description}
