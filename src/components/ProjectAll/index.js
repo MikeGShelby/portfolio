@@ -66,7 +66,7 @@ function ProjectsAll(selectedProjects) {
             title: "Taskinator",
             name: 'taskinator',
             tools: "Javascript / CSS",
-            description: 'A task management application.',
+            description: 'A Kanban style task management application that allows the user to drag and drop tasks.',
             url: "https://mikegshelby.github.io/taskinator/",
             github: "https://github.com/MikeGShelby/taskinator"
         },
@@ -95,12 +95,12 @@ function ProjectsAll(selectedProjects) {
             github: "https://github.com/MikeGShelby/budget-tracker"
         },
         {
-            title: "Placeholder Project 2",
-            name: 'placeholder-4',
+            title: "Password Generator",
+            name: 'password-generator',
             tools: "Javascript",
-            description: 'placeholder description text.',
-            url: "https://mikegshelby.github.io/weather-dashboard/",
-            github: ""
+            description: 'A password generator application that generates a secure, random password after prompting the user to select from multiple password character criteria. Criteria include password length between 8 and 128 characters, lowercase characters, uppercase characters, numbers, and symbols.',
+            url: "https://mikegshelby.github.io/password-generator/",
+            github: "https://github.com/MikeGShelby/password-generator"
         }
     ]);
 
