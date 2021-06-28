@@ -8,7 +8,7 @@ import Header from './components/Header';
 import HeaderDetails from './components/HeaderDetails';
 
 import AboutDetails from './components/AboutDetails';
-import ProjectsAll from './components/ProjectsAll'
+import ProjectsPage from './components/ProjectsPage'
 import ContactDetails from './components/ContactDetails';
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
 
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={AboutDetails} />
-          <Route exact path="/projects" component={ProjectsAll} />
+          <Route exact path="/projects" component={ProjectsPage} />
           <Route exact path="/contact" component={ContactDetails} />
         </Switch>
 

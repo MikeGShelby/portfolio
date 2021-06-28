@@ -1,8 +1,8 @@
 import React from 'react';
-import Project from '../Project';
+import ProjectAll from '../ProjectAll';
 import HeaderDetails from '../HeaderDetails';
 
-function ProjectsAll() {
+function ProjectsPage() {
   return (
       <React.Fragment>
         <HeaderDetails></HeaderDetails>
@@ -10,7 +10,7 @@ function ProjectsAll() {
             <div className="container">
                 <h3 id="projects" class="section-title project-section-title text-center text-dark color-font-dark">My Projects</h3>
                 <div className="featured-projects feature-projects-wide">
-                <Project></Project>
+                <ProjectAll></ProjectAll>
                 </div>
             </div>
         </section>
@@ -18,4 +18,4 @@ function ProjectsAll() {
   );
 }
 
-export default ProjectsAll;
+export default ProjectsPage;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Project(selectedProjects) {
+function ProjectsAll(selectedProjects) {
 
     const [projectsFeatured] = useState([
         {
@@ -106,7 +106,7 @@ function Project(selectedProjects) {
 
   return (
     <>
-        {projectsFeatured.map((project, i) => (
+        {projectsAll.map((project, i) => (
                     <div className="project-card round-borders bg-dark-card opaque-card" key={project.name}>
                         <img
                             src={require(`../../assets/images/projects-screenshots/${project.name}.jpg`)}
@@ -133,7 +133,4 @@ function Project(selectedProjects) {
   );
 }
 
-export default Project;
-
-
-
+export default ProjectsAll;
