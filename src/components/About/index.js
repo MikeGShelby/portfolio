@@ -26,7 +26,7 @@ function About() {
                             I enjoy using my strong attention to detail, analytical mindset, and problem-solving skills to make applications as simple and efficient to use as possible. Moreover, I would describe myself as a lifelong learner with a continuously evolving skillset, which lends itself well to this ever-changing field. I am eager to bring my unique outlook and experience to a company that shares my appreciation for developing innovative solutions to everyday societal challenges.
                         </p> */}
                     </div>
-                    <a href="/#about" className="btn-grad btn-small">LEARN MORE ABOUT ME</a>
+                    <a href="#/about" className="btn-grad btn-small">LEARN MORE ABOUT ME</a>
                 </div>
             </div>
 
