@@ -1,4 +1,7 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
+import { HashRouter as Router } from 'react-router-dom';
+
 import selfImage from "../../assets/images/self-image.jpg";
 
 function About() {
@@ -23,14 +26,15 @@ function About() {
                             I enjoy using my strong attention to detail, analytical mindset, and problem-solving skills to make applications as simple and efficient to use as possible. Moreover, I would describe myself as a lifelong learner with a continuously evolving skillset, which lends itself well to this ever-changing field. I am eager to bring my unique outlook and experience to a company that shares my appreciation for developing innovative solutions to everyday societal challenges.
                         </p> */}
                     </div>
-                    <a href="/about" className="btn-grad btn-small">LEARN MORE ABOUT ME</a>
+                    <a href="/#about" className="btn-grad btn-small">LEARN MORE ABOUT ME</a>
                 </div>
             </div>
 
             <div className="arrow-link">
-                <a href="#projects"><i class="fas fa-chevron-down icon-arrow"></i></a>
+                <HashLink smooth to="/#projects">
+                  <i class="fas fa-chevron-down icon-arrow"></i>
+                </HashLink>
             </div>
-
         </section>
   );
 }

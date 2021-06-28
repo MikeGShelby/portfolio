@@ -1,4 +1,7 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
+import { HashRouter as Router } from 'react-router-dom';
+
 import Nav from '../Nav';
 import MoonImage from '../../assets/images/header-graphics/moon.png';
 
@@ -13,13 +16,18 @@ function Header() {
                   <h2>Health Care Professional,</h2>
                   <h2>and Creative Problem Solver</h2>
                 </div>
-                <a href="#contact" className="btn-grad btn-cta">LET'S WORK TOGETHER!</a>
+
+                <HashLink smooth to="/#contact" className="btn-grad btn-cta">
+                  LET'S WORK TOGETHER!
+                </HashLink>
               </div>
 
               <img src={MoonImage} className="moon-image" alt="moon"></img>
 
               <div className="arrow-link">
-                <a href="#about"><i class="fas fa-chevron-down icon-arrow"></i></a>
+                <HashLink smooth to="/#about">
+                  <i class="fas fa-chevron-down icon-arrow"></i>
+                </HashLink>
               </div>
         </header>
   );
