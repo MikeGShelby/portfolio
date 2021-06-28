@@ -28,9 +28,9 @@ function App() {
         */}
 
           <Route exact path="/" component={Home} />
-          <Route exact path="/#about" component={AboutDetails} />
-          <Route exact path="/#projects" component={ProjectsAll} />
-          <Route exact path="/#contact" component={ContactDetails} />
+          <Route exact path="/about" component={AboutDetails} />
+          <Route exact path="/projects" component={ProjectsAll} />
+          <Route exact path="/contact" component={ContactDetails} />
         {/* </Switch> */}
 
         </React.Fragment>
