@@ -214,7 +214,7 @@ header a:hover {
 }
 
 .nav-logo {
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 
 .nav-links {
@@ -269,7 +269,7 @@ header a:hover {
   width: 75%;
   color: white;
   font-weight:bolder;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 @media screen and (min-width: 60em) {
@@ -281,6 +281,7 @@ header a:hover {
 
   .btn-cta {
     width: 50%;
+    padding: 0;
   }
 }
 
@@ -300,7 +301,7 @@ header a:hover {
 }
 
 .moon-image {
-  visibility: hidden;
+  display: none;
   position: absolute;
   justify-self: center;
   bottom: -10%;
@@ -315,7 +316,7 @@ header a:hover {
 
 @media screen and (min-width: 40em) {
   .moon-image {
-    visibility: visible;
+    display:block;
     width: 650px;
     height: 650px;
     filter:brightness(80%);
@@ -599,6 +600,7 @@ header a:hover {
   .project-card {
     margin:1rem 1rem;
     padding: .7rem .7rem;
+    flex: 0 0 33.3333%;
   }
 }
 
