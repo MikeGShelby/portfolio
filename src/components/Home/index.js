@@ -2,8 +2,8 @@ import React from 'react';
 
 import Header from '../Header';
 import About from '../About';
-import Projects from '../Projects';
 import Contact from '../Contact';
+import Projectsfeatured from '../Projects/ProjectsFeatured';
 
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
         <Header></Header>
       <main>
         <About></About>
-        <Projects></Projects>
+        <Projectsfeatured></Projectsfeatured>
         <Contact></Contact>
       </main>
     </React.Fragment>

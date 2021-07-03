@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Project(selectedProjects) {
+function ProjectsAll(selectedProjects) {
 
     const [projectsFeatured] = useState([
         {
@@ -66,7 +66,7 @@ function Project(selectedProjects) {
             title: "Taskinator",
             name: 'taskinator',
             tools: "Javascript / CSS",
-            description: 'A task management application.',
+            description: 'A Kanban style task management application that allows the user to drag and drop tasks.',
             url: "https://mikegshelby.github.io/taskinator/",
             github: "https://github.com/MikeGShelby/taskinator"
         },
@@ -95,21 +95,21 @@ function Project(selectedProjects) {
             github: "https://github.com/MikeGShelby/budget-tracker"
         },
         {
-            title: "Placeholder Project 2",
-            name: 'placeholder-4',
+            title: "Password Generator",
+            name: 'password-generator',
             tools: "Javascript",
-            description: 'placeholder description text.',
-            url: "https://mikegshelby.github.io/weather-dashboard/",
-            github: ""
+            description: 'A password generator application that generates a secure, random password after prompting the user to select from multiple password character criteria. Criteria include password length between 8 and 128 characters, lowercase characters, uppercase characters, numbers, and symbols.',
+            url: "https://mikegshelby.github.io/password-generator/",
+            github: "https://github.com/MikeGShelby/password-generator"
         }
     ]);
 
   return (
     <>
-        {projectsFeatured.map((project, i) => (
+        {projectsAll.map((project, i) => (
                     <div className="project-card round-borders bg-dark-card opaque-card" key={project.name}>
                         <img
-                            src={require(`../../assets/images/projects-screenshots/${project.name}.jpg`)}
+                            src={require(`../../../assets/images/projects-screenshots/${project.name}.jpg`)}
                             alt={project.name}
                             className="project-card-image round-borders"
                         />
@@ -133,7 +133,4 @@ function Project(selectedProjects) {
   );
 }
 
-export default Project;
-
-
-
+export default ProjectsAll;

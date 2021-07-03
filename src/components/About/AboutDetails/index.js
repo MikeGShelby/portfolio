@@ -1,6 +1,6 @@
 import React from 'react';
-import selfImage from "../../assets/images/self-image.jpg";
-import HeaderDetails from '../HeaderDetails';
+import selfImage from "../../../assets/images/self-image.jpg";
+import HeaderDetails from '../../HeaderDetails';
 
 function AboutDetails() {
   return (

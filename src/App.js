@@ -7,34 +7,20 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import HeaderDetails from './components/HeaderDetails';
 
-import AboutDetails from './components/AboutDetails';
-import ProjectsPage from './components/ProjectsPage'
+import AboutDetails from './components/About/AboutDetails';
+import ProjectsAll from './components/Projects/ProjectsAll'
 import ContactDetails from './components/ContactDetails';
 
 function App() {
   return (
     <React.Fragment>
-
         <Switch>
-        {/* <Route
-            exact
-            path="/portfolio-react"
-            render={() => {
-                return (
-                  <Redirect to="/portfolio-react/home" />
-                )
-            }}
-          />
-        */}
-
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={AboutDetails} />
-          <Route exact path="/projects" component={ProjectsPage} />
+          <Route exact path="/projects" component={ProjectsAll} />
           <Route exact path="/contact" component={ContactDetails} />
         </Switch>
-
-        </React.Fragment>
-      //
+    </React.Fragment>
   );
 }
 
