@@ -4,10 +4,12 @@ import ProjectCardLinks from '../ProjectCardBody/ProjectCardLinks';
 
 function ProjectCardBody({title, tools, description, url, github}) {
   return (
-        <div className="project-card-main-content">
-            <ProjectCardText title={title} tools={tools} description={description}></ProjectCardText>
-            <ProjectCardLinks url={url} github={github}></ProjectCardLinks>
-        </div>
+    <>
+      <div className="project-card-main-content project-card-content-background">
+        <ProjectCardText title={title} tools={tools} description={description}></ProjectCardText>
+        <ProjectCardLinks url={url} github={github}></ProjectCardLinks>
+      </div>
+    </>
   )
 }
 

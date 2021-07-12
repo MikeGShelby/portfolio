@@ -6,14 +6,13 @@ import selfImage from "../../assets/images/self-image.jpg";
 
 function About() {
   return (
-        <section  className="section-content about-section bg-dark">
+        <section id="about" className="section-content about-section bg-dark">
+            <h3 className="section-title text-center">About Me</h3>
 
-            <div id="about" className="container about-container">
-
+            <div className="container about-container">
                 <img  src={selfImage} alt="Mike Shelby" className="about-image round-borders shadow-image-large"></img>
                 <div className="about-textbox bg-dark-card round-borders">
                     <div className="about-textbox-content">
-                        <h3 className="section-title text-center">About Me</h3>
                         <p>
                             As both a web developer and a registered dietitian, I bring with me a unique perspective and approach to the technology field. I am eager to bring this unique outlook and experience to a company that shares my appreciation for developing innovative solutions to everyday societal challenges.
                         </p>
