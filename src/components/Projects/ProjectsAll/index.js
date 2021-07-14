@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from '../../Project/ProjectCard';
+import ProjectCardTest from '../../Project/ProjectCardTest';
 import HeaderDetails from '../../HeaderDetails';
 
 
@@ -11,7 +12,7 @@ function ProjectsAll() {
             <div className="container">
                 <h3 id="projects" class="section-title project-section-title text-center text-dark color-font-dark">My Projects</h3>
                 <div className="featured-projects feature-projects-wide">
-                <ProjectCard></ProjectCard>
+                <ProjectCardTest></ProjectCardTest>
                 </div>
             </div>
         </section>

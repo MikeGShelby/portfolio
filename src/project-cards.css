@@ -10,7 +10,7 @@
     position: relative;
     min-width: 10rem;
     /* max-width: 18rem; */
-    height: 625px;
+    height: 425px;
     border-radius: 30px;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
     overflow:hidden;
@@ -18,7 +18,7 @@
   }
 
   .hero-profile-img {
-    height: 55%;
+    height: 75%;
     width: auto;
     object-position: left top;
   }
@@ -34,23 +34,53 @@
     /* background: rgb(9,124,133);
     background: linear-gradient(180deg, rgba(9,124,133,1) 0%, rgba(24,78,94,1) 73%); */
 
-
     border-radius: 30px;
     position: absolute;
-    top: 45%;
-    height: 55%;
+    top: 70%;
+    height: 110%;
     width: 106%;
     box-shadow: 2px -2px 3px rgb(55, 163, 190);;
     padding: .5rem 1.8rem .8rem;
+    transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+  }
+
+  .hero:hover .hero-description-bk {
+    top: 0%;
   }
 
   .hero-description-bk h4 {
     font-size: 1.3rem;
     padding-left: 0;
+    border-bottom: .35rem solid rgba(255, 255, 255, 0.0);
+    transition: all .5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+  }
+
+  .hero:hover .hero-description-bk h4 {
+    border-bottom: .35rem solid rgba(255, 255, 255, 1);
+  }
+
+  .project-tools {
+    opacity: 0;
+    transition: all .5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+  }
+
+  .hero:hover .hero-description-bk .project-tools {
+    opacity: 1;
   }
 
   .hero-description {
     color: #fff;
+  }
+
+  .hero-description p {
+    /* display: none; */
+    opacity: 0;
+    transition: all .5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+  }
+
+  .hero:hover .hero-description-bk p {
+    display:block;
+    opacity: 1;
   }
 
   .hero-btn {

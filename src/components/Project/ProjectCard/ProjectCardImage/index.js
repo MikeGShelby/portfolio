@@ -7,7 +7,7 @@ function ProjectCardImage({name}) {
             <img
                 src={require(`../../../../assets/images/projects-screenshots/${name}.jpg`)}
                 alt={name}
-                className="project-card-image round-borders"
+                className="hero-profile-img"
             />
     </>
   );

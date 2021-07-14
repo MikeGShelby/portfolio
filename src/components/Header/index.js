@@ -18,7 +18,7 @@ function Header() {
                 </div>
 
                 <HashLink smooth to="/#contact" className="btn-grad btn-cta">
-                  LET'S WORK TOGETHER!
+                  Let's Work Together
                 </HashLink>
               </div>
 

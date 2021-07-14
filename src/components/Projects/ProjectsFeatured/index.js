@@ -16,14 +16,14 @@ function ProjectsFeatured() {
 
   return (
     <section class="project-section bg-light">
-
         <h3 id="projects" class="section-title project-section-title text-center text-dark">My Projects</h3>
+
         <div className="featured-projects">
           {/* <ProjectCard projectPage={'featured'}></ProjectCard> */}
-          <ProjectCardTest></ProjectCardTest>
-
+          <ProjectCardTest projectPage={'featured'}></ProjectCardTest>
         </div>
-        <a href="#/projects" className="btn-grad btn-small btn-projects">SEE MORE OF MY WORK</a>
+
+        <a href="#/projects" className="btn-grad btn-small btn-projects">View More of My Work</a>
     </section>
   );
 }

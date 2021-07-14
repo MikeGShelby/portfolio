@@ -122,7 +122,6 @@ section {
     padding: .3em .3em;
     width:fit-content;
     text-align: center;
-    text-transform: uppercase;
     font-weight: bolder;
     font-family: var(--font-header);
     background-size: 200% auto;
@@ -287,13 +286,15 @@ header a:hover {
   }
 
   .btn-cta {
-    width: 50%;
-    padding: 0;
+    width: auto;
+    padding: 0 2rem;
+    justify-self:left;
   }
 }
 
 .header-lines {
   text-align: center;
+  padding: 2rem 0;
 }
 
 @media screen and (min-width: 52em) {
@@ -303,7 +304,7 @@ header a:hover {
 }
 
 .header-hero h2 {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   text-shadow: 1px 1px 10px black;
 }
 
@@ -394,7 +395,6 @@ header a:hover {
   padding: 0 1rem;
   border-bottom: .35rem solid white;
    /* text-transform: uppercase; */
-
 }
 
 /*-- SECTION: ABOUT --*/
