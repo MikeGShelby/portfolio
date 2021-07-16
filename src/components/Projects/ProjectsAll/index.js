@@ -11,8 +11,9 @@ function ProjectsAll() {
         <section class="project-section project-section-details bg-light section-details-padding-top">
             <div className="container">
                 <h3 id="projects" class="section-title project-section-title text-center text-dark color-font-dark">My Projects</h3>
-                <div className="featured-projects feature-projects-wide">
-                <ProjectCardTest></ProjectCardTest>
+
+                <div className="projects-container feature-projects-wide">
+                  <ProjectCardTest></ProjectCardTest>
                 </div>
             </div>
         </section>
