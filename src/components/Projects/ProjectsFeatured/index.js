@@ -1,9 +1,7 @@
 import React from 'react';
 import ScriptTag from 'react-script-tag';
 
-import ProjectFeatured from '../../Project/ProjectFeatured';
 import ProjectCard from '../../Project/ProjectCard';
-import ProjectCardTest from '../../Project/ProjectCardTest';
 
 function ProjectsFeatured() {
   return (
@@ -11,8 +9,7 @@ function ProjectsFeatured() {
         <h3 id="projects" class="section-title project-section-title text-center text-dark">My Projects</h3>
 
         <div className="projects-container">
-          {/* <ProjectCard projectPage={'featured'}></ProjectCard> */}
-          <ProjectCardTest projectPage={'featured'}></ProjectCardTest>
+          <ProjectCard projectPage={'featured'}></ProjectCard>
         </div>
 
         <a href="#/projects" className="btn-grad btn-small btn-projects">View More of My Work</a>

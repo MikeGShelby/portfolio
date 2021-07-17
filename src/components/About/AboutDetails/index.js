@@ -6,7 +6,7 @@ function AboutDetails() {
   return (
     <React.Fragment>
         <HeaderDetails></HeaderDetails>
-        <section  className="section-content about-section about-section-details bg-dark section-details-padding-top">
+        <section className="section-content about-section about-section-details bg-dark section-details-padding-top">
                 <h3 className="section-title text-center">About Me</h3>
 
                 <div className="about-textbox about-textbox-details bg-dark-card round-borders">
