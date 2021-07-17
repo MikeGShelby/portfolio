@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.672ff7b2.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.5f2445f3.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.5f2445f3.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.10f35b49.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.74e46ffd.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.74e46ffd.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.a4de92d3.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.a4de92d3.js.map",
-    "static/js/2.eb9bb8bf.chunk.js": "/portfolio-react/static/js/2.eb9bb8bf.chunk.js",
-    "static/js/2.eb9bb8bf.chunk.js.map": "/portfolio-react/static/js/2.eb9bb8bf.chunk.js.map",
+    "static/js/2.93e30825.chunk.js": "/portfolio-react/static/js/2.93e30825.chunk.js",
+    "static/js/2.93e30825.chunk.js.map": "/portfolio-react/static/js/2.93e30825.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "precache-manifest.d12d80e55859b246632255de823a11ec.js": "/portfolio-react/precache-manifest.d12d80e55859b246632255de823a11ec.js",
+    "precache-manifest.1f20c0cf7eec4f58465a5b522d60e250.js": "/portfolio-react/precache-manifest.1f20c0cf7eec4f58465a5b522d60e250.js",
     "service-worker.js": "/portfolio-react/service-worker.js",
-    "static/css/main.672ff7b2.chunk.css.map": "/portfolio-react/static/css/main.672ff7b2.chunk.css.map",
-    "static/js/2.eb9bb8bf.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.eb9bb8bf.chunk.js.LICENSE.txt",
+    "static/css/main.10f35b49.chunk.css.map": "/portfolio-react/static/css/main.10f35b49.chunk.css.map",
+    "static/js/2.93e30825.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.93e30825.chunk.js.LICENSE.txt",
     "static/media/budget-tracker.jpg": "/portfolio-react/static/media/budget-tracker.75fdae4a.jpg",
     "static/media/cinasearch.jpg": "/portfolio-react/static/media/cinasearch.aaede29d.jpg",
     "static/media/diet-delivery.jpg": "/portfolio-react/static/media/diet-delivery.e63112d5.jpg",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a4de92d3.js",
-    "static/js/2.eb9bb8bf.chunk.js",
-    "static/css/main.672ff7b2.chunk.css",
-    "static/js/main.5f2445f3.chunk.js"
+    "static/js/2.93e30825.chunk.js",
+    "static/css/main.10f35b49.chunk.css",
+    "static/js/main.74e46ffd.chunk.js"
   ]
 }
