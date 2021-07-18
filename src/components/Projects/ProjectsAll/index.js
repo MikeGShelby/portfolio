@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ProjectCard from '../../Project/ProjectCard';
-import HeaderDetails from '../../HeaderDetails';
+import HeaderDetails from '../../Header/HeaderDetails';
 
 
 function ProjectsAll() {

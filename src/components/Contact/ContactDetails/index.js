@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderDetails from '../../HeaderDetails';
+import HeaderDetails from '../../Header/HeaderDetails';
 import ContactLinks from '../ContactLinks';
 
 function ContactDetails() {
