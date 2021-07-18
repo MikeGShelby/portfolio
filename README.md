@@ -17,7 +17,7 @@ A website that features my web development projects.
 ![React Portfolio screenshot](./src/assets/images/portfolio.jpg "Application Screenshot")
 
 ## Deployed Application
-https://mikegshelby.github.io/portfolio-react/
+https://mikegshelby.github.io/portfolio/
 
 ## Built With
 * React
