@@ -1,0 +1,33 @@
+.contact-container {
+    width: fit-content;
+    padding: 2rem;
+    margin: 5rem;
+}
+
+.email {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+/*-- SECTION: CONNECT --*/
+.contact-links-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 14rem;
+    padding:1rem 0px;
+    font-size: 1rem;
+}
+
+.contact-links-list a {
+    text-decoration: none;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(41, 38, 38, 1);
+    transition: all .3s ease-in-out;
+}
+
+.contact-links-list a:hover {
+    color: var(--color-accent);
+}

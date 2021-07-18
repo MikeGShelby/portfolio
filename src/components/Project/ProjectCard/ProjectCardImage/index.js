@@ -4,11 +4,11 @@ function ProjectCardImage({name}) {
 
   return (
     <>
-            <img
-                src={require(`../../../../assets/images/projects-screenshots/${name}.jpg`)}
-                alt={name}
-                className="project-img"
-            />
+      <img
+          src={require(`../../../../assets/images/projects-screenshots/${name}.jpg`)}
+          alt={name}
+          className="project-img"
+      />
     </>
   );
 }

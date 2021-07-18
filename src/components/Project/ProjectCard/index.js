@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import '../../../assets/css/project-cards.css';
 import projects from '../../../data/projects-json';
 
@@ -10,21 +11,21 @@ function ProjectCard({projectPage}) {
 
     return (
         <>
-        { page === "featured" ? projects.filter(project => project.featured).map((project, i) => (
-            <div className="project-card">
-                <ProjectCardImage name={project.name}></ProjectCardImage>
-                <ProjectCardBody title={project.title} tools={project.tools} description={project.description} url={project.url} github={project.github}></ProjectCardBody>
-            </div>
-        ))
-        :
-        projects.map((project, i) => (
-            <div className="project-card">
-                <ProjectCardImage name={project.name}></ProjectCardImage>
-                <ProjectCardBody title={project.title} tools={project.tools} description={project.description} url={project.url} github={project.github}></ProjectCardBody>
-            </div>
-        ))
-        }
-    </>
+            { page === "featured" ? projects.filter(project => project.featured).map((project, i) => (
+                <div className="project-card">
+                    <ProjectCardImage name={project.name}></ProjectCardImage>
+                    <ProjectCardBody title={project.title} tools={project.tools} description={project.description} url={project.url} github={project.github}></ProjectCardBody>
+                </div>
+            ))
+            :
+            projects.map((project, i) => (
+                <div className="project-card">
+                    <ProjectCardImage name={project.name}></ProjectCardImage>
+                    <ProjectCardBody title={project.title} tools={project.tools} description={project.description} url={project.url} github={project.github}></ProjectCardBody>
+                </div>
+            ))
+            }
+        </>
     );
 }
 

@@ -8,7 +8,7 @@ function ProjectsAll() {
   return (
       <React.Fragment>
         <HeaderDetails></HeaderDetails>
-        <section class="project-section project-section-details bg-light section-details-padding-top">
+        <section class="project-section bg-light">
             <div className="container">
                 <h3 id="projects" class="section-title project-section-title text-center text-dark color-font-dark">My Projects</h3>
 

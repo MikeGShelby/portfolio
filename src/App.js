@@ -1,15 +1,15 @@
 import React from 'react';
 import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import './assets/css/index.css';
+import './assets/css/header.css';
+import './assets/css/about.css';
+import './assets/css/project-cards.css';
+import './assets/css/contact.css';
 
 import Home from './components/Home';
-import Nav from './components/Nav';
-
-import Header from './components/Header';
-import HeaderDetails from './components/HeaderDetails';
-
 import AboutDetails from './components/About/AboutDetails';
 import ProjectsAll from './components/Projects/ProjectsAll'
-import ContactDetails from './components/ContactDetails';
+import ContactDetails from './components/Contact/ContactDetails';
 
 function App() {
   return (

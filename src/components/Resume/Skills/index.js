@@ -51,7 +51,7 @@ function Skills() {
                 {skills.map((skill, i) => (
 
                     <a href={skill.url} class="skill-link" target="_blank" rel="noreferrer">
-                        <img src={require(`../../assets/images/skill-icons/${skill.name}.png`)} alt={skill.name}></img>
+                        <img src={require(`../../../assets/images/skill-icons/${skill.name}.png`)} alt={skill.name}></img>
                     </a>
 
                 ))}

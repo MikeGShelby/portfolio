@@ -6,10 +6,10 @@ function AboutDetails() {
   return (
     <React.Fragment>
         <HeaderDetails></HeaderDetails>
-        <section className="section-content about-section about-section-details bg-dark section-details-padding-top">
-                <h3 className="section-title text-center">About Me</h3>
+        <section className="section-content about-section details-section">
+                <h3 className="section-title">About Me</h3>
 
-                <div className="about-textbox about-textbox-details bg-dark-card round-borders">
+                <div className="about-textbox bg-dark-card round-borders">
                     <div className="about-textbox-content about-textbox-content-details">
                         <div className="about-details-image-container">
                             <img  src={selfImage} alt="Mike Shelby" className="about-image about-image-details round-borders shadow-image-large"></img>

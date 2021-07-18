@@ -2,7 +2,9 @@ import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import { HashRouter as Router } from 'react-router-dom';
 
-import Nav from '../Nav';
+import '../../assets/css/header.css';
+
+import Nav from '../Header/Nav';
 import MoonImage from '../../assets/images/header-graphics/moon.png';
 
 

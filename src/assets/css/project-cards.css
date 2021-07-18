@@ -97,7 +97,7 @@
   }
 
   .project-card-details p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: white;
     opacity: 0;
     transition: all .5s cubic-bezier(.48, -0.28, 0.41, 1.4);
