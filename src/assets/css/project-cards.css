@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap');
 
+:root {
+  --font-header: 'Titillium Web', sans-serif;
+  --font-title:'Mulish', sans-serif;
+  --font-paragraph: 'Poppins', sans-serif;
+}
+
 /* CARD STYLES */
 .project-card {
     display: flex;
@@ -23,6 +29,7 @@
 
   .project-card:hover {
     box-shadow: 1px 1px 16px rgb(71, 68, 68);
+    overflow:hidden;
   }
 
   .project-img {
@@ -36,6 +43,7 @@
     background: rgb(9,124,133);
     background: linear-gradient(180deg, rgba(9,124,133,1) 0%, rgba(24,78,94,.7), rgba(9, 124,133,1) 80%);
     position: absolute;
+    overflow:hidden;
     top: 70%;
     height: 110%;
     box-shadow: 2px -2px 10px rgb(53, 81, 83);
@@ -46,6 +54,7 @@
 
   .project-card:hover .project-card-body {
     top: 0%;
+    overflow:hidden;
   }
 
   .project-card-content {
@@ -79,6 +88,7 @@
   }
 
   .project-tools {
+    font-family: var(--font-paragraph);
     width: auto;
     display: flex;
     text-align: left;
@@ -102,6 +112,7 @@
   }
 
   .project-card-details p {
+    font-family: var(--font-paragraph);
     font-size: 1rem;
     color: white;
     opacity: 0;
@@ -130,8 +141,10 @@
     flex: 1 1 8.5rem;
     /* min-width: 7rem; */
     text-align: center;
+    font-family: var(--font-header);
     font-size: .6rem;
     font-weight:bolder;
+    letter-spacing: .06rem;
     border-radius: 30px;
     padding: .3rem;
     margin: .3rem;
