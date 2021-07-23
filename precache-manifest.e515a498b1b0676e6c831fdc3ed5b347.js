@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f4a8316e82254f5a6677fa9363f03fb",
+    "revision": "3f19d4f0f84d67654805d96a9b94a6d9",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "bc5ceef77d68c87ebe5f",
+    "revision": "f0f42c74f6d985868649",
     "url": "/portfolio/static/css/main.5dcaeb02.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.c934aabb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc5ceef77d68c87ebe5f",
-    "url": "/portfolio/static/js/main.8396c2ae.chunk.js"
+    "revision": "f0f42c74f6d985868649",
+    "url": "/portfolio/static/js/main.1a6d347a.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/portland-state-university.98004f16.png"
   },
   {
-    "revision": "2ce03177958123ada89a542ca10bd9b2",
-    "url": "/portfolio/static/media/resume.2ce03177.pdf"
+    "revision": "fdaedb34e3776869cbf9b94bca80b525",
+    "url": "/portfolio/static/media/resume.fdaedb34.pdf"
   },
   {
     "revision": "1c50b14e32136ecb4eabdb59301eceb8",
