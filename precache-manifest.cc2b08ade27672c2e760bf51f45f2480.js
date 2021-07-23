@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ee7833273eb236c8bb64cca2770d9cd",
+    "revision": "6f4a8316e82254f5a6677fa9363f03fb",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a2ff9b8512742c7d514e",
-    "url": "/portfolio/static/css/main.308752b7.chunk.css"
+    "revision": "bc5ceef77d68c87ebe5f",
+    "url": "/portfolio/static/css/main.5dcaeb02.chunk.css"
   },
   {
-    "revision": "67fe22a8aeca9bd870c1",
-    "url": "/portfolio/static/js/2.33b66a11.chunk.js"
+    "revision": "ea178808cf130fe87e3e",
+    "url": "/portfolio/static/js/2.c934aabb.chunk.js"
   },
   {
     "revision": "3c73c585782ac05880c0f89bcfdbba5a",
-    "url": "/portfolio/static/js/2.33b66a11.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.c934aabb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a2ff9b8512742c7d514e",
-    "url": "/portfolio/static/js/main.9f458ce1.chunk.js"
+    "revision": "bc5ceef77d68c87ebe5f",
+    "url": "/portfolio/static/js/main.8396c2ae.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
   },
   {
+    "revision": "87d994875c22d91270c9d27302a45fb7",
+    "url": "/portfolio/static/media/bootstrap.87d99487.png"
+  },
+  {
     "revision": "75fdae4ab914fbf1cce4e814a0c29d18",
     "url": "/portfolio/static/media/budget-tracker.75fdae4a.jpg"
+  },
+  {
+    "revision": "b5485f3123c0fdf565e0d5d211781650",
+    "url": "/portfolio/static/media/bulma.b5485f31.png"
   },
   {
     "revision": "aaede29da0e0107507fc8f5623496922",
@@ -52,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/password-generator.ed50826c.jpg"
   },
   {
+    "revision": "020e80ec696f6e10fd6671c3d8edd365",
+    "url": "/portfolio/static/media/photoshop.020e80ec.png"
+  },
+  {
     "revision": "84b3491704c37a58b766177f230f4666",
     "url": "/portfolio/static/media/placeholder-3.84b34917.jpg"
   },
@@ -64,8 +76,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/placeholder-5.1f118aef.jpg"
   },
   {
-    "revision": "790a08d8035c8845006f0c8000c680ad",
-    "url": "/portfolio/static/media/resume.790a08d8.pdf"
+    "revision": "98004f16a78fdae6d09f62526a53f981",
+    "url": "/portfolio/static/media/portland-state-university.98004f16.png"
+  },
+  {
+    "revision": "2ce03177958123ada89a542ca10bd9b2",
+    "url": "/portfolio/static/media/resume.2ce03177.pdf"
   },
   {
     "revision": "1c50b14e32136ecb4eabdb59301eceb8",
@@ -82,6 +98,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "888d03af0da223397a7468d4d4948d99",
     "url": "/portfolio/static/media/tech-blog.888d03af.jpg"
+  },
+  {
+    "revision": "6be62e44a27a962dba13f78919961c9d",
+    "url": "/portfolio/static/media/university-of-houston.6be62e44.png"
+  },
+  {
+    "revision": "9d1dcfcf01db06858abbdc1f9c203129",
+    "url": "/portfolio/static/media/university-of-texas-austin.9d1dcfcf.png"
+  },
+  {
+    "revision": "ba267ee238a5e416395812226aa7276b",
+    "url": "/portfolio/static/media/washington-state-university.ba267ee2.png"
   },
   {
     "revision": "f665cf9b5269ed504cf6d84d77678c6d",
