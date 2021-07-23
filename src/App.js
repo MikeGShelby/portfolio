@@ -6,6 +6,8 @@ import './assets/css/about.css';
 import './assets/css/project-cards.css';
 import './assets/css/contact.css';
 
+import ScrollToTop from './components/ScrollToTop';
+
 import Home from './components/Home';
 import AboutDetails from './components/About/AboutDetails';
 import ProjectsAll from './components/Projects/ProjectsAll'
@@ -14,6 +16,7 @@ import ContactDetails from './components/Contact/ContactDetails';
 function App() {
   return (
     <React.Fragment>
+        <ScrollToTop />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={AboutDetails} />

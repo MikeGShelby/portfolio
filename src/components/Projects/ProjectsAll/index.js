@@ -2,6 +2,7 @@ import React from 'react';
 
 import ProjectCard from '../../Project/ProjectCard';
 import HeaderDetails from '../../Header/HeaderDetails';
+import Contact from '../../Contact';
 
 
 function ProjectsAll() {
@@ -9,14 +10,13 @@ function ProjectsAll() {
       <React.Fragment>
         <HeaderDetails></HeaderDetails>
         <section class="project-section bg-light">
-            <div className="container">
                 <h3 id="projects" class="section-title project-section-title text-center text-dark color-font-dark">My Projects</h3>
 
-                <div className="projects-container feature-projects-wide">
+                <div className="projects-container">
                   <ProjectCard></ProjectCard>
                 </div>
-            </div>
         </section>
+    <Contact></Contact>
     </React.Fragment>
   );
 }

@@ -1,15 +1,20 @@
 import React from 'react';
-import ProjectCard from '../Project/ProjectCard';
+
+import ResumeSummaryCard from './ResumeSummaryCard';
 
 function Resume() {
   return (
-        <section className="section-content contact-section bg-medium">
+    <section class="project-section bg-light">
+        <h3 id="projects" class="section-title project-section-title text-center text-dark">My Resume</h3>
 
-            <div className="container">
-                <h3 id="contact" class="section-title contact-section-title text-center text-light">Resume and Skills</h3>
-                <ProjectCard></ProjectCard>
-            </div>
-        </section>
+        <div className="projects-container">
+          <ResumeSummaryCard resumeSection={'skills'}></ResumeSummaryCard>
+          <ResumeSummaryCard resumeSection={'education'}></ResumeSummaryCard>
+          <ResumeSummaryCard resumeSection={'experience'}></ResumeSummaryCard>
+        </div>
+
+        <a href="#/resume" className="btn-grad btn-small btn-projects">View Full Resume</a>
+    </section>
   );
 }
 

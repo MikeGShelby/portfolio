@@ -1,6 +1,7 @@
 import React from 'react';
 import selfImage from "../../../assets/images/self-image.jpg";
 import HeaderDetails from '../../Header/HeaderDetails';
+import Contact from '../../Contact';
 
 function AboutDetails() {
   return (
@@ -24,6 +25,7 @@ function AboutDetails() {
                     </div>
                 </div>
         </section>
+    <Contact></Contact>
     </React.Fragment>
   );
 }
