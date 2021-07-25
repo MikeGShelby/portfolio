@@ -1,0 +1,105 @@
+/*-- FONTS --*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap');
+
+:root {
+  --font-header: 'Titillium Web', sans-serif;
+  --font-title:'Mulish', sans-serif;
+  --font-paragraph: 'Poppins', sans-serif;
+}
+
+/* CARD STYLES */
+.resume-card {
+  display: flex;
+  flex-direction:column;
+  flex: 1 1 min(14rem);
+  justify-content: flex-start;
+  align-items: stretch;
+  max-height: 24rem;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 20px;
+  padding: 1rem 2rem 3rem;
+  color: white;
+  background-image: linear-gradient( 110.5deg,  rgba(71,114,148,.7) 14.9%, rgba(149,245,211,.3) 85% );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.0px );
+  -webkit-backdrop-filter: blur( 3.0px );
+}
+
+.resume-card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.resume-card-title:first-letter {
+  text-transform: capitalize;
+}
+
+.resume-tags {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-items: stretch;
+  gap: .7rem;
+  font-size: 1rem;
+}
+
+.resume-tag {
+  align-items: center;
+}
+
+.skills-tags {
+  padding:0 1rem 0 0;
+}
+
+.skills-tags {
+  overflow: scroll;
+}
+
+.skills-tags::-webkit-scrollbar {
+  width: 18px;               /* width of the entire scrollbar */
+  margin: 1px;
+}
+
+.skills-tags::-webkit-scrollbar-track {
+  background: rgb(212, 235, 226);        /* color of the tracking area */
+}
+
+.skills-tags::-webkit-scrollbar:horizontal {
+  display: none;
+}
+
+.skills-tags::-webkit-scrollbar-thumb {
+  background-color: rgb(123, 177, 156);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid rgb(212, 235, 226);
+}
+
+.resume-tag {
+
+}
+
+.resume-tag {
+  display: flex;
+  /* height: 3rem; */
+  font-size: .6rem;
+  padding: .6rem .6rem;
+  background-color:rgb(207, 252, 244);
+  border-radius: 5px;
+  color: rgb(63, 62, 62);
+  font-weight: 900;
+}
+
+.resume-tag img {
+  max-width: 3rem;
+  max-height: 2rem;
+  padding: 0 .6rem 0 0;
+  /* filter: drop-shadow(5px 5px 5px #222); */
+}
+
+
+body {
+  background-color: #eee;
+  min-height: 100vh;
+}

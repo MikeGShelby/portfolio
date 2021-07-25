@@ -1,16 +1,20 @@
 import React from 'react';
 
-import ResumeSummaryCard from './ResumeSummaryCard';
+import ResumeSummaryCard from './ResumeCard';
 
 function Resume() {
-  return (
-    <section class="project-section bg-light">
-        <h3 id="projects" class="section-title project-section-title text-center text-dark">My Resume</h3>
+const resumeSection = ['skills', 'education', 'experience']
 
-        <div className="projects-container">
-          <ResumeSummaryCard resumeSection={'skills'}></ResumeSummaryCard>
-          <ResumeSummaryCard resumeSection={'education'}></ResumeSummaryCard>
-          <ResumeSummaryCard resumeSection={'experience'}></ResumeSummaryCard>
+  return (
+    <section class="resume-section">
+        <h3 class="section-title resume-section-title text-center">My Resume</h3>
+
+        <div className="resume-container">
+          {
+            resumeSection.map((section, i) => (
+              <ResumeSummaryCard resumeSection={section}></ResumeSummaryCard>
+            ))
+          }
         </div>
 
         <a href="#/resume" className="btn-grad btn-small btn-projects">View Full Resume</a>

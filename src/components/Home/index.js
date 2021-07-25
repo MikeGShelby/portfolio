@@ -13,7 +13,7 @@ function Home() {
       <main>
         <About></About>
         <Projectsfeatured></Projectsfeatured>
-        {/* <Resume></Resume> */}
+        <Resume></Resume>
         <Contact></Contact>
       </main>
     </React.Fragment>

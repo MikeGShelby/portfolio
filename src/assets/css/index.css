@@ -74,6 +74,21 @@ body {
   line-height: 1.6;
 }
 
+body::-webkit-scrollbar {
+  width: 18px;               /* width of the entire scrollbar */
+  margin: 1px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(212, 235, 226);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(123, 177, 156);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid rgb(212, 235, 226);
+}
+
 .bg-light {
   background-color: var(--color-bg-light-transparent);
 }
@@ -175,7 +190,6 @@ h3 {
   align-items: center;
   height: 100vh;
   width: 100%;
-  /* background-image: url('./assets/images/galaxy-bg.jpg'); */
   background-image: url('../images/galaxy-bg.jpg');
   background-size:cover;
   background-repeat: no-repeat;
@@ -183,7 +197,7 @@ h3 {
   color: white;
 }
 
-.header-section::after, .header-details-section::after {
+/* .header-section::after, .header-details-section::after {
   content: "";
   display: block;
   width: 100%;
@@ -192,7 +206,7 @@ h3 {
   top: 0;
   left: 0;
   background: linear-gradient(to top, rgba(6, 27, 34, 0.5) 0%, rgba(4, 48, 51, 0.5) 100%);
-}
+} */
 
 
 /*-- HEADER (DETAILS PAGE) --*/
@@ -261,7 +275,7 @@ h3 {
 
 
 /*-- SECTION: PROJECTS --*/
-.project-section {
+.project-section, .resume-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -278,7 +292,7 @@ h3 {
   border-bottom-color: var(--color-font-dark);
 }
 
-.projects-container {
+.projects-container, .resume-container {
   display: flex;
   flex-flow:wrap;
   justify-content: center;
@@ -288,13 +302,13 @@ h3 {
   margin-bottom: 2rem;
 }
 
-/*-- SECTION: PROJECTS --*/
+/*-- SECTION: RESUME --*/
 .resume-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: .5rem;
+  background-image: url('../images/galaxy-bg.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
 
 
