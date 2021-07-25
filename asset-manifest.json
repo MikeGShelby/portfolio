@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5dcaeb02.chunk.css",
-    "main.js": "/portfolio/static/js/main.1a6d347a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1a6d347a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.39c4d25b.chunk.css",
+    "main.js": "/portfolio/static/js/main.69e9ad30.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.69e9ad30.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.c934aabb.chunk.js": "/portfolio/static/js/2.c934aabb.chunk.js",
-    "static/js/2.c934aabb.chunk.js.map": "/portfolio/static/js/2.c934aabb.chunk.js.map",
+    "static/js/2.ae9634a2.chunk.js": "/portfolio/static/js/2.ae9634a2.chunk.js",
+    "static/js/2.ae9634a2.chunk.js.map": "/portfolio/static/js/2.ae9634a2.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.e515a498b1b0676e6c831fdc3ed5b347.js": "/portfolio/precache-manifest.e515a498b1b0676e6c831fdc3ed5b347.js",
+    "precache-manifest.0713bb31fba443ed7353e74d6dd3e900.js": "/portfolio/precache-manifest.0713bb31fba443ed7353e74d6dd3e900.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.5dcaeb02.chunk.css.map": "/portfolio/static/css/main.5dcaeb02.chunk.css.map",
-    "static/js/2.c934aabb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c934aabb.chunk.js.LICENSE.txt",
+    "static/css/main.39c4d25b.chunk.css.map": "/portfolio/static/css/main.39c4d25b.chunk.css.map",
+    "static/js/2.ae9634a2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ae9634a2.chunk.js.LICENSE.txt",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.87d99487.png",
     "static/media/budget-tracker.jpg": "/portfolio/static/media/budget-tracker.75fdae4a.jpg",
     "static/media/bulma.png": "/portfolio/static/media/bulma.b5485f31.png",
     "static/media/cinasearch.jpg": "/portfolio/static/media/cinasearch.aaede29d.jpg",
     "static/media/diet-delivery.jpg": "/portfolio/static/media/diet-delivery.e63112d5.jpg",
     "static/media/fit-club.jpg": "/portfolio/static/media/fit-club.3969b17f.jpg",
+    "static/media/fresenius-B.png": "/portfolio/static/media/fresenius-B.cab15813.png",
     "static/media/index.css": "/portfolio/static/media/galaxy-bg.583dca4c.jpg",
+    "static/media/menninger-clinic.png": "/portfolio/static/media/menninger-clinic.66ac1583.png",
     "static/media/moon.png": "/portfolio/static/media/moon.b3dc8c09.png",
     "static/media/password-generator.jpg": "/portfolio/static/media/password-generator.ed50826c.jpg",
     "static/media/photoshop.png": "/portfolio/static/media/photoshop.020e80ec.png",
@@ -39,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.c934aabb.chunk.js",
-    "static/css/main.5dcaeb02.chunk.css",
-    "static/js/main.1a6d347a.chunk.js"
+    "static/js/2.ae9634a2.chunk.js",
+    "static/css/main.39c4d25b.chunk.css",
+    "static/js/main.69e9ad30.chunk.js"
   ]
 }

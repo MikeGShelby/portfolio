@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f19d4f0f84d67654805d96a9b94a6d9",
+    "revision": "dee2e0f54eab35bc8aa21b70630a672a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "f0f42c74f6d985868649",
-    "url": "/portfolio/static/css/main.5dcaeb02.chunk.css"
+    "revision": "64b18fe99000ce434f26",
+    "url": "/portfolio/static/css/main.39c4d25b.chunk.css"
   },
   {
-    "revision": "ea178808cf130fe87e3e",
-    "url": "/portfolio/static/js/2.c934aabb.chunk.js"
+    "revision": "389fb41a73e2aa8d7fd4",
+    "url": "/portfolio/static/js/2.ae9634a2.chunk.js"
   },
   {
     "revision": "3c73c585782ac05880c0f89bcfdbba5a",
-    "url": "/portfolio/static/js/2.c934aabb.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.ae9634a2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f0f42c74f6d985868649",
-    "url": "/portfolio/static/js/main.1a6d347a.chunk.js"
+    "revision": "64b18fe99000ce434f26",
+    "url": "/portfolio/static/js/main.69e9ad30.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -48,8 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fit-club.3969b17f.jpg"
   },
   {
+    "revision": "cab158130b38c9a61a965c4cea4600ac",
+    "url": "/portfolio/static/media/fresenius-B.cab15813.png"
+  },
+  {
     "revision": "583dca4c9bef88de713b67b46ddd252f",
     "url": "/portfolio/static/media/galaxy-bg.583dca4c.jpg"
+  },
+  {
+    "revision": "66ac1583804d9100d4ee5b6eeb484d94",
+    "url": "/portfolio/static/media/menninger-clinic.66ac1583.png"
   },
   {
     "revision": "b3dc8c0956346a747b1f3b5f01812d18",
