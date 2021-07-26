@@ -1,21 +1,16 @@
 import React from 'react';
-
 import '../../assets/css/resume-cards.css';
 
 import ResumeTag from './ResumeTag';
 
-import skills from '../../data/resume/skills';
-import education from '../../data/resume/education';
-import experience from '../../data/resume/experience';
-
-
-function ResumeCard({resumeSection}) {
+function ResumeCard({resumeSection, resumePage}) {
     const section = resumeSection;
+    const page = resumePage;
 
     return (
         <div className="resume-card">
             <h2 className="resume-card-title">{section}</h2>
-            <div className={`resume-tags ${resumeSection}-tags`}>
+            <div className={`resume-tags-${page} ${section}-tags`}>
                 <ResumeTag resumeSection={section}></ResumeTag>
             </div>
         </div>

@@ -10,7 +10,8 @@ import ScrollToTop from './components/ScrollToTop';
 
 import Home from './components/Home';
 import AboutDetails from './components/About/AboutDetails';
-import ProjectsAll from './components/Projects/ProjectsAll'
+import ProjectsAll from './components/Projects/ProjectsAll';
+import ResumeDetails from './components/Resume/ResumeDetails';
 import ContactDetails from './components/Contact/ContactDetails';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={AboutDetails} />
           <Route exact path="/projects" component={ProjectsAll} />
+          <Route exact path="/resume" component={ResumeDetails} />
           <Route exact path="/contact" component={ContactDetails} />
         </Switch>
     </React.Fragment>

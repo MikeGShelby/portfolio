@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ResumeSummaryCard from './ResumeCard';
+import ResumeCard from './ResumeCard';
 
 function Resume() {
 const resumeSection = ['skills', 'education', 'experience']
@@ -12,7 +12,7 @@ const resumeSection = ['skills', 'education', 'experience']
         <div className="resume-container">
           {
             resumeSection.map((section, i) => (
-              <ResumeSummaryCard resumeSection={section}></ResumeSummaryCard>
+              <ResumeCard resumeSection={section} resumePage={"summary"}></ResumeCard>
             ))
           }
         </div>

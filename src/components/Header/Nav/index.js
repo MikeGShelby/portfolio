@@ -18,7 +18,7 @@ function Nav() {
                 </li>
 
                 <li>
-                    <a href={Resume} target="_blank" rel="noopener noreferrer">RESUME</a>
+                    <a href="#/resume">RESUME</a>
                 </li>
 
                 <li>

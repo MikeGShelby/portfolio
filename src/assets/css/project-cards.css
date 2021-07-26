@@ -17,7 +17,7 @@
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
-    height: 500px;
+    max-height: 27.5rem;
     position: relative;
     border-radius: 20px;
     box-shadow: var(--shadow-image-small);
@@ -25,6 +25,12 @@
     overflow:hidden;
     background: rgb(6, 84, 88);
     transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+  }
+
+  @media screen and (min-width: 40em) {
+    .project-card {
+      max-height: 22rem;
+    }
   }
 
   .project-card:hover {
