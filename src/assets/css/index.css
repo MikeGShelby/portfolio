@@ -19,7 +19,7 @@
   --color-bg-medium-gradient: rgb(154, 158, 156);
 
   --color-bg-dark-gradient-transparent: radial-gradient(circle, rgba(24,78,94,.95) 0%, rgba(8,93,99,.95) 97%);
-  --color-bg-light-transparent: rgba(255,255,255, 1);
+  --color-bg-light-transparent: rgba(255,255,255, .25);
 
   --color-bg-content-container: linear-gradient( 110.5deg,  rgba(19, 23, 87, 0.7) 50.9%, rgba(15, 13, 104, 0.3) 90% );
   --color-bg-content-container-opaque: linear-gradient( 110.5deg,  rgba(19, 23, 87, 1) 50.9%, rgba(15, 13, 104, 1) 90% );
@@ -67,8 +67,11 @@ html {
 }
 
 body {
-  background: var(--color-bg-backup);
-  background: var(--color-bg-dark-gradient);
+  background-image: url('../images/galaxy-bg.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
   font-family: var(--paragraph-font);
   font-size: 1.3125rem;
   line-height: 1.6;
@@ -283,14 +286,25 @@ h3 {
   padding-bottom: .5rem;
 }
 
+.project-section {
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-image: linear-gradient( 110.5deg,  rgba(71,114,148,.7) 14.9%, rgba(149,245,211,.3) 85% );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.0px );
+  -webkit-backdrop-filter: blur( 3.0px );
+}
+
 /* .project-section-details {
   padding: 5rem 0;
 } */
 
-.project-section-title {
+/* .project-section-title {
   color: var(--color-font-dark);
   border-bottom-color: var(--color-font-dark);
-}
+} */
 
 .projects-container, .resume-container {
   display: flex;

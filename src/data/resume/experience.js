@@ -6,8 +6,9 @@ const experience = [
         location: "Houston, TX",
         url: 'https://www.pdx.edu/',
         responsiblities: 'Provide nutrition care to hundreds of dialysis patients each year.',
-        accomplisments: [
+        accomplishments: [
             'Increase company revenue by improving and maintaining pharmacy enrollment. Increased company pharmacy enrollment rate by more than 40% over the first four months in the clinic.',
+
             'Implement nutrition interventions that helped achieve consistent improvements in quality outcomes, earning the highest score recorded for the clinic in over five years.'
         ],
         featured: true
@@ -19,6 +20,8 @@ const experience = [
         location: "Houston, TX",
         url: 'https://www.uh.edu/',
         responsiblities: 'Evaluated and graded case studies, lab reports, online discussion posts, and other assignments for advanced nutrition courses. Managed course content through online learning management systems.',
+        accomplishments: [
+        ],
         featured: true
     },
     {
@@ -28,6 +31,8 @@ const experience = [
         location: "Houston, TX",
         url: 'https://www.pdx.edu/',
         responsiblities: 'Assessed nutritional and educational needs for hundreds of patients. Provided nutrition interventions for patients with mental health diagnoses and comorbidities. Supervised and provided training to 20+ service staff members. Developed patient education materials and conducted diet analysis for hundreds of menu items.',
+        accomplishments: [
+        ],
         featured: true
     },
     {
@@ -37,6 +42,8 @@ const experience = [
         location: "Houston, TX",
         url: 'https://www.pdx.edu/',
         responsiblities: 'Completed 1,200 supervised practice hours required to become eligible for the Registration Examination.',
+        accomplishments: [
+        ],
         featured: true
     },
 ];

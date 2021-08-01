@@ -8,10 +8,10 @@ function ResumeCard({resumeSection, resumePage}) {
     const page = resumePage;
 
     return (
-        <div className="resume-card">
+        <div className={`resume-card-${page}`}>
             <h2 className="resume-card-title">{section}</h2>
-            <div className={`resume-tags-${page} ${section}-tags`}>
-                <ResumeTag resumeSection={section}></ResumeTag>
+            <div className={`resume-tags-${page} ${section}-tags-${page}`}>
+                <ResumeTag resumeSection={section} resumePage={page}></ResumeTag>
             </div>
         </div>
     );

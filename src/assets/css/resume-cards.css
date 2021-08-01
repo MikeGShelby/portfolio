@@ -21,7 +21,7 @@
 }
 
 /* CARD STYLES */
-.resume-card {
+.resume-card-summary {
   display: flex;
   flex-direction:column;
   flex: 1 1 min(14rem);
@@ -56,40 +56,12 @@
   font-size: 1rem;
 }
 
-.resume-tag {
+.resume-tag-summary {
   align-items: center;
 }
 
-.skills-tags {
-  padding:0 1rem 0 0;
-}
-
-.skills-tags {
-  overflow: scroll;
-}
-
-.skills-tags::-webkit-scrollbar {
-  width: 18px;               /* width of the entire scrollbar */
-  margin: 1px;
-}
-
-.skills-tags::-webkit-scrollbar-track {
-  background: rgb(212, 235, 226);        /* color of the tracking area */
-}
-
-.skills-tags::-webkit-scrollbar:horizontal {
-  display: none;
-}
-
-.skills-tags::-webkit-scrollbar-thumb {
-  background-color: rgb(123, 177, 156);    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 2px solid rgb(212, 235, 226);
-}
-
-.resume-tag {
+.resume-tag-summary {
   display: flex;
-  /* height: 3rem; */
   font-size: .6rem;
   padding: .6rem .6rem;
   background-color:rgb(207, 252, 244);
@@ -98,13 +70,39 @@
   font-weight: 900;
 }
 
-.resume-tag img {
+.resume-tag-summary img {
   max-width: 3rem;
   max-height: 2rem;
   padding: 0 .6rem 0 0;
   /* filter: drop-shadow(5px 5px 5px #222); */
 }
 
+.skills-tags {
+  padding:0 1rem 0 0;
+}
+
+.skills-tags-summary {
+  overflow: scroll;
+}
+
+.skills-tags-summary::-webkit-scrollbar {
+  width: 18px;               /* width of the entire scrollbar */
+  margin: 1px;
+}
+
+.skills-tags-summary::-webkit-scrollbar-track {
+  background: rgb(212, 235, 226);        /* color of the tracking area */
+}
+
+.skills-tags-summary::-webkit-scrollbar:horizontal {
+  display: none;
+}
+
+.skills-tags-summary::-webkit-scrollbar-thumb {
+  background-color: rgb(123, 177, 156);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid rgb(212, 235, 226);
+}
 
 body {
   background-color: #eee;

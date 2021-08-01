@@ -28,7 +28,7 @@ function ResumeDetails() {
             </div>
             {
                 resumeSection.map((section, i) => (
-                <ResumeCard resumeSection={section} resumePage={"details"}></ResumeCard>
+                    <ResumeCard resumeSection={section} resumePage={"details"}></ResumeCard>
                 ))
             }
             </div>

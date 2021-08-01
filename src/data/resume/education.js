@@ -18,7 +18,7 @@ const education = [
     {
         name: "portland-state-university",
         title: "Portland State University",
-        degree: "Graduate Certificate in Georaphic Information Systems",
+        degree: "Graduate Certificate in Geographic Information Systems",
         location: "Portland, OR",
         url: 'https://www.pdx.edu/',
         featured: true
