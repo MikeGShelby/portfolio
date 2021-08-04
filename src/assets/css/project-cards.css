@@ -72,6 +72,8 @@
   }
 
   .project-card-title {
+    display: flex;
+    justify-content: space-between;
     letter-spacing: .1rem;
     font-size: 1.7rem;
     font-family: var(--font-title);
@@ -91,6 +93,15 @@
 
   .project-card:hover .project-card-title {
     border-bottom: .2rem solid rgba(255, 255, 255, 1);
+  }
+
+  .project-card:hover .project-card-title span {
+    opacity: 1;
+    transition: all .75s cubic-bezier(.48, -0.28, 0.41, 1.4);
+  }
+
+  .project-card:hover .project-card-title span {
+    opacity: 0;
   }
 
   .project-tools {

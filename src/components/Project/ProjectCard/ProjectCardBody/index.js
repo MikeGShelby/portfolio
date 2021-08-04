@@ -9,7 +9,7 @@ function ProjectCardBody({title, tools, description, url, github}) {
             <div className="project-card-content">
 
                 <div className="project-card-details">
-                    <h4 className="project-card-title">{title}</h4>
+                    <h4 className="project-card-title">{title}<span><i class="fas fa-plus-circle"></i></span></h4>
                     <ProjectCardTools tools={tools}></ProjectCardTools>
                     <p>{description}</p>
                 </div>
