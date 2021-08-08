@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6797d38584a101e73e0bbc22d11383b6",
+    "revision": "dcd54d775f845eb8d9a4cca5af696d24",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "f6f831177d93222c90f1",
-    "url": "/portfolio/static/css/main.5885f55f.chunk.css"
+    "revision": "b8b7c2a91c89f862f442",
+    "url": "/portfolio/static/css/main.ec1dfa8a.chunk.css"
   },
   {
     "revision": "ea75f549aff7ed34167b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.87444803.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f6f831177d93222c90f1",
-    "url": "/portfolio/static/js/main.512f9da1.chunk.js"
+    "revision": "b8b7c2a91c89f862f442",
+    "url": "/portfolio/static/js/main.4fb672d9.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -56,20 +56,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/galaxy-bg.583dca4c.jpg"
   },
   {
+    "revision": "7c64d4f7ea5070f290427a97f27b151f",
+    "url": "/portfolio/static/media/graphql.7c64d4f7.png"
+  },
+  {
+    "revision": "38dd7251655a13e81f2a87958087c4dd",
+    "url": "/portfolio/static/media/handlebars.38dd7251.png"
+  },
+  {
+    "revision": "44ca6901e15e37feeb1f2b765f85dbd4",
+    "url": "/portfolio/static/media/illustrator.44ca6901.png"
+  },
+  {
     "revision": "66ac1583804d9100d4ee5b6eeb484d94",
     "url": "/portfolio/static/media/menninger-clinic.66ac1583.png"
+  },
+  {
+    "revision": "28ec40a4d2332648f920ff506571a7d7",
+    "url": "/portfolio/static/media/mongodb.28ec40a4.png"
   },
   {
     "revision": "b3dc8c0956346a747b1f3b5f01812d18",
     "url": "/portfolio/static/media/moon.b3dc8c09.png"
   },
   {
+    "revision": "2b3975f88966e9a6656b6161a8838856",
+    "url": "/portfolio/static/media/mysql.2b3975f8.png"
+  },
+  {
     "revision": "ed50826c0af5b315e089b9d9e65890bb",
     "url": "/portfolio/static/media/password-generator.ed50826c.jpg"
   },
   {
-    "revision": "020e80ec696f6e10fd6671c3d8edd365",
-    "url": "/portfolio/static/media/photoshop.020e80ec.png"
+    "revision": "920642487e57d4131b7515cbe0704362",
+    "url": "/portfolio/static/media/photoshop.92064248.png"
   },
   {
     "revision": "84b3491704c37a58b766177f230f4666",
@@ -86,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "98004f16a78fdae6d09f62526a53f981",
     "url": "/portfolio/static/media/portland-state-university.98004f16.png"
+  },
+  {
+    "revision": "de655ba39aa012bfd7844d106b656214",
+    "url": "/portfolio/static/media/react.de655ba3.png"
   },
   {
     "revision": "fdaedb34e3776869cbf9b94bca80b525",
