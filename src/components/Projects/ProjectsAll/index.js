@@ -1,8 +1,8 @@
 import React from 'react';
 
-import ProjectCard from '../../Project/ProjectCard';
+import ProjectCard from '../../Project';
 import HeaderDetails from '../../Header/HeaderDetails';
-import Contact from '../../Contact';
+import Footer from '../../Footer';
 
 
 function ProjectsAll() {
@@ -16,7 +16,7 @@ function ProjectsAll() {
                   <ProjectCard></ProjectCard>
                 </div>
         </section>
-    <Contact></Contact>
+    <Footer></Footer>
     </React.Fragment>
   );
 }

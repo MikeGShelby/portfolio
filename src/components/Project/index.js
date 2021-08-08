@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 
-import '../../../assets/css/project-cards.css';
-import projects from '../../../data/projects-json';
+// import '../../assets/css/index.css';
+
+import './project-cards.css';
+import projects from '../../data/projects-json';
 
 import ProjectCardImage from './ProjectCardImage';
-import ProjectCardBody from '../../Project/ProjectCard/ProjectCardBody';
+import ProjectCardBody from './ProjectCardBody';
 
 function ProjectCard({projectPage}) {
     const page = projectPage;

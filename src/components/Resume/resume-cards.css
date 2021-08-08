@@ -54,6 +54,7 @@
   justify-items: stretch;
   gap: .7rem;
   font-size: 1rem;
+  font-family: var(--font-paragraph);
 }
 
 .resume-tag-summary {

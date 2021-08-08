@@ -5,6 +5,7 @@ import About from '../About';
 import Projectsfeatured from '../Projects/ProjectsFeatured';
 import Resume from '../Resume';
 import Contact from '../Contact';
+import Footer from '../Footer';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
         <Projectsfeatured></Projectsfeatured>
         <Resume></Resume>
         <Contact></Contact>
+        <Footer></Footer>
       </main>
     </React.Fragment>
   );

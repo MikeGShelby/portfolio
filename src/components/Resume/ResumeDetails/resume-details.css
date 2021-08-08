@@ -64,6 +64,14 @@
     -webkit-backdrop-filter: blur( 3.0px );
   }
 
+  .resume-btn-cta {
+    width: fit-content;
+    align-self: center;
+    text-decoration: none;
+    padding: .2rem 2rem;
+    font-size: 1.2rem;
+  }
+
 .resume-card-title {
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -76,12 +84,13 @@
 .resume-tag-details {
   display: flex;
   /* height: 3rem; */
-  font-size: .6rem;
-  padding: .6rem .6rem;
+  font-size: .7rem;
+  padding: 2rem;
   background-color:rgb(207, 252, 244);
   border-radius: 5px;
   color: rgb(63, 62, 62);
-  font-weight: 900;
+  font-weight: 500;
+  font-family: var(--font-paragraph);
 }
 
 .resume-tag-details img {
@@ -104,7 +113,10 @@
 }
 
 .skills-tag-details {
+  display: flex;
+  align-items: center;
   flex:1 1 9rem;
+  padding: .6rem;
 }
 
 .education-tag-details, .experience-tag-details {

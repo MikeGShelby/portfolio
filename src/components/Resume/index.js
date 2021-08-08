@@ -1,5 +1,10 @@
 import React from 'react';
 
+// import '../../assets/css/index.css';
+
+import './resume-cards.css';
+import './ResumeDetails';
+
 import ResumeCard from './ResumeCard';
 
 function Resume() {

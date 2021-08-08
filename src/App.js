@@ -1,10 +1,11 @@
 import React from 'react';
 import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
-import './assets/css/index.css';
-import './assets/css/header.css';
-import './assets/css/about.css';
-import './assets/css/project-cards.css';
-import './assets/css/contact.css';
+
+import './index.css';
+// import './assets/css/header.css';
+// import './assets/css/about.css';
+// import './assets/css/project-cards.css';
+// import './assets/css/contact.css';
 
 import ScrollToTop from './components/ScrollToTop';
 

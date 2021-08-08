@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../assets/css/resume-cards.css';
+import './resume-cards.css';
 
 import skills from '../../data/resume/skills';
 import education from '../../data/resume/education';

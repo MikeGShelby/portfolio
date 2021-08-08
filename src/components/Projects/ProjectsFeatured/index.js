@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProjectCard from '../../Project/ProjectCard';
+import ProjectCard from '../../Project';
 
 function ProjectsFeatured() {
   return (

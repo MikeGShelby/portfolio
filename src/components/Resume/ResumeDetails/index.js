@@ -1,12 +1,12 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 
-import '../../../assets/css/resume-details.css';
+import './resume-details.css';
 import Resume from '../../../assets/documents/resume.pdf';
 
 import ResumeCard from '../../Resume/ResumeCard';
 import HeaderDetails from '../../Header/HeaderDetails';
-import Contact from '../../Contact';
+import Footer from '../../Footer';
 
 
 function ResumeDetails() {
@@ -21,9 +21,8 @@ function ResumeDetails() {
             <div className="resume-details-container">
             <div className="resume-card-cta">
                 <h2 className="resume-card-title">Resume PDF</h2>
-
-                <a href={Resume} target="_blank" rel="noopener noreferrer" className="btn-grad btn-cta">
-                 Open Resume PDF
+                <a href={Resume} target="_blank" rel="noopener noreferrer" className="btn-grad btn-cta resume-btn-cta">
+                <i class="far fa-file-pdf"></i> Open Resume PDF
                 </a>
             </div>
             {
@@ -33,7 +32,7 @@ function ResumeDetails() {
             }
             </div>
         </section>
-    <Contact></Contact>
+    <Footer></Footer>
     </React.Fragment>
   );
 }

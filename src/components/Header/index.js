@@ -1,11 +1,10 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
-import { HashRouter as Router } from 'react-router-dom';
 
-import '../../assets/css/header.css';
+import './header.css';
+import MoonImage from '../../assets/images/header-graphics/moon.png';
 
 import Nav from '../Header/Nav';
-import MoonImage from '../../assets/images/header-graphics/moon.png';
 
 
 function Header() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/resume-cards.css';
+import './resume-cards.css';
 
 import ResumeTag from './ResumeTag';
 

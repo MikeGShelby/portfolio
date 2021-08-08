@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
-import { HashRouter as Router } from 'react-router-dom';
 
+import './about.css';
 import selfImage from "../../assets/images/self-image.jpg";
 
 function About() {
