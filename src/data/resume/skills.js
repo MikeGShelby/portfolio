@@ -17,6 +17,42 @@ const skills = [
       url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
       featured: true
     },
+
+
+    {
+      name: "mysql",
+      title: "MySQL",
+      url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+      featured: true
+    },
+    {
+      name: "mongodb",
+      title: "MongoDB",
+      url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+      featured: true
+    },
+    {
+      name: "react",
+      title: "React",
+      url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+      featured: true
+    },
+
+
+    {
+      name: "graphql",
+      title: "GraphQL",
+      url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+      featured: true
+    },
+    {
+      name: "handlebars",
+      title: "Handlebars",
+      url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+      featured: true
+    },
+
+
     {
       name: "bootstrap",
       title: "bootstrap",
@@ -51,6 +87,12 @@ const skills = [
       name: "photoshop",
       title: "Photoshop",
       url: 'https://www.adobe.com/products/photoshop.html',
+      featured: true
+    },
+    {
+      name: "illustrator",
+      title: "Illustrator",
+      url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
       featured: true
     }
 ];

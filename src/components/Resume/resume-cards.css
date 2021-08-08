@@ -84,6 +84,7 @@
 
 .skills-tags-summary {
   overflow: scroll;
+  padding-right: .8rem;
 }
 
 .skills-tags-summary::-webkit-scrollbar {
