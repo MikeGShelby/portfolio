@@ -21,7 +21,7 @@ function Contact() {
               <div className="about-textbox about-textbox-details bg-dark-card round-borders">
                   <div className="about-textbox-content about-textbox-content-details">
                       <div className="contact-container">
-                        <p>Interested in working with me on a full stack project? I'd love to hear from you! Please reach out at the below email. I will typically respond within a couple days. </p>
+                        <p>Interested in having me join your team? I'd love to speak to you about the opportunity to collaborate! Please reach out at the below email. I will typically respond within a couple days. I look forward to hearing from you!</p>
                           <h2 className="email">
                             <i class="fas fa-envelope-open-text"></i> mikegshelby@gmail.com
                           </h2>
