@@ -64,6 +64,28 @@ const projects = [
         url: "https://mikegshelby.github.io/password-generator/",
         github: "https://github.com/MikeGShelby/password-generator",
         featured: false
+    },
+    {
+        title: "Deep Thoughts",
+        name: 'deep-thoughts',
+        summary: "",
+        role: "",
+        tools: ["JavaScript", "MongoDB", "React"],
+        description: 'A MERN stack social media application that allows users to add other users to a friend list and to post thoughts and reactions for others to view and interact with.',
+        url: "https://deep-thoughts-hk.herokuapp.com/",
+        github: "https://github.com/MikeGShelby/deep-thoughts",
+        featured: false
+    },
+    {
+        title: "Work Day Scheduler",
+        name: 'work-day-scheduler',
+        summary: "",
+        role: "",
+        tools: ["JavaScript", "JQuery", "Bootstrap"],
+        description: 'A simple calendar application that allows a user to save events for each hour of the day.',
+        url: "https://mikegshelby.github.io/work-day-scheduler/",
+        github: "https://github.com/MikeGShelby/work-day-scheduler",
+        featured: false
     }
 ];
 
