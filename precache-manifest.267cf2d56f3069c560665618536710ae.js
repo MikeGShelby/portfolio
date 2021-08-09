@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dcd54d775f845eb8d9a4cca5af696d24",
+    "revision": "ddab2168b09fc3920692154a0fa30108",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "b8b7c2a91c89f862f442",
+    "revision": "43675fbed1f8a9c52192",
     "url": "/portfolio/static/css/main.ec1dfa8a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.87444803.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8b7c2a91c89f862f442",
-    "url": "/portfolio/static/js/main.4fb672d9.chunk.js"
+    "revision": "43675fbed1f8a9c52192",
+    "url": "/portfolio/static/js/main.9057ac0c.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aaede29da0e0107507fc8f5623496922",
     "url": "/portfolio/static/media/cinasearch.aaede29d.jpg"
+  },
+  {
+    "revision": "0129f355880e652cf46d9f6a8a1671c2",
+    "url": "/portfolio/static/media/deep-thoughts.0129f355.jpg"
   },
   {
     "revision": "e63112d51560b2b93dea4397657d8037",
