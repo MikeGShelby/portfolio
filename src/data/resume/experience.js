@@ -37,7 +37,7 @@ const experience = [
     },
     {
         name: "university-of-houston",
-        title: "The University of Houston",
+        title: "University of Houston",
         position: "Dietetic Intern",
         location: "Houston, TX",
         url: 'https://www.pdx.edu/',

@@ -1,5 +1,6 @@
 import React from 'react';
 import NavLogo from '../NavLogo';
+import SubNav from '../Subnav/';
 
 import Resume from '../../../assets/documents/resume.pdf';
 
@@ -7,6 +8,7 @@ function Nav() {
     return (
         <nav className="navigation">
             <NavLogo></NavLogo>
+            {/* <SubNav></SubNav> */}
 
             <ul className="nav-links">
                 <li>
