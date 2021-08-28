@@ -2,7 +2,7 @@ import React from 'react';
 import NavLogo from '../NavLogo';
 import SubNav from '../Subnav/';
 
-import Resume from '../../../assets/documents/resume.pdf';
+import './nav.css';
 
 function Nav() {
     return (

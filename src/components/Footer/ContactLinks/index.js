@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ContactLinks() {
+function ConnectLinks() {
   return (
     <ul className="contact-links-list">
         <li>
@@ -23,4 +23,4 @@ function ContactLinks() {
   );
 }
 
-export default ContactLinks;
+export default ConnectLinks;

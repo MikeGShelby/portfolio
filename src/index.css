@@ -84,8 +84,6 @@ body {
   }
 }
 
-
-
 body::-webkit-scrollbar {
   width: 18px;               /* width of the entire scrollbar */
   margin: 1px;
@@ -101,6 +99,12 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid rgb(212, 235, 226);
 }
 
+.main-site-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .bg-light {
   background-color: var(--color-bg-light-transparent);
 }
@@ -111,6 +115,8 @@ body::-webkit-scrollbar-thumb {
 
 section {
   padding: 0rem 0 4rem;
+  width: 97vw;
+  border-radius: 20px;
 }
 
 .container {
@@ -193,27 +199,6 @@ h3 {
   font-family: var(--font-title);
 }
 
-/*-- HEADER --*/
-/* top navigation menu */
-.header-section, .navigation {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  color: white;
-}
-
-.navigation {
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-/*-- HEADER (DETAILS PAGE) --*/
-.header-details-section, .navigation {
-  height: 4rem;
-}
-
 .arrow-link {
   z-index: 1;
   padding: .5rem;
@@ -251,66 +236,5 @@ h3 {
   margin-bottom: 3rem;
   border-bottom: .3rem solid white;
 }
-
-/* .page-title {
-  padding-top: 2rem;
-} */
-
-/*-- SECTION: ABOUT --*/
-.about-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  background: var(--color-bg-dark-gradient);
-  background-size:cover;
-  box-shadow: 0 2px 25px black;
-  z-index: 1;
-  position: relative;
-}
-
-.details-section {
-  box-shadow: none;
-}
-
-
-/*-- SECTION: PROJECTS --*/
-.project-section, .resume-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: .5rem;
-}
-
-.project-section {
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  border-radius: 20px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  background-image: linear-gradient( 110.5deg,  rgba(71,114,148,.7) 14.9%, rgba(149,245,211,.3) 85% );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 3.0px );
-  -webkit-backdrop-filter: blur( 3.0px );
-}
-
-.projects-container, .resume-container {
-  display: flex;
-  flex-flow:wrap;
-  justify-content: center;
-  align-items: stretch;
-  width: 92%;
-  gap: 1rem 1.5rem;
-  margin-bottom: 2rem;
-}
-
-/*-- SECTION: RESUME --*/
-/* .resume-section {
-  background-image: url('../src/assets/images/galaxy-bg.jpg');
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-} */
-
 
 

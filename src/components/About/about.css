@@ -9,6 +9,22 @@
   --font-paragraph: 'Poppins', sans-serif;
 }
 
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background: var(--color-bg-dark-gradient);
+  background-size:cover;
+  box-shadow: 0 2px 25px black;
+  z-index: 1;
+  position: relative;
+}
+
+.details-section {
+  box-shadow: none;
+}
+
 .about-container {
     display: flex;
     flex-direction: column;

@@ -14,9 +14,9 @@ import Footer from './components/Footer';
 
 import Home from './components/Home';
 import AboutDetails from './components/About/AboutDetails';
-import ProjectsAll from './components/Projects/ProjectsAll';
+import Projects from './components/Projects';
 import ResumeDetails from './components/Resume/ResumeDetails';
-import ContactDetails from './components/Contact/ContactDetails';
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -26,9 +26,9 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={AboutDetails} />
-            <Route exact path="/projects" component={ProjectsAll} />
+            <Route exact path="/projects" render={() => <Projects projectPage="all" />} />
             <Route exact path="/resume" component={ResumeDetails} />
-            <Route exact path="/contact" component={ContactDetails} />
+            <Route exact path="/contact" component={Contact} />
           </Switch>
         <Footer></Footer>
     </React.Fragment>

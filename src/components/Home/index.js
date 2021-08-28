@@ -2,19 +2,19 @@ import React from 'react';
 
 import Header from '../Header';
 
+import Hero from '../Hero';
 import About from '../About';
-import Projectsfeatured from '../Projects/ProjectsFeatured';
+import Projects from '../Projects';
 import Resume from '../Resume';
 import Contact from '../Contact';
-import Footer from '../Footer';
 
 function Home() {
   return (
     <React.Fragment>
       <main>
-        <Header></Header>
+        <Hero></Hero>
         <About></About>
-        <Projectsfeatured></Projectsfeatured>
+        <Projects projectPage="featured"></Projects>
         <Resume></Resume>
         <Contact></Contact>
       </main>

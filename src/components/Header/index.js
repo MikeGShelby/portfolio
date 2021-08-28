@@ -11,7 +11,6 @@ import Hero from '../Hero';
 function Header() {
   return (
         <header className="header-section">
-              {/* <Nav></Nav> */}
               <Hero></Hero>
         </header>
   );

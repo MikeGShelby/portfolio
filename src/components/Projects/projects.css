@@ -1,0 +1,26 @@
+/*-- SECTION: PROJECTS --*/
+.project-section, .resume-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: .5rem;
+  }
+
+  .project-section {
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background-image: linear-gradient( 110.5deg,  rgba(71,114,148,.7) 14.9%, rgba(149,245,211,.3) 85% );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.0px );
+    -webkit-backdrop-filter: blur( 3.0px );
+  }
+
+  .projects-container, .resume-container {
+    display: flex;
+    flex-flow:wrap;
+    justify-content: center;
+    align-items: stretch;
+    width: 92%;
+    gap: 1rem 1.5rem;
+    margin-bottom: 2rem;
+  }

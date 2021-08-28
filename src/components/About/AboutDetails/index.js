@@ -1,4 +1,6 @@
 import React from 'react';
+
+import '../about.css';
 import selfImage from "../../../assets/images/self-image.jpg";
 
 function AboutDetails() {

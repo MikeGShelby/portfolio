@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react';
 import { HashLink } from 'react-router-hash-link';
 
-// import '../Header/header.css';
+import '../Header/header.css';
 import './hero.css';
 import MoonImage from '../../assets/images/header-graphics/moon.png';
 
 
-function Header() {
+function Hero() {
   return (
-      <Fragment>
+    <header className="header-section">
         <div className="header-hero round-borders">
             <div className="hero-lines">
                 <h2>Full Stack Web Developer,</h2>
@@ -28,9 +28,9 @@ function Header() {
             <i class="fas fa-chevron-down icon-arrow"></i>
             </HashLink>
         </div>
-    </Fragment>
+    </header>
   );
 }
 
-export default Header;
+export default Hero;
 
