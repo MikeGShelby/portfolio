@@ -68,7 +68,7 @@ html {
 }
 
 body {
-  background-image: url('../src/assets/images/galaxy-bg.jpg');
+  background-image: url('../src/assets/images/night-sky-vector-gradient.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -77,6 +77,14 @@ body {
   font-size: 1.3125rem;
   line-height: 1.6;
 }
+
+@media screen and (min-width: 40em) {
+  body {
+    background-image: url('../src/assets/images/galaxy-bg.jpg');
+  }
+}
+
+
 
 body::-webkit-scrollbar {
   width: 18px;               /* width of the entire scrollbar */
