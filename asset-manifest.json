@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9f810c38.chunk.css",
-    "main.js": "/portfolio/static/js/main.a092fa42.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a092fa42.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.76ce07e6.chunk.css",
+    "main.js": "/portfolio/static/js/main.d14175ef.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d14175ef.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.6697c8a8.chunk.js": "/portfolio/static/js/2.6697c8a8.chunk.js",
-    "static/js/2.6697c8a8.chunk.js.map": "/portfolio/static/js/2.6697c8a8.chunk.js.map",
+    "static/js/2.6e3f1003.chunk.js": "/portfolio/static/js/2.6e3f1003.chunk.js",
+    "static/js/2.6e3f1003.chunk.js.map": "/portfolio/static/js/2.6e3f1003.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.896ec310df3de9534babdebd7bb52ac9.js": "/portfolio/precache-manifest.896ec310df3de9534babdebd7bb52ac9.js",
+    "precache-manifest.5e2ff1302399acdb2db41d21f554e9f4.js": "/portfolio/precache-manifest.5e2ff1302399acdb2db41d21f554e9f4.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.9f810c38.chunk.css.map": "/portfolio/static/css/main.9f810c38.chunk.css.map",
-    "static/js/2.6697c8a8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6697c8a8.chunk.js.LICENSE.txt",
+    "static/css/main.76ce07e6.chunk.css.map": "/portfolio/static/css/main.76ce07e6.chunk.css.map",
+    "static/js/2.6e3f1003.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6e3f1003.chunk.js.LICENSE.txt",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.87d99487.png",
     "static/media/budget-tracker.jpg": "/portfolio/static/media/budget-tracker.75fdae4a.jpg",
     "static/media/bulma.png": "/portfolio/static/media/bulma.b5485f31.png",
@@ -20,7 +20,7 @@
     "static/media/diet-delivery.jpg": "/portfolio/static/media/diet-delivery.e63112d5.jpg",
     "static/media/fit-club.jpg": "/portfolio/static/media/fit-club.3969b17f.jpg",
     "static/media/fresenius-B.png": "/portfolio/static/media/fresenius-B.cab15813.png",
-    "static/media/index.css": "/portfolio/static/media/night-sky-vector-gradient.54d2bb4b.jpg",
+    "static/media/index.css": "/portfolio/static/media/night-sky-vector-gradient.9ddfee82.jpg",
     "static/media/graphql.png": "/portfolio/static/media/graphql.7c64d4f7.png",
     "static/media/handlebars.png": "/portfolio/static/media/handlebars.38dd7251.png",
     "static/media/illustrator.png": "/portfolio/static/media/illustrator.44ca6901.png",
@@ -48,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.6697c8a8.chunk.js",
-    "static/css/main.9f810c38.chunk.css",
-    "static/js/main.a092fa42.chunk.js"
+    "static/js/2.6e3f1003.chunk.js",
+    "static/css/main.76ce07e6.chunk.css",
+    "static/js/main.d14175ef.chunk.js"
   ]
 }
