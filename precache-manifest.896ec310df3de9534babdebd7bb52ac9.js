@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30d83aa1da23a560599adbcbd5926e3d",
+    "revision": "d567426f3b0c89cf5b43e3b669a8f6e8",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "1572a41a38bf09e9f8e0",
-    "url": "/portfolio/static/css/main.920ee8b0.chunk.css"
+    "revision": "23f234fc641e32ccb8ae",
+    "url": "/portfolio/static/css/main.9f810c38.chunk.css"
   },
   {
     "revision": "a1b7e090fbd3337d0986",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.6697c8a8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1572a41a38bf09e9f8e0",
+    "revision": "23f234fc641e32ccb8ae",
     "url": "/portfolio/static/js/main.a092fa42.chunk.js"
   },
   {
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2b3975f88966e9a6656b6161a8838856",
     "url": "/portfolio/static/media/mysql.2b3975f8.png"
+  },
+  {
+    "revision": "54d2bb4b110ecc7a683e394d66a9e68f",
+    "url": "/portfolio/static/media/night-sky-vector-gradient.54d2bb4b.jpg"
   },
   {
     "revision": "ed50826c0af5b315e089b9d9e65890bb",
