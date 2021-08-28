@@ -1,14 +1,14 @@
 import React from 'react';
-import HeaderDetails from '../../Header/HeaderDetails';
+import Nav from '../../Header/Nav';
+
 import Contact from '../index';
 import Footer from '../../Footer';
 
 function ContactDetails() {
   return (
       <React.Fragment>
-        <HeaderDetails></HeaderDetails>
-        <Contact></Contact>
-        <Footer></Footer>
+        <Contact>
+        </Contact>
     </React.Fragment>
   );
 }

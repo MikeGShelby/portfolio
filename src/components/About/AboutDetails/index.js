@@ -1,14 +1,11 @@
 import React from 'react';
 import selfImage from "../../../assets/images/self-image.jpg";
-import HeaderDetails from '../../Header/HeaderDetails';
-import Footer from '../../Footer';
 
 function AboutDetails() {
   return (
     <React.Fragment>
-        <HeaderDetails></HeaderDetails>
         <section className="section-content about-section details-section">
-                <h3 className="section-title">About Me</h3>
+                <h3 className="section-title page-title">About Me</h3>
 
                 <div className="about-textbox bg-dark-card round-borders">
                     <div className="about-textbox-content about-textbox-content-details">
@@ -25,7 +22,6 @@ function AboutDetails() {
                     </div>
                 </div>
         </section>
-    <Footer></Footer>
     </React.Fragment>
   );
 }

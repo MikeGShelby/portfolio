@@ -5,7 +5,7 @@ import './resume-details.css';
 import Resume from '../../../assets/documents/resume.pdf';
 
 import ResumeCard from '../../Resume/ResumeCard';
-import HeaderDetails from '../../Header/HeaderDetails';
+import Nav from '../../Header/Nav';
 import Footer from '../../Footer';
 
 
@@ -14,9 +14,8 @@ function ResumeDetails() {
 
   return (
       <React.Fragment>
-        <HeaderDetails></HeaderDetails>
         <section class="resume-section">
-            <h3 class="section-title resume-section-title text-center">My Resume</h3>
+            <h3 class="section-title page-title resume-section-title text-center">My Resume</h3>
 
             <div className="resume-details-container">
             <div className="resume-card-cta">
@@ -32,7 +31,6 @@ function ResumeDetails() {
             }
             </div>
         </section>
-    <Footer></Footer>
     </React.Fragment>
   );
 }

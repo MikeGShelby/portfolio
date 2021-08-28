@@ -11,7 +11,7 @@ function Resume() {
 const resumeSection = ['skills', 'education', 'experience']
 
   return (
-    <section class="resume-section">
+    <section class="resume-section home-section">
         <h3 class="section-title resume-section-title text-center">My Resume</h3>
 
         <div className="resume-container">

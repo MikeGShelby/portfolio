@@ -4,7 +4,7 @@ import ProjectCard from '../../Project';
 
 function ProjectsFeatured() {
   return (
-    <section class="project-section bg-light">
+    <section class="project-section home-section">
         <h3 id="projects" class="section-title project-section-title text-center">My Projects</h3>
 
         <div className="projects-container">

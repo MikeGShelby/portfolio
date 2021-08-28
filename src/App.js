@@ -9,6 +9,9 @@ import './index.css';
 
 import ScrollToTop from './components/ScrollToTop';
 
+import Nav from './components/Header/Nav';
+import Footer from './components/Footer';
+
 import Home from './components/Home';
 import AboutDetails from './components/About/AboutDetails';
 import ProjectsAll from './components/Projects/ProjectsAll';
@@ -19,13 +22,15 @@ function App() {
   return (
     <React.Fragment>
         <ScrollToTop />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={AboutDetails} />
-          <Route exact path="/projects" component={ProjectsAll} />
-          <Route exact path="/resume" component={ResumeDetails} />
-          <Route exact path="/contact" component={ContactDetails} />
-        </Switch>
+        <Nav></Nav>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={AboutDetails} />
+            <Route exact path="/projects" component={ProjectsAll} />
+            <Route exact path="/resume" component={ResumeDetails} />
+            <Route exact path="/contact" component={ContactDetails} />
+          </Switch>
+        <Footer></Footer>
     </React.Fragment>
   );
 }

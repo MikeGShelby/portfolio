@@ -102,8 +102,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 section {
-  padding: 2rem 0;
-  position: relative;
+  padding: 0rem 0 4rem;
 }
 
 .container {
@@ -188,38 +187,22 @@ h3 {
 
 /*-- HEADER --*/
 /* top navigation menu */
-.header-section {
+.header-section, .navigation {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100vh;
   width: 100%;
-  background-image: url('../src/assets/images/galaxy-bg.jpg');
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   color: white;
 }
 
-/* .header-section::after, .header-details-section::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: linear-gradient(to top, rgba(6, 27, 34, 0.5) 0%, rgba(4, 48, 51, 0.5) 100%);
-} */
-
-
-/*-- HEADER (DETAILS PAGE) --*/
-.header-details-section {
-  height: 4rem;
-  box-shadow: 4px 4px 10px black;
+.navigation {
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.header-details-section::after {
+/*-- HEADER (DETAILS PAGE) --*/
+.header-details-section, .navigation {
   height: 4rem;
 }
 
@@ -256,10 +239,14 @@ h3 {
   font-size: 2rem;
   font-family: var(--font-title);
   color: rgb(255, 255, 255);
-  padding: 0 1rem;
+  padding: 2rem 1rem 0;
   margin-bottom: 3rem;
   border-bottom: .3rem solid white;
 }
+
+/* .page-title {
+  padding-top: 2rem;
+} */
 
 /*-- SECTION: ABOUT --*/
 .about-section {
@@ -271,6 +258,7 @@ h3 {
   background-size:cover;
   box-shadow: 0 2px 25px black;
   z-index: 1;
+  position: relative;
 }
 
 .details-section {
@@ -298,15 +286,6 @@ h3 {
   -webkit-backdrop-filter: blur( 3.0px );
 }
 
-/* .project-section-details {
-  padding: 5rem 0;
-} */
-
-/* .project-section-title {
-  color: var(--color-font-dark);
-  border-bottom-color: var(--color-font-dark);
-} */
-
 .projects-container, .resume-container {
   display: flex;
   flex-flow:wrap;
@@ -318,12 +297,12 @@ h3 {
 }
 
 /*-- SECTION: RESUME --*/
-.resume-section {
+/* .resume-section {
   background-image: url('../src/assets/images/galaxy-bg.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
+} */
 
 
 

@@ -6,7 +6,7 @@ import selfImage from "../../assets/images/self-image.jpg";
 
 function About() {
   return (
-        <section id="about" className="section-content about-section bg-dark">
+        <section id="about" className="section-content about-section bg-dark home-section">
             <h3 className="section-title text-center">About Me</h3>
 
             <div className="container about-container">

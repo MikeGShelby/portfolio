@@ -3,7 +3,6 @@ import React from 'react';
 function HamburgerMenu() {
     return (
         <nav className="navigation">
-
             <ul className="nav-links">
                 <li>
                     <a href="#/about">ABOUT</a>
