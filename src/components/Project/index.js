@@ -3,31 +3,18 @@ import React, { useState } from 'react';
 // import '../../assets/css/index.css';
 
 import './project-cards.css';
-import projects from '../../data/projects-json';
 
 import ProjectCardImage from './ProjectCardImage';
 import ProjectCardBody from './ProjectCardBody';
 
-function ProjectCard({projectPage}) {
-    const page = projectPage;
+function ProjectCard({project}) {
+    const {id, name, title, tools, description, url, github} = project;
 
     return (
-        <>
-            { page === "featured" ? projects.filter(project => project.featured).map((project, i) => (
-                <div className="project-card">
-                    <ProjectCardImage name={project.name}></ProjectCardImage>
-                    <ProjectCardBody title={project.title} tools={project.tools} description={project.description} url={project.url} github={project.github}></ProjectCardBody>
-                </div>
-            ))
-            :
-            projects.map((project, i) => (
-                <div className="project-card">
-                    <ProjectCardImage name={project.name}></ProjectCardImage>
-                    <ProjectCardBody title={project.title} tools={project.tools} description={project.description} url={project.url} github={project.github}></ProjectCardBody>
-                </div>
-            ))
-            }
-        </>
+        <div className="project-card" key={id}>
+            <ProjectCardImage name={name}></ProjectCardImage>
+            <ProjectCardBody title={title} tools={tools} description={description} url={url} github={github}></ProjectCardBody>
+        </div>
     );
 }
 

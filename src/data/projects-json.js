@@ -1,5 +1,6 @@
 const projects = [
     {
+        id: 1,
         title: "Diet Delivery",
         name: "diet-delivery",
         summary: "",
@@ -11,6 +12,7 @@ const projects = [
         featured: true
     },
     {
+        id: 2,
         title: "Tech Blog",
         name: 'tech-blog',
         summary: "",
@@ -22,6 +24,7 @@ const projects = [
         featured: true
     },
     {
+        id: 3,
         title: "CinaSearch",
         name: 'cinasearch',
         summary: "",
@@ -33,6 +36,7 @@ const projects = [
         featured: true
     },
     {
+        id: 4,
         title: "Fit Club",
         name: 'fit-club',
         summary: "",
@@ -44,6 +48,7 @@ const projects = [
         featured: false
     },
     {
+        id: 5,
         title: "Weather Dashboard",
         name: 'weather-dashboard',
         summary: "",
@@ -55,6 +60,7 @@ const projects = [
         featured: false
     },
     {
+        id: 6,
         title: "Password Generator",
         name: 'password-generator',
         summary: "",
@@ -66,6 +72,7 @@ const projects = [
         featured: false
     },
     {
+        id: 7,
         title: "Deep Thoughts",
         name: 'deep-thoughts',
         summary: "",
@@ -77,6 +84,7 @@ const projects = [
         featured: false
     },
     {
+        id: 8,
         title: "Work Day Scheduler",
         name: 'work-day-scheduler',
         summary: "",
