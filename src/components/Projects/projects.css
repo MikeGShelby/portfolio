@@ -24,3 +24,46 @@
     gap: 1rem 1.5rem;
     margin-bottom: 2rem;
   }
+
+  .tool-filter-container {
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(207, 252, 244, .85);
+    padding: 1.1rem 1.5rem;
+    border-radius: 10px;
+    margin: 0;
+    margin-bottom: .5rem;
+    width: 70%;
+  }
+
+.tool-filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 4 0 1;
+  list-style: none;
+}
+
+.tool-select-item {
+  padding: .3rem .75rem;
+  border-radius: 10px;
+}
+
+.tool-select-item:hover {
+  background-color: rgb(46, 184, 184);
+  /* padding: 1rem; */
+}
+
+.tool-select-label {
+  cursor: pointer;
+  padding: 1rem .5rem;
+  font-size: 1.1rem;
+}
+
+.tool-select-label:hover {
+  cursor: pointer;
+}
+
+input.tool-select-input {
+    transform: scale(1.5);
+}

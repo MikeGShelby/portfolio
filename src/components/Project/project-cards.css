@@ -109,14 +109,14 @@
     width: auto;
     display: flex;
     text-align: left;
-    opacity: 0;
+    opacity: .4;
     transition: all .5s cubic-bezier(.48, -0.28, 0.41, 1.4);
     margin-bottom: 1rem;
   }
 
   .project-tool-tag {
-    font-size: .6rem;
-    padding: .1rem .5rem;
+    font-size: .3rem;
+    padding: .1rem .3rem;
     margin: .2rem .4rem 0 0;
     background-color:rgb(204, 236, 24);
     border-radius: 5px;

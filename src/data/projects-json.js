@@ -41,7 +41,7 @@ const projects = [
         name: 'fit-club',
         summary: "",
         role: "",
-        tools: ["MongoDB","React"],
+        tools: ["MongoDB", "React"],
         description: 'A social fitness application that connects fitness enthusiasts and fitness professionals. The application allows users to share fitness goals and related information with other users and with trainers.',
         url: "https://fit-clob.herokuapp.com/",
         github: "https://github.com/maxhealy01/fit-club",
@@ -53,7 +53,7 @@ const projects = [
         name: 'weather-dashboard',
         summary: "",
         role: "",
-        tools: ["JavaScript","CSS"],
+        tools: ["JavaScript"],
         description: 'A weather dashboard application that features dynamically updated HTML and CSS. Weather data is obtained through the OpenWeather API.',
         url: "https://mikegshelby.github.io/weather-dashboard/",
         github: "https://github.com/MikeGShelby/weather-dashboard",
@@ -77,7 +77,7 @@ const projects = [
         name: 'deep-thoughts',
         summary: "",
         role: "",
-        tools: ["JavaScript", "MongoDB", "React"],
+        tools: ["MongoDB", "React"],
         description: 'A MERN stack social media application that allows users to add other users to a friend list and to post thoughts and reactions for others to view and interact with.',
         url: "https://deep-thoughts-hk.herokuapp.com/",
         github: "https://github.com/MikeGShelby/deep-thoughts",
@@ -89,12 +89,25 @@ const projects = [
         name: 'work-day-scheduler',
         summary: "",
         role: "",
-        tools: ["JavaScript", "JQuery", "Bootstrap"],
+        tools: ["JQuery", "Bootstrap"],
         description: 'A simple calendar application that allows a user to save events for each hour of the day.',
         url: "https://mikegshelby.github.io/work-day-scheduler/",
         github: "https://github.com/MikeGShelby/work-day-scheduler",
         featured: false
-    }
+    },
+    {
+        id: 9,
+        title: "Book Search Engine",
+        name: 'book-search-engine',
+        summary: "",
+        role: "",
+        tools: ["React", "MongoDB"],
+        description: 'A MERN stack search engine application that retrieves data from the Google Books API.',
+        url: "https://book-search-engine-h.herokuapp.com/",
+        github: "https://github.com/MikeGShelby/book-search-engine",
+        featured: false
+    },
+
 ];
 
 export default projects;

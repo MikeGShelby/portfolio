@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 
 
 function ProjectTools({tools}) {
-
-    // const [tools] = useState([ "MySQL", "Handlebars", "Bulma"])
+    tools.sort()
 
     return (
     <>
