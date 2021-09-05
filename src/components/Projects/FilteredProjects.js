@@ -38,7 +38,7 @@ class FilteredProjects extends React.Component
         return(
             <Fragment>
                 <div className="tool-filter-container">
-                    <h3>Project Filters</h3>
+                    <h3>Tool Filters</h3>
 
                     <ul className="tool-filter-list">
                         {toolTitles.map(tool => (
