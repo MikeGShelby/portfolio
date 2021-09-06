@@ -1,3 +1,14 @@
+/*-- FONTS --*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap');
+
+:root {
+  --font-header: 'Titillium Web', sans-serif;
+  --font-title:'Mulish', sans-serif;
+  --font-paragraph: 'Poppins', sans-serif;
+}
+
 /*-- SECTION: PROJECTS --*/
 .project-section, .resume-section {
     display: flex;
@@ -5,44 +16,50 @@
     align-items: center;
     justify-content: center;
     padding-bottom: .5rem;
-  }
-
-  .project-section {
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    background-image: linear-gradient( 150.5deg,  rgba(255, 255, 255, 0.3) 14.9%, rgba(252, 252, 252, 0.3) 90% );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 3.0px );
-    -webkit-backdrop-filter: blur( 3.0px );
-  }
-
-  .projects-container, .resume-container {
-    display: flex;
-    flex-flow:wrap;
-    justify-content: center;
-    align-items: stretch;
-    width: 92%;
-    gap: 1rem 1.5rem;
-    margin-bottom: 2rem;
-  }
-
-  .tool-filter-container {
-    display: flex;
-    flex-direction: column;
-    background-color:rgba(60, 190, 167, 0.85);
-    background-color:rgba(194, 250, 240, 0.85);
-    box-shadow: 0 4px 12px 0 rgba( 31, 38, 135, 0.37 );
-    padding: 1rem 1.5rem;
-    border-radius: 10px;
-    margin: 0;
-    margin-bottom: .5rem;
-    width: 100%;
-  }
-
-.tool-filter-note {
-  font-size: .8rem;
 }
 
-.tool-filter-list {
+.project-section {
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background-image: linear-gradient( 150.5deg,  rgba(255, 255, 255, 0.3) 14.9%, rgba(252, 252, 252, 0.3) 90% );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.0px );
+  -webkit-backdrop-filter: blur( 3.0px );
+}
+
+.project-section-title {
+  text-shadow: 2px 2px 6px rgba(45, 46, 56, 1);
+  /* background-color: yellow; */
+}
+
+.projects-container, .resume-container {
+  display: flex;
+  flex-flow:wrap;
+  justify-content: center;
+  align-items: stretch;
+  width: 92%;
+  gap: 1rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.project-filter-container {
+  display: flex;
+  flex-direction: column;
+  background-color:rgba(194, 250, 240, 0.8);
+  box-shadow: 0 4px 12px 0 rgba( 31, 38, 135, 0.37 );
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  margin: 0;
+  margin-bottom: .5rem;
+  width: 100%;
+}
+
+.project-filter-title {
+  font-size: 1.3rem;
+  font-family: var(--font-title);
+  color: rgb(70, 68, 68);
+}
+
+.project-filter-list {
   display: flex;
   flex-wrap: wrap;
   flex: 4 0 1;
@@ -69,6 +86,7 @@
 
 .tool-label-text {
   margin-left: .5rem;
+  font-family: var(--font-paragraph);
 }
 
 input.tool-select-input {

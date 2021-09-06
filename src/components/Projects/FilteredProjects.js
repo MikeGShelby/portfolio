@@ -46,10 +46,10 @@ class FilteredProjects extends React.Component
 
         return(
             <Fragment>
-                <div className="tool-filter-container">
-                    <h3>Tool Filters</h3>
+                <div className="project-filter-container">
+                    <h3 className="project-filter-title">Filter By Development Tools</h3>
 
-                    <ul className="tool-filter-list">
+                    <ul className="project-filter-list">
                         {sortedToolNames.map(tool => (
                             <label className="tool-select-label" for={tool}>
                                 <input className="tool-select-input" type="checkbox" name={tool} id={tool} onChange={this.toolSelect}/>
