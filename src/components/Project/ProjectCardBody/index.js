@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import ProjectCardLinks from '../ProjectCardBody/ProjectCardLinks';
 import ProjectCardTools from '../ProjectCardBody/ProjectCardTools';

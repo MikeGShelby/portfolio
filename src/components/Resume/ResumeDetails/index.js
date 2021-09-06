@@ -1,13 +1,9 @@
 import React from 'react';
-import { HashLink } from 'react-router-hash-link';
 
 import './resume-details.css';
 import Resume from '../../../assets/documents/resume.pdf';
 
 import ResumeCard from '../../Resume/ResumeCard';
-import Nav from '../../Header/Nav';
-import Footer from '../../Footer';
-
 
 function ResumeDetails() {
     const resumeSection = ['skills', 'education', 'experience']

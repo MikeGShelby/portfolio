@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 
 import '../Header/header.css';

@@ -9,7 +9,6 @@
 
   .project-section {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    /* background-image: linear-gradient( 110.5deg,  rgba(71,114,148,.7) 14.9%, rgba(149,245,211,.3) 85% ); */
     background-image: linear-gradient( 150.5deg,  rgba(255, 255, 255, 0.3) 14.9%, rgba(252, 252, 252, 0.3) 90% );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 3.0px );
@@ -32,41 +31,50 @@
     background-color:rgba(60, 190, 167, 0.85);
     background-color:rgba(194, 250, 240, 0.85);
     box-shadow: 0 4px 12px 0 rgba( 31, 38, 135, 0.37 );
-    padding: 1.1rem 1.5rem;
+    padding: 1rem 1.5rem;
     border-radius: 10px;
     margin: 0;
     margin-bottom: .5rem;
-    width: 70%;
+    width: 100%;
   }
+
+.tool-filter-note {
+  font-size: .8rem;
+}
 
 .tool-filter-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   flex: 4 0 1;
   list-style: none;
 }
 
-.tool-select-item {
-  padding: .3rem .75rem;
-  border-radius: 10px;
-}
-
-.tool-select-item:hover {
-  background-color: rgb(46, 184, 184);
-  /* padding: 1rem; */
-}
-
 .tool-select-label {
+  display: flex;
+  align-items: center;
   cursor: pointer;
-  padding: 1rem .5rem;
-  font-size: 1.1rem;
+  padding: .5rem .5rem;
+  font-size: .95rem;
+  justify-content:left;
+  padding: .1rem .5rem;
+  border-radius: 10px;
+  margin: .2rem;
+  flex: 0 1 15%;
 }
 
 .tool-select-label:hover {
   cursor: pointer;
+  background-color: rgb(46, 184, 184);
+}
+
+.tool-label-text {
+  margin-left: .5rem;
 }
 
 input.tool-select-input {
-    transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+input.tool-select-input:hover {
+  cursor: pointer;
 }

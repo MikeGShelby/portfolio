@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactLinks from '../Footer/ContactLinks';
 
 import './contact.css';
 
