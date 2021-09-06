@@ -1,11 +1,6 @@
 import React, {Fragment, useState} from 'react';
 
 import './projects.css';
-import projects from '../../data/projects-json';
-
-
-
-import ProjectCard from '../Project';
 
 import FeaturedProjects from './FeaturedProjects';
 import FilteredProjects from './FilteredProjects';
