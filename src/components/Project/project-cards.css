@@ -18,7 +18,7 @@
     align-content: center;
     align-items: center;
     max-height: 27.5rem;
-    max-width: 25rem;
+    /* max-width: 25rem; */
     position: relative;
     border-radius: 20px;
     box-shadow: var(--shadow-image-small);
@@ -31,6 +31,7 @@
   @media screen and (min-width: 40em) {
     .project-card {
       max-height: 22rem;
+      max-width: 18rem;
     }
   }
 
